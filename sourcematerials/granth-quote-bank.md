@@ -113,22 +113,54 @@ The four desires on p. 70 are named विषय · कषाय · पापक
 | Q94d | 94 | “सो यह मोह का महात्म्य है।” |
 | Q94e | 94 | “इसलिये हे भव्य! यदि दुःखोंसे मुक्त होना चाहता है तो इन मिथ्यादर्शनादिक विभावभावोंका अभाव करना ही कार्य है; इस कार्य के करने से तेरा परम कल्याण होगा।” |
 
-## Not yet verified — needed from the scan
+## Added in this session from the full scan (pp. 14–339)
 
-The granth PDF did not reach this session, and the web copy could not be opened. These passages
-are referenced by page in the earlier beat sheet but their text is not in hand. The screenplay
-marks each with `[[GRANTH-VERIFY]]`:
+The complete scan (five PDF parts, now in the repo root) was text-extracted in this session and
+the lines below were copied from that text layer. **Checked on the page image:** p. 19 and the
+प्रस्तावना line. **All other rows: text layer only — eyeball once on the scan before lock**
+(typical OCR slips: पुरूष/पुरुष, दूँढता/ढूँढता, है/हैं).
 
-| Need | Earlier page reference | Note |
-|------|------------------------|------|
-| False remedies for कषाय; any dog-and-stick image | Adh. 3, pp. 55–61 | web search could not confirm the dog-and-stick image is in this granth — film treats it as Dadaji's own observation until checked |
-| एकेन्द्रिय and the four गति | Adh. 3, pp. 62–69 | |
-| काना गन्ना (sow it, do not suck it) | Adh. 3, p. 68 | the film's midpoint — highest priority to confirm |
-| मोक्षसुख | Adh. 3, pp. 72–75 | |
-| प्रयोजनभूत तत्त्व; wrong beliefs about the seven tattvas; पुण्य-पाप | Adh. 4, pp. 76–84 | |
-| How the tradition is passed on (any lamp image); वक्ता-श्रोता | Adh. 1, pp. 9–21 | |
-| अगृहीत-गृहीत मिथ्यात्व | Adh. 5, p. 95 | |
-| निश्चयाभासी; कुल-धर्म (the "आप भी छोड़ देगा" line); परीक्षा; fear-bhakti; उपवास vs लंघन; तुष-कण; घी का घड़ा; "मोक्षमार्ग दो नहीं…"; ledger image | Adh. 7, pp. 193–260 | घी का घड़ा confirmed present by secondary sources; तुष-कण not confirmed |
-| पाँच लब्धि | Adh. 7, pp. 261–267 | |
-| पुरुषार्थ; हित | Adh. 9, pp. 305–318 | |
-| Last printed words of the granth and Dr. Bharill's remark on "बहु / बहुरि" | Adh. 9, pp. 338–339; प्रस्तावना | the film's final image depends on this — must be confirmed |
+| ID | Page | Line |
+|----|------|------|
+| Q14 | 14 | “यदि शास्त्ररूपी दीपक द्वारा मोक्षमार्गको प्राप्त कर लें तो उस मार्ग में स्वयं गमन कर उन दुःखों से मुक्त हों।” |
+| Q19a | 19 | “जिस प्रकार दीपक से दीपक जलाने से दीपकों की परम्परा प्रवर्तती है उसी प्रकार किन्हीं आचार्यादिकों ने उन ग्रन्थों से अन्य ग्रन्थ बनाये और फिर उन पर से किन्हीं ने अन्य ग्रन्थ बनाये ।” |
+| Q19b | 19 | “मैं भी पूर्व ग्रन्थों से यह ग्रन्थ बनाता हूँ ।” |
+| Q19c | 19 | “जिस प्रकार प्रकाशित करने पर भी जो नेत्र रहित अथवा नेत्र विकार सहित पुरुष हैं उनको मार्ग नहीं सूझता, तो दीपक के तो मार्गप्रकाशकपने का अभाव हुआ नहीं है;” |
+| Q19d | 19 | “जिनके बहुत तेलादिक की शक्ति न हो उनको छोटा दीपक जला दें तो वे उसका साधन रख कर उसके उद्योत से अपना कार्य करें;” |
+| Q19e | 19 | “इसलिये यह छोटा सुगम ग्रन्थ बनाते हैं ।” |
+| Q57a | 57 | “तथा जैसे कुत्तेको पुरुष द्वारा मारी हुई लाठी लगी, वहाँ वह कुत्ता लाठीसे वृथा ही द्वेष करता है;” |
+| Q57b | 57 | “जिनका वश नहीं है उनसे किसलिये लड़े ?” |
+| Q68a | 68 | “जैसे - काने गन्नेकी जड़ व उसका ऊपरी फीका भाग तो चूसने योग्य ही नहीं है, और बीचकी पोरें कानी होनेसे वे भी नहीं चूसी जातीं; कोई स्वादका लोभी उन्हें बिगाड़े तो बिगाड़ो; परन्तु यदि उन्हें बो दे तो उनसे बहुतसे गन्ने हों, और उनका स्वाद बहुत मीठा आये।” |
+| Q68b | 68 | “इसलिये यहाँ अपना हित साधना, सुख होनेके भ्रमसे वृथा नहीं खोना।” |
+| Q72b | 72 | “अब मोहका अभाव होनेसे इच्छाका भी अभाव हुआ इसलिये दुःखका अभाव हुआ है।” |
+| Q84 | 84 | “परन्तु दोनों ही आकुलता के कारण हैं इसलिये बुरे ही हैं।” (of पुण्य and पाप; the sentence before it: “इन पुण्य-पापकी एक जाति है;”) |
+| Q193 | 193 | “जैसे - राजा और रंक मनुष्यपने की अपेक्षा समान हैं, परन्तु राजापने और रंकपने की अपेक्षा से तो समान नहीं हैं;” |
+| Q194 | 194 | “जैसे - जलको अग्निका निमित्त होनेपर उष्णपना हुआ, वहाँ शीतलपनेका अभाव ही है; परन्तु अग्निका निमित्त मिटने पर शीतलता ही हो जाती है इसलिये सदाकाल जलका स्वभाव शीतल कहा जाता है,” |
+| Q215a | 214–215 | “जो सच्चे भी धर्मको कुलाचार जानकर प्रवर्तता है तो उसे धर्मात्मा नहीं कहते; क्योंकि सर्व कुलके उस आचरणको छोड़ दें तो आप भी छोड़ देगा।” (page break after "छोड़ दें") |
+| Q215b | 215 | “इसलिये विवाहादि कुलसम्बन्धी कार्योंमें तो कुलक्रमका विचार करना, परन्तु धर्म सम्बन्धी कार्यमें कुलका विचार नहीं करना।” |
+| Q217 | 217 | “जैसे - किसी ठगने स्वयं पत्र लिखकर उसमें लिखनेवालेका नाम किसी साहूकारका रखा; उस नामके भ्रमसे धनको ठगाये तो दरिद्री होगा।” |
+| Q222 | 222 | “फल तो अपने परिणामोंका लगता है,” (printed sentence opens "ऐसा नहीं जानता कि") |
+| Q231 | 231 | “जहाँ कषाय-विषय और आहारका त्याग किया जाता है उसे उपवास जानना। शेषको श्रीगुरु लंघन कहते हैं।” |
+| Q244 | 244 | “जैसे चावल दो प्रकारके हैं - एक तुषसहित हैं और एक तुषरहित हैं। वहाँ ऐसा जानना कि तुष है वह चावलका स्वरूप नहीं है, चावलमें दोष है।” |
+| Q248 | 248 | “सो मोक्षमार्ग दो नहीं है, मोक्षमार्गका निरूपण दो प्रकार है।” |
+| Q249 | 249 | “जैसे - मिट्टीके घड़ेको मिट्टीका घड़ा निरूपित किया जाय सो निश्चय और घृतसंयोगके उपचारसे उसीको घृतका घड़ा कहा जाय सो व्यवहार।” |
+| Q259 | 259 | “जैसे कोई हिसाब करता है और उसकी विधि न मिले तबतक अपनी चूकको ढूँढता है; उसी प्रकार यह अपनी परीक्षामें विचार किया करे।” |
+| Q311a | 311 | “इसलिये मुख्यतासे तो तत्त्वनिर्णयमें उपयोग लगानेका पुरुषार्थ करना।” |
+| Q311b | 311 | “और तत्त्वनिर्णय न करने में किसी कर्मका दोष है नहीं, तेरा ही दोष है; परन्तु तू स्वयं तो महन्त रहना चाहता है और अपना दोष कर्मादिकको लगाता है;” |
+| Q339 | 339 | “तथा जिसप्रकार बन्दरके भी हस्तपादादि अंग होते हैं, परन्तु जैसे मनुष्यके होते हैं वैसे नहीं होते;” |
+
+**Where the granth stops.** The last printed page (p. 339) ends: “…वहाँ सम्यक्त्व मलिन ही होता है -
+ऐसा जानना।” and then the single unfinished word **बहु**. Dr. Bharill's प्रस्तावना (checked on the
+page image) says: “यहाँ तक कि अंतिम पृष्ठका अंतिम शब्द 'बहुरि' भी बहु … लिखा जाकर अधूरा छूट गया
+है।” These are the editor's words, not Panditji's — on screen they are reported, never put in a
+granth card.
+
+**Confirmed present in the granth** (all three were doubtful after the web search): the dog and
+the stick (p. 57), the काना गन्ना (p. 68), the husk and the rice (p. 244).
+
+## Still to pull from the scan when a scene needs them
+
+The scan is now in the repo, so nothing is blocked. These passages are located but not yet
+copied out: एकेन्द्रिय and the four गति (pp. 62–69), मोक्षसुख (pp. 72–75), प्रयोजनभूत तत्त्व
+(pp. 76–84), वक्ता-श्रोता (pp. 14–18), fear- and desire-driven भक्ति (pp. 221–224), पाँच लब्धि
+(pp. 261–267). A scene that needs one carries a `[[GRANTH-VERIFY p. N]]` note.
