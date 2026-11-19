@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 400" data-prop="kati-patang">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 400" data-prop="kati-patang">
   <title>कटी पतंग — आँखदार, गुलाबी-पीली</title>
-  <desc>Paper fighter kite cut loose on संक्रांति 2027. Diamond 244 wide by 260 tall, pink on the screen-left half, yellow on the screen-right half, one round eye on each half in the other colour, bamboo spine and bow, white paper tabs at three corners, a two-colour tail. Wear: a V-shaped tear in the lower screen-right edge near the tail, and a short length of plain white cotton string with a frayed end. States left to right: flat (construction), drifting, tied (to the balcony grill), 2028 (the kite that lands a year later: same pattern, colours mirrored, no tear).</desc>
+  <desc>Paper fighter kite cut loose on संक्रांति 2027. Diamond 244 wide by 260 tall, pink on the screen-left half, yellow on the screen-right half, one round eye on each half in the other colour, bamboo spine and bow, white paper tabs at three corners, a two-colour tail. Wear: a V-shaped tear in the lower screen-right edge near the tail, and a short length of plain white cotton string with a frayed end. States left to right: flat (construction), drifting, tied (to the balcony grill), gone (scene 2.6: only the knot and a hand of string are left on the grill), 2028 (the kite that lands a year later: same pattern, colours mirrored, no tear).</desc>
   <style>
     .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
     .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
@@ -74,7 +74,16 @@
     <ellipse class="n s-cotton-white" stroke-width="2.500" cx="236" cy="44" rx="5" ry="9"/>
   </g>
 
-  <g id="state-2028" data-state="patang:2028" transform="translate(1200 0)">
+  <g id="state-gone" data-state="patang:gone" transform="translate(1200 0)">
+    <path class="n s-soot-black" stroke-width="6" stroke-linecap="round" d="M96 44 V396 M200 44 V396 M304 44 V396"/>
+    <path class="n s-soot-black" stroke-width="10" stroke-linecap="round" d="M20 44 H380"/>
+    <path class="string-o" d="M236 52 C240 78 228 96 236 120 M236 120 l-6 9 M236 120 l1 11 M236 120 l7 8 M236 52 q9 10 4 24"/>
+    <path class="string" d="M236 52 C240 78 228 96 236 120 M236 120 l-6 9 M236 120 l1 11 M236 120 l7 8 M236 52 q9 10 4 24"/>
+    <ellipse class="n s-outline" stroke-width="5" cx="236" cy="44" rx="5" ry="9"/>
+    <ellipse class="n s-cotton-white" stroke-width="2.500" cx="236" cy="44" rx="5" ry="9"/>
+  </g>
+
+  <g id="state-2028" data-state="patang:2028" transform="translate(1600 0)">
     <use href="#kati-patang-2028" transform="rotate(22 200 190)"/>
     <path class="string-o" d="M206.700 173.300 C170 152 152 112 112 98 C80 87 60 62 32 44 M32 44 l-9 -3 M32 44 l-6 -8 M32 44 l-1 -10"/>
     <path class="string" d="M206.700 173.300 C170 152 152 112 112 98 C80 87 60 62 32 44 M32 44 l-9 -3 M32 44 l-6 -8 M32 44 l-1 -10"/>
