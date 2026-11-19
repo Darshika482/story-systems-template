@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 400" data-prop="lal-oon">
+  <title>लाल ऊन का गोला — दादी's red wool in its cane basket</title>
+  <desc>A ball of red wool in a shallow round cane basket, with two wooden knitting needles and a few cast-on rows that never grow: the wool goes to the निदान बोर्ड instead. Wear: one broken cane strand sticks out of the rim on the screen-right; one needle has lost its end knob. The ball shrinks through the film; the basket, needles and knitting never change. States left to right: full (radius 58), half (44), small (30), last (17).</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-cane-straw{fill:#CFAE74}
+    .f-wool-red{fill:#D2312E}
+    .s-outline{stroke:#4A2C20}
+    .s-cane-straw{stroke:#CFAE74}
+    .s-wood{stroke:#9A683C}
+    .s-wool-red{stroke:#D2312E}
+    .yarn-o{fill:none;stroke:#4A2C20;stroke-width:6.5;stroke-linecap:round;stroke-linejoin:round}
+    .yarn{fill:none;stroke:#D2312E;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+  </style>
+  <defs>
+    <!-- back of the basket: shadow, far rim, dark inside -->
+    <g id="lal-oon-back">
+      <ellipse class="sh" cx="204" cy="344" rx="104" ry="7"/>
+      <path class="f-cane-straw o" d="M94 250 C110 230 290 230 306 250 C290 270 110 270 94 250 Z"/>
+      <path class="sh" style="opacity:.4" d="M104 250 C120 236 280 236 296 250 C280 264 120 264 104 250 Z"/>
+    </g>
+    <!-- the two needles and the knitting that never grows -->
+    <g id="lal-oon-needles">
+      <path class="n s-outline" stroke-width="8" stroke-linecap="round" d="M236 268 L322 122 M254 270 L346 152"/>
+      <path class="n s-wood" stroke-width="5" stroke-linecap="round" d="M236 268 L322 122 M254 270 L346 152"/>
+      <circle class="f-cane-straw ot" cx="323" cy="120" r="6.500"/>
+      <g transform="translate(258 232) rotate(-59.500)">
+        <path class="f-wool-red ot" d="M8 2 H48 V22 Q28 26 8 22 Z"/>
+        <path class="d" opacity=".4" d="M8 8 H48 M8 14 H48 M14 2 V23 M22 2 V24 M30 2 V24 M38 2 V24"/>
+        <path class="n s-wool-red" stroke-width="3" stroke-linecap="round" stroke-dasharray="0 6" d="M10 0 H48"/>
+      </g>
+    </g>
+    <!-- front of the basket: wall, weave, near rim, the broken strand -->
+    <g id="lal-oon-front">
+      <path class="f-cane-straw o" d="M94 250 C110 270 290 270 306 250 C302 312 272 340 200 340 C128 340 98 312 94 250 Z"/>
+      <path class="sh" d="M262 266 C282 262 298 256 306 250 C302 312 272 340 222 340 C250 322 262 296 262 266 Z"/>
+      <path class="d" opacity=".55" d="M100 280 C128 298 272 298 300 280 M110 302 C138 318 262 318 290 302 M130 322 C156 332 244 332 270 322"/>
+      <path class="d" opacity=".4" d="M124 268 l4 22 M148 274 l3 22 M174 278 l2 22 M200 279 v22 M226 278 l-2 22 M252 274 l-3 22 M276 268 l-4 22 M138 298 l4 20 M168 302 l2 20 M200 304 v20 M232 302 l-2 20 M262 298 l-4 20"/>
+      <path class="n s-outline" stroke-width="12" stroke-linecap="round" d="M94 250 C110 270 290 270 306 250"/>
+      <path class="n s-cane-straw" stroke-width="8" stroke-linecap="round" d="M94 250 C110 270 290 270 306 250"/>
+      <path class="d" opacity=".5" stroke-dasharray="5 6" d="M96 251 C112 270 288 270 304 251"/>
+      <path class="n s-outline" stroke-width="6" stroke-linecap="round" d="M300 252 q16 -8 20 -24"/>
+      <path class="n s-cane-straw" stroke-width="3.500" stroke-linecap="round" d="M300 252 q16 -8 20 -24"/>
+    </g>
+  </defs>
+
+  <g id="state-full" data-state="oon:full">
+    <use href="#lal-oon-back"/>
+    <circle class="f-wool-red o" cx="188" cy="206" r="58"/>
+    <path class="d" opacity=".4" d="M136 190 C160 160 214 154 240 182 M132 212 C162 176 222 172 246 204 M142 238 C168 204 222 198 244 226 M160 156 C140 190 148 232 172 258 M186 150 C168 188 176 232 198 260 M214 156 C202 192 210 230 228 248"/>
+    <path class="hl" style="opacity:.25" d="M150 180 C160 164 178 156 194 156 C176 162 162 172 154 188 Z"/>
+    <use href="#lal-oon-needles"/>
+    <use href="#lal-oon-front"/>
+    <path class="yarn-o" d="M134 226 C112 232 98 246 96 262 C94 280 106 290 102 310"/>
+    <path class="yarn" d="M134 226 C112 232 98 246 96 262 C94 280 106 290 102 310"/>
+  </g>
+
+  <g id="state-half" data-state="oon:half" transform="translate(400 0)">
+    <use href="#lal-oon-back"/>
+    <circle class="f-wool-red o" cx="188" cy="222" r="44"/>
+    <path class="d" opacity=".4" d="M150 208 C168 186 208 184 226 206 M146 226 C168 198 212 196 230 222 M166 184 C152 208 158 240 174 258 M188 180 C176 206 182 240 196 260 M210 186 C200 210 206 238 220 250"/>
+    <path class="hl" style="opacity:.25" d="M160 202 C168 190 180 184 192 184 C178 190 168 196 163 208 Z"/>
+    <use href="#lal-oon-needles"/>
+    <use href="#lal-oon-front"/>
+    <path class="yarn-o" d="M146 236 C120 238 100 248 96 262 C94 280 106 290 102 310"/>
+    <path class="yarn" d="M146 236 C120 238 100 248 96 262 C94 280 106 290 102 310"/>
+  </g>
+
+  <g id="state-small" data-state="oon:small" transform="translate(800 0)">
+    <use href="#lal-oon-back"/>
+    <circle class="f-wool-red o" cx="190" cy="236" r="30"/>
+    <path class="d" opacity=".4" d="M164 228 C176 212 204 212 216 228 M162 242 C178 222 204 222 218 240 M176 210 C166 226 170 248 182 260 M194 208 C186 226 190 248 200 262"/>
+    <use href="#lal-oon-needles"/>
+    <use href="#lal-oon-front"/>
+    <path class="yarn-o" d="M162 244 C130 242 102 248 96 262 C94 280 106 290 102 310"/>
+    <path class="yarn" d="M162 244 C130 242 102 248 96 262 C94 280 106 290 102 310"/>
+  </g>
+
+  <g id="state-last" data-state="oon:last" transform="translate(1200 0)">
+    <use href="#lal-oon-back"/>
+    <circle class="f-wool-red o" cx="192" cy="244" r="17"/>
+    <path class="d" opacity=".4" d="M178 240 C184 232 200 232 206 240 M184 230 C178 240 182 252 190 258"/>
+    <use href="#lal-oon-needles"/>
+    <use href="#lal-oon-front"/>
+    <path class="yarn-o" d="M176 248 C140 244 104 248 96 262 C94 280 106 290 102 310"/>
+    <path class="yarn" d="M176 248 C140 244 104 248 96 262 C94 280 106 290 102 310"/>
+  </g>
+</svg>

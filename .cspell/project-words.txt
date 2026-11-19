@@ -372,3 +372,5 @@ rangoli
 mmss
 postposition
 roti
+Panditji
+thali

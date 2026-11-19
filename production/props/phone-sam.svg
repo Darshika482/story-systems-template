@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" data-prop="phone-sam">
+  <title>सम का फ़ोन — phone-sam</title>
+  <desc>Silver phone in a clear case, 128 by 272, always held upright. On the back, under the case, one sticker: a plain yellow five-point star on a white disc, its lower screen-right edge peeling. It is not a brand and not a character. Wear: the clear case has yellowed along its edges. When he is filming, the screen shows four corner brackets, a red recording dot and a timer bar. States left to right: on (recording), off, back.</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-soot-black{fill:#2A2321}
+    .f-cotton-white{fill:#FCFAF4}
+    .f-steel{fill:#BFC8CE}
+    .f-haldi-yellow{fill:#EDB82F}
+    .f-wool-red{fill:#D2312E}
+    .f-paper-cream{fill:#FFF8E4}
+    .s-cotton-white{stroke:#FCFAF4}
+    .s-haldi-yellow{stroke:#EDB82F}
+    .c-cotton-white{stop-color:#FCFAF4}
+    .c-phone-blue{stop-color:#4DA3F0}
+  </style>
+  <defs>
+    <radialGradient id="phone-sam-screen" cx=".5" cy=".42" r=".75">
+      <stop offset="0" class="c-cotton-white"/>
+      <stop offset=".6" class="c-phone-blue"/>
+      <stop offset="1" class="c-phone-blue"/>
+    </radialGradient>
+    <radialGradient id="phone-sam-halo">
+      <stop offset="0" class="c-phone-blue" stop-opacity=".5"/>
+      <stop offset="1" class="c-phone-blue" stop-opacity="0"/>
+    </radialGradient>
+    <!-- clear case (yellowed at the edge) and body, seen from the front, screen dark -->
+    <g id="phone-sam-front">
+      <rect x="136" y="64" width="128" height="272" rx="22" class="f-cotton-white o"/>
+      <rect x="138.500" y="66.500" width="123" height="267" rx="20" class="n s-haldi-yellow" stroke-width="4" opacity=".3"/>
+      <rect x="142" y="70" width="116" height="260" rx="17" class="f-soot-black"/>
+    </g>
+  </defs>
+
+  <g id="state-on" data-state="phone-sam:on">
+    <circle cx="200" cy="190" r="196" fill="url(#phone-sam-halo)"/>
+    <use href="#phone-sam-front"/>
+    <rect x="148" y="80" width="104" height="240" rx="10" fill="url(#phone-sam-screen)"/>
+    <!-- viewfinder: brackets, recording dot, timer bar, shutter -->
+    <path class="n s-cotton-white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M160 112 V100 H172 M228 100 H240 V112 M240 252 V264 H228 M172 264 H160 V252"/>
+    <rect x="178" y="88" width="44" height="12" rx="6" class="f-soot-black" opacity=".55"/>
+    <circle class="f-wool-red" cx="186" cy="94" r="3.500"/>
+    <rect x="193" y="92" width="22" height="4" rx="2" class="f-cotton-white"/>
+    <circle class="n s-cotton-white" stroke-width="3" cx="200" cy="294" r="14"/>
+    <rect x="193" y="287" width="14" height="14" rx="3" class="f-wool-red"/>
+  </g>
+
+  <g id="state-off" data-state="phone-sam:off" transform="translate(400 0)">
+    <ellipse class="sh" cx="204" cy="344" rx="66" ry="6"/>
+    <use href="#phone-sam-front"/>
+    <path class="hl" style="opacity:.07" d="M196 80 H242 Q252 80 252 90 V150 L172 320 H158 Q148 320 148 310 V250 Z"/>
+  </g>
+
+  <g id="state-back" data-state="phone-sam:back" transform="translate(800 0)">
+    <ellipse class="sh" cx="204" cy="344" rx="66" ry="6"/>
+    <rect x="136" y="64" width="128" height="272" rx="22" class="f-cotton-white o"/>
+    <rect x="142" y="70" width="116" height="260" rx="17" class="f-steel ot"/>
+    <path class="hl" style="opacity:.4" d="M150 84 Q150 76 158 76 H196 L160 322 Q150 320 150 312 Z"/>
+    <!-- camera island -->
+    <rect x="150" y="78" width="46" height="62" rx="13" class="f-soot-black ot"/>
+    <circle class="f-steel ot" cx="173" cy="96" r="9"/>
+    <circle class="f-soot-black" cx="173" cy="96" r="5"/>
+    <circle class="f-steel ot" cx="173" cy="122" r="9"/>
+    <circle class="f-soot-black" cx="173" cy="122" r="5"/>
+    <!-- the sticker: plain star on a white disc, peeling at lower right -->
+    <g transform="translate(204 232)">
+      <circle r="27" class="f-cotton-white ot"/>
+      <path class="f-haldi-yellow ot" transform="scale(1.300)" d="M0 -14 L3.530 -4.850 L13.310 -4.330 L5.710 1.850 L8.230 11.330 L0 6 L-8.230 11.330 L-5.710 1.850 L-13.310 -4.330 L-3.530 -4.850 Z"/>
+      <path class="f-paper-cream ot" d="M26 8 C24 18 18 24 8 26 C16 20 22 14 26 8 Z"/>
+      <path class="sh" d="M27 7 C26 20 20 26 7 27 C18 23 24 17 27 7 Z"/>
+    </g>
+    <!-- the clear case over everything, yellowed at the edge -->
+    <rect x="138.500" y="66.500" width="123" height="267" rx="20" class="n s-haldi-yellow" stroke-width="4" opacity=".3"/>
+    <rect x="186" y="328" width="28" height="8" rx="4" class="f-soot-black" opacity=".6"/>
+  </g>
+</svg>

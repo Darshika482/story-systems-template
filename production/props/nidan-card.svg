@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 400" data-prop="nidan-card">
+  <title>निदान बोर्ड का कार्ड — anatomy of one case card</title>
+  <desc>Cream index card, 5 by 3 inches, one red head-rule and faint blue rules. दादाजी letters the title and a serial number in the corner, the way a cashier numbers a voucher. अनाया adds one crayon drawing. One brass pin; the red wool is knotted round it. States left to right: face-up (card 1, नींद), face-down (दादाजी's own card, corner lifting, no thread), centre-covered (until scene 2.8), centre-open (from scene 2.8; two scraps of tape remain where the slip was).</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-paper-cream{fill:#FFF8E4}
+    .f-brass{fill:#C4932F}
+    .f-outline{fill:#4A2C20}
+    .f-haldi-yellow{fill:#EDB82F}
+    .f-cane-straw{fill:#CFAE74}
+    .f-night-indigo{fill:#1F2348}
+    .f-phone-blue{fill:#4DA3F0}
+    .s-wool-red{stroke:#D2312E}
+    .s-day-sky{stroke:#CDE6F0}
+    .s-haldi-yellow{stroke:#EDB82F}
+    .wool{fill:none;stroke:#D2312E;stroke-width:6;stroke-linecap:round}
+    .t{font-family:"Noto Sans Devanagari",sans-serif;font-weight:700}
+  </style>
+  <defs>
+    <!-- the blank card: 290 by 174 -->
+    <g id="nidan-card-blank">
+      <rect x="61" y="121" width="290" height="174" rx="4" class="sh"/>
+      <rect x="55" y="113" width="290" height="174" rx="4" class="f-paper-cream o"/>
+    </g>
+    <g id="nidan-card-rules">
+      <path class="n s-day-sky" stroke-width="2" d="M57 186 H343 M57 210 H343 M57 234 H343 M57 258 H343"/>
+      <path class="n s-wool-red" stroke-width="2" opacity=".6" d="M57 160 H343"/>
+    </g>
+    <g id="nidan-card-pin">
+      <circle r="9" class="f-brass ot"/>
+      <path class="hl" d="M-5 -3 a6 6 0 0 1 7 -3 a8 8 0 0 0 -7 3 Z"/>
+    </g>
+  </defs>
+
+  <g id="state-face-up" data-state="card:face-up">
+    <use href="#nidan-card-blank"/>
+    <use href="#nidan-card-rules"/>
+    <text class="t f-outline" x="72" y="148" font-size="17" opacity=".7">क्र. १</text>
+    <text class="t f-outline" x="74" y="232" font-size="48">नींद</text>
+    <!-- अनाया's crayon: a moon over a lit phone -->
+    <path class="f-haldi-yellow ot" d="M262 176 A30 30 0 1 0 286 224 A22 22 0 1 1 262 176 Z"/>
+    <path class="n s-haldi-yellow" stroke-width="3" stroke-linecap="round" d="M304 180 l5 -6 M312 196 l8 -2 M300 164 l1 -8"/>
+    <rect x="288" y="234" width="24" height="40" rx="4" class="f-night-indigo ot" transform="rotate(8 300 254)"/>
+    <rect x="291.500" y="239" width="17" height="28" rx="1.500" class="f-phone-blue" transform="rotate(8 300 254)"/>
+    <!-- pin on the edge that faces the board centre; the wool is knotted round it -->
+    <path class="wool" d="M330 270 C352 290 372 318 392 352"/>
+    <path class="wool" stroke-width="4" d="M330 270 q-10 12 -4 26"/>
+    <use href="#nidan-card-pin" transform="translate(330 270)"/>
+  </g>
+
+  <g id="state-face-down" data-state="card:face-down" transform="translate(400 0)">
+    <g transform="rotate(-3 200 200)">
+      <use href="#nidan-card-blank"/>
+      <!-- the ink shows through faintly from the other side -->
+      <path class="sh" style="opacity:.07" d="M100 176 h170 v10 h-170 Z M100 206 h200 v10 h-200 Z M100 236 h120 v10 h-120 Z"/>
+      <!-- lower corner lifting -->
+      <path class="f-paper-cream ot" d="M345 247 L305 287 L345 287 Z"/>
+      <path class="sh" d="M345 247 L305 287 L315 257 Z"/>
+      <use href="#nidan-card-pin" transform="translate(330 130)"/>
+    </g>
+  </g>
+
+  <g id="state-centre-covered" data-state="card:centre-covered" transform="translate(800 0)">
+    <use href="#nidan-card-blank"/>
+    <g transform="rotate(-2 200 200)">
+      <rect x="71" y="129" width="258" height="142" rx="2" class="f-paper-cream ot"/>
+      <rect x="71" y="129" width="258" height="142" rx="2" class="sh" style="opacity:.07"/>
+      <text class="t f-outline" x="200" y="246" font-size="118" text-anchor="middle">?</text>
+      <path class="f-cane-straw ot" opacity=".85" d="M52 122 l40 -8 l5 22 l-40 8 Z M306 262 l40 -8 l5 22 l-40 8 Z"/>
+    </g>
+  </g>
+
+  <g id="state-centre-open" data-state="card:centre-open" transform="translate(1200 0)">
+    <use href="#nidan-card-blank"/>
+    <text class="t f-outline" x="200" y="206" font-size="42" text-anchor="middle">मिथ्यादर्शन</text>
+    <path class="n s-wool-red" stroke-width="3" stroke-linecap="round" d="M92 222 H308"/>
+    <text class="t f-outline" x="200" y="256" font-size="23" text-anchor="middle" opacity=".8">उलटी समझ</text>
+    <path class="f-cane-straw" opacity=".55" d="M55 118 l22 -5 l3 13 l-22 5 Z M322 268 l22 -5 l3 13 l-22 5 Z"/>
+    <path class="wool" d="M55 150 C36 140 20 124 8 104 M345 150 C364 140 380 124 392 104 M55 250 C36 262 20 280 8 300 M345 250 C364 262 380 280 392 300"/>
+  </g>
+</svg>

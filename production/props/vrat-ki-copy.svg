@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" data-prop="vrat-ki-copy">
+  <title>व्रत की कॉपी — दादी's notebook of fasts</title>
+  <desc>A soft school exercise notebook, thick with fifty years, covered in brown paper. On the name label there is only a year in her rounded numerals: १९७७ and a dash. A red thread is tied round it. Wear: the spine is mended with cloth tape, the lower outer corner is curled, a round water stain sits on the cover. Inside: ruled school paper filled with dates in numerals, no words. The open state is the book as it lies on the table in scene 6.5: the last entry is १४·९·२७, the final day of दस लक्षण. States left to right: closed, open.</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-cane-straw{fill:#CFAE74}
+    .f-paper-cream{fill:#FFF8E4}
+    .f-wood{fill:#9A683C}
+    .f-night-indigo{fill:#1F2348}
+    .s-wool-red{stroke:#D2312E}
+    .s-day-sky{stroke:#CDE6F0}
+    .s-outline{stroke:#4A2C20}
+    .t{font-family:"Noto Sans Devanagari",sans-serif;font-weight:700}
+  </style>
+
+  <g id="state-closed" data-state="vrat-copy:closed">
+    <g transform="rotate(-3 200 200)">
+      <path class="sh" d="M118 86 H296 V332 H118 Z"/>
+      <!-- swollen page block at the foot and the fore-edge -->
+      <path class="f-paper-cream ot" d="M112 322 L116 334 L292 334 L296 322 L296 82 L288 78 Z"/>
+      <path class="d" opacity=".5" d="M116 327 H294 M115 330.500 H293 M291 82 V324 M293.500 84 V323"/>
+      <!-- brown paper cover -->
+      <path class="f-cane-straw o" d="M112 74 H284 Q290 74 290 80 V300 L268 324 H112 Q106 324 106 318 V80 Q106 74 112 74 Z"/>
+      <!-- cloth tape on the spine -->
+      <path class="f-wood ot" d="M106 80 Q106 74 112 74 H126 V324 H112 Q106 324 106 318 Z"/>
+      <path class="d" opacity=".4" d="M110 100 h12 M110 140 h12 M110 180 h12 M110 220 h12 M110 260 h12 M110 300 h12"/>
+      <!-- curled corner -->
+      <path class="f-paper-cream ot" d="M290 300 L268 324 L270 304 Z"/>
+      <!-- label: only a year -->
+      <rect x="146" y="110" width="124" height="74" rx="3" class="f-paper-cream ot"/>
+      <rect x="151" y="115" width="114" height="64" rx="2" class="n s-wool-red" stroke-width="1.500" opacity=".7"/>
+      <text class="t f-night-indigo" x="208" y="146" font-size="23" text-anchor="middle">१९७७ –</text>
+      <path class="d" opacity=".35" d="M160 160 H256 M160 171 H256"/>
+      <!-- water stain, creases -->
+      <ellipse cx="236" cy="252" rx="24" ry="20" class="n s-outline" stroke-width="2" opacity=".18"/>
+      <ellipse cx="236" cy="252" rx="24" ry="20" class="sh" style="opacity:.06"/>
+      <path class="d" opacity=".25" d="M140 212 l40 26 M150 290 l60 -18 M250 196 l30 14"/>
+      <!-- red thread tied round the book -->
+      <path class="n s-wool-red" stroke-width="3" stroke-linecap="round" d="M106 222 H290 M190 222 q-10 14 -20 16 M194 222 q8 14 20 14"/>
+      <circle cx="192" cy="222" r="4" class="n s-wool-red" stroke-width="3"/>
+    </g>
+  </g>
+
+  <g id="state-open" data-state="vrat-copy:open" transform="translate(400 0)">
+    <ellipse class="sh" cx="204" cy="322" rx="180" ry="8"/>
+    <path class="f-cane-straw o" d="M22 86 H378 Q384 86 384 92 V310 Q384 316 378 316 H22 Q16 316 16 310 V92 Q16 86 22 86 Z"/>
+    <path class="f-paper-cream ot" d="M26 92 C80 86 150 86 200 96 V312 C150 302 80 302 26 308 Z"/>
+    <path class="f-paper-cream ot" d="M374 92 C320 86 250 86 200 96 V312 C250 302 320 302 374 308 Z"/>
+    <path class="sh" style="opacity:.08" d="M26 92 C80 86 150 86 200 96 C250 86 320 86 374 92 V308 C320 302 250 302 200 312 C150 302 80 302 26 308 Z"/>
+    <path class="sh" style="opacity:.1" d="M188 94 L200 96 L212 94 V310 L200 312 L188 310 Z"/>
+    <!-- school ruling: blue lines, red margin -->
+    <path class="n s-day-sky" stroke-width="1.500" d="M30 122 H194 M30 144 H194 M30 166 H194 M30 188 H194 M30 210 H194 M30 232 H194 M30 254 H194 M30 276 H194 M206 122 H370 M206 144 H370 M206 166 H370 M206 188 H370 M206 210 H370 M206 232 H370 M206 254 H370 M206 276 H370"/>
+    <path class="n s-wool-red" stroke-width="1.200" opacity=".6" d="M48 90 V306 M224 94 V308"/>
+    <!-- her numerals: dates only -->
+    <g class="t f-night-indigo" font-size="13.500">
+      <text x="54" y="119">३०·८·२४</text><text x="124" y="119">७·९·२४</text>
+      <text x="54" y="141">८·९·२४</text><text x="124" y="141">१७·९·२४</text>
+      <text x="54" y="163">१·११·२४</text><text x="124" y="163">१०·४·२५</text>
+      <text x="54" y="185">२८·८·२५</text><text x="124" y="185">६·९·२५</text>
+      <text x="54" y="207">७·९·२५</text><text x="124" y="207">२१·१०·२५</text>
+      <text x="54" y="229">३१·३·२६</text><text x="124" y="229">१५·९·२६</text>
+      <text x="54" y="251">२५·९·२६</text><text x="124" y="251">८·११·२६</text>
+      <text x="54" y="273">१६·१·२७</text><text x="124" y="273">१७·१·२७</text>
+      <text x="230" y="119">८·३·२७</text><text x="300" y="119">२२·५·२७</text>
+      <text x="230" y="141">५·९·२७</text><text x="300" y="141">६·९·२७</text>
+      <text x="230" y="163">७·९·२७</text><text x="300" y="163">८·९·२७</text>
+      <text x="230" y="185">९·९·२७</text><text x="300" y="185">१०·९·२७</text>
+      <text x="230" y="207">११·९·२७</text><text x="300" y="207">१२·९·२७</text>
+      <text x="230" y="229">१३·९·२७</text><text x="300" y="229">१४·९·२७</text>
+    </g>
+    <path class="d" opacity=".4" d="M30 300 C80 296 150 296 196 304 M370 300 C320 296 250 296 204 304"/>
+  </g>
+</svg>

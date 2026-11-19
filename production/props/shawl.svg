@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" data-prop="shawl">
+  <title>जंग-रंग शॉल — दादाजी's rust wool shawl</title>
+  <desc>Rust wool shawl, 2 to 1, a thin cream border set in from all four edges, short fringe on the two short ends. Wear: one moth hole near a corner; it is visible in every state. In scene 2.2 अर्जुन borrows it and by the third day calls it his own; the drawing does not change, only the wearer. States left to right: flat (construction), folded (in thirds, on the chair), draped (round the shoulders; the dashed lines are a placement guide, not part of the prop).</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .g{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-dasharray:5 5;opacity:.5}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-rust-shawl{fill:#B5532B}
+    .f-soot-black{fill:#2A2321}
+    .s-paper-cream{stroke:#FFF8E4}
+    .border{fill:none;stroke:#FFF8E4;stroke-width:3.5;stroke-linejoin:round;stroke-linecap:round}
+    .fringe{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round}
+  </style>
+  <defs>
+    <!-- the moth hole: an irregular dark hole with three loose ends; about 9 across -->
+    <g id="shawl-moth-hole">
+      <path class="f-soot-black" opacity=".6" d="M-4 -3 C-1 -6 4 -5 5 -1 C6 3 2 6 -2 5 C-5 4 -6 0 -4 -3 Z"/>
+      <path class="d" stroke-width="1" d="M-5 -3 l-4 -3 M5 3 l4 3 M-3 5 l-2 5"/>
+    </g>
+  </defs>
+
+  <g id="state-flat" data-state="shawl:flat">
+    <rect x="34" y="118" width="340" height="170" class="sh"/>
+    <!-- fringe on the two short ends -->
+    <path class="fringe" d="M30 122 h-14 M30 132 h-12 M30 142 h-14 M30 152 h-13 M30 162 h-14 M30 172 h-12 M30 182 h-14 M30 192 h-13 M30 202 h-14 M30 212 h-12 M30 222 h-14 M30 232 h-13 M30 242 h-14 M30 252 h-12 M30 262 h-14 M30 272 h-13"/>
+    <path class="fringe" d="M370 122 h14 M370 132 h12 M370 142 h14 M370 152 h13 M370 162 h14 M370 172 h12 M370 182 h14 M370 192 h13 M370 202 h14 M370 212 h12 M370 222 h14 M370 232 h13 M370 242 h14 M370 252 h12 M370 262 h14 M370 272 h13"/>
+    <rect x="30" y="112" width="340" height="170" rx="2" class="f-rust-shawl o"/>
+    <rect x="42" y="124" width="316" height="146" rx="1" class="border"/>
+    <!-- where it is always folded: two faint creases -->
+    <path class="d" opacity=".25" d="M143 114 V280 M257 114 V280"/>
+    <path class="d" opacity=".12" d="M60 150 l30 30 M120 140 l60 60 M200 150 l70 70 M290 140 l50 50 M70 210 l40 40 M170 220 l40 40 M280 220 l40 40"/>
+    <use href="#shawl-moth-hole" transform="translate(336 250)"/>
+  </g>
+
+  <g id="state-folded" data-state="shawl:folded" transform="translate(400 0)">
+    <ellipse class="sh" cx="204" cy="292" rx="120" ry="8"/>
+    <!-- three layers: the edges of the lower two show below and to the right -->
+    <path class="f-rust-shawl o" d="M96 168 H304 Q310 168 310 174 V276 Q310 284 302 284 H98 Q90 284 90 276 V174 Q90 168 96 168 Z"/>
+    <path class="sh" d="M90 264 H310 V276 Q310 284 302 284 H98 Q90 284 90 276 Z"/>
+    <path class="d" d="M92 264 H308 M92 274 H308"/>
+    <path class="fringe" d="M310 176 h10 M310 186 h12 M310 196 h10 M310 206 h12 M310 216 h10 M310 226 h12 M310 236 h10 M310 246 h12 M310 256 h10"/>
+    <path class="f-rust-shawl o" d="M96 156 H300 Q306 156 306 162 V258 Q306 264 300 264 H96 Q90 264 90 258 V162 Q90 156 96 156 Z"/>
+    <path class="border" d="M100 166 H296 V254"/>
+    <path class="hl" style="opacity:.1" d="M96 158 H300 V166 H96 Z"/>
+    <use href="#shawl-moth-hole" transform="translate(276 240)"/>
+  </g>
+
+  <g id="state-draped" data-state="shawl:draped" transform="translate(800 0)">
+    <!-- guide: head and shoulders -->
+    <circle class="g" cx="200" cy="78" r="42"/>
+    <path class="g" d="M96 196 C100 160 140 142 200 142 C260 142 300 160 304 196 V360 M96 196 V360"/>
+    <!-- behind the neck -->
+    <path class="f-rust-shawl o" d="M150 122 C166 108 234 108 250 122 L246 146 C226 136 174 136 154 146 Z"/>
+    <path class="sh" d="M150 122 C166 108 234 108 250 122 L246 146 C226 136 174 136 154 146 Z"/>
+    <!-- screen-left fall -->
+    <path class="fringe" d="M88 342 v13 M98 343 v12 M108 344 v13 M118 345 v12 M128 346 v13 M138 347 v12 M148 348 v13"/>
+    <path class="f-rust-shawl o" d="M152 118 C120 124 98 150 94 190 L82 340 L154 348 L166 204 C170 172 184 152 198 146 C186 130 170 120 152 118 Z"/>
+    <path class="border" d="M150 130 C126 138 108 160 105 192 L94 330 M144 337 L155 204 C158 176 168 156 182 146"/>
+    <path class="d" opacity=".3" d="M128 170 C118 220 112 280 108 336"/>
+    <!-- screen-right fall, with the moth hole near its lower corner -->
+    <path class="fringe" d="M252 348 v13 M262 347 v12 M272 346 v13 M282 345 v12 M292 344 v13 M302 343 v12 M312 342 v13"/>
+    <path class="f-rust-shawl o" d="M248 118 C280 124 302 150 306 190 L318 340 L246 348 L234 204 C230 172 216 152 202 146 C214 130 230 120 248 118 Z"/>
+    <path class="border" d="M250 130 C274 138 292 160 295 192 L306 330 M256 337 L245 204 C242 176 232 156 218 146"/>
+    <path class="d" opacity=".3" d="M272 170 C282 220 288 280 292 336"/>
+    <use href="#shawl-moth-hole" transform="translate(292 314)"/>
+  </g>
+</svg>

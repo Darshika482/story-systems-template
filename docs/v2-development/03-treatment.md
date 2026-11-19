@@ -299,7 +299,7 @@ sees. The lights return and everyone squints. अर्जुन's phone wakes: 
 "dissolve cataract without surgery — Dr. Sharma, AIIMS" (अर्जुन orders them); a message to send
 to eleven people (दादी sends it to twenty-one); and अर्जुन's course journal — "मैं London में हूँ",
 written twenty-one times. Sam reverse-searches the doctor's photo in thirty seconds: a stock
-image. Card Q217 — the cheat who signed a banker's name. दादाजी: "पैंतीस साल हर नोट रोशनी में देखकर
+image. Card Q217 — the cheat who signed a banker's name. दादाजी: "सैंतीस साल हर नोट रोशनी में देखकर
 लिया। और धर्म? बिना देखे ले लिया।" · R30
 
 **6.2 · INT. DINING - EVENING** (Saturday 4 Sep, before sunset). Sam: "रात को खाना क्यों नहीं?" —

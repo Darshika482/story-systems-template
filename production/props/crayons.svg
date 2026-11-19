@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" data-prop="crayons">
+  <title>अनाया के क्रेयॉन — twelve crayons in strict order</title>
+  <desc>Twelve wax crayons standing in an open card tray. The order never changes, screen-left to screen-right: red, orange, yellow, light green, dark green, sky, blue, indigo, pink, brown, black, white. Each crayon is a palette token, so the tray is also the film's colour chart. Wear: the red is worn down to a stub, the white is almost new; the tray has one corner mended with tape. States left to right: ordered, one-out (the pink one lies in front of the tray and its place stands empty: the thing she cannot bear).</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-cane-straw{fill:#CFAE74}
+    .f-paper-cream{fill:#FFF8E4}
+    .f-wool-red{fill:#D2312E}
+    .f-terracotta{fill:#C66B3F}
+    .f-haldi-yellow{fill:#EDB82F}
+    .f-leaf-green{fill:#6B9B3A}
+    .f-bench-green{fill:#2F6D54}
+    .f-day-sky{fill:#CDE6F0}
+    .f-phone-blue{fill:#4DA3F0}
+    .f-night-indigo{fill:#1F2348}
+    .f-kite-pink{fill:#EF6FA1}
+    .f-wood{fill:#9A683C}
+    .f-soot-black{fill:#2A2321}
+    .f-cotton-white{fill:#FCFAF4}
+  </style>
+  <defs>
+    <g id="crayons-tray-back">
+      <ellipse class="sh" cx="204" cy="318" rx="170" ry="8"/>
+      <path class="f-cane-straw o" d="M44 120 H356 V310 H44 Z"/>
+      <path class="sh" d="M44 120 H356 V310 H44 Z"/>
+    </g>
+    <g id="crayons-tray-front">
+      <path class="f-cane-straw o" d="M40 248 H360 V310 Q360 314 356 314 H44 Q40 314 40 310 Z"/>
+      <path class="f-kite-pink" d="M41.500 262 H358.500 V274 H41.500 Z"/>
+      <path class="d" opacity=".5" d="M41.500 262 H358.500 M41.500 274 H358.500"/>
+      <path class="f-paper-cream ot" opacity=".9" d="M330 244 l34 6 l-4 22 l-34 -6 Z"/>
+    </g>
+  </defs>
+
+  <g id="state-ordered" data-state="crayons:ordered">
+    <use href="#crayons-tray-back"/>
+    <g>
+      <path class="f-wool-red ot" d="M58 188 L63 174 Q66 169 69 174 L74 188 V286 H58 Z"/>
+      <rect x="58" y="202" width="16" height="84" class="f-paper-cream ot"/>
+      <rect x="58" y="210" width="16" height="7" class="f-wool-red"/>
+    </g>
+    <g>
+      <path class="f-terracotta ot" d="M82 166 L87 152 Q90 147 93 152 L98 166 V286 H82 Z"/>
+      <rect x="82" y="180" width="16" height="106" class="f-paper-cream ot"/>
+      <rect x="82" y="188" width="16" height="7" class="f-terracotta"/>
+    </g>
+    <g>
+      <path class="f-haldi-yellow ot" d="M106 176 L111 162 Q114 157 117 162 L122 176 V286 H106 Z"/>
+      <rect x="106" y="190" width="16" height="96" class="f-paper-cream ot"/>
+      <rect x="106" y="198" width="16" height="7" class="f-haldi-yellow"/>
+    </g>
+    <g>
+      <path class="f-leaf-green ot" d="M130 162 L135 148 Q138 143 141 148 L146 162 V286 H130 Z"/>
+      <rect x="130" y="176" width="16" height="110" class="f-paper-cream ot"/>
+      <rect x="130" y="184" width="16" height="7" class="f-leaf-green"/>
+    </g>
+    <g>
+      <path class="f-bench-green ot" d="M154 168 L159 154 Q162 149 165 154 L170 168 V286 H154 Z"/>
+      <rect x="154" y="182" width="16" height="104" class="f-paper-cream ot"/>
+      <rect x="154" y="190" width="16" height="7" class="f-bench-green"/>
+    </g>
+    <g>
+      <path class="f-day-sky ot" d="M178 160 L183 146 Q186 141 189 146 L194 160 V286 H178 Z"/>
+      <rect x="178" y="174" width="16" height="112" class="f-paper-cream ot"/>
+      <rect x="178" y="182" width="16" height="7" class="f-day-sky"/>
+    </g>
+    <g>
+      <path class="f-phone-blue ot" d="M202 166 L207 152 Q210 147 213 152 L218 166 V286 H202 Z"/>
+      <rect x="202" y="180" width="16" height="106" class="f-paper-cream ot"/>
+      <rect x="202" y="188" width="16" height="7" class="f-phone-blue"/>
+    </g>
+    <g>
+      <path class="f-night-indigo ot" d="M226 156 L231 142 Q234 137 237 142 L242 156 V286 H226 Z"/>
+      <rect x="226" y="170" width="16" height="116" class="f-paper-cream ot"/>
+      <rect x="226" y="178" width="16" height="7" class="f-night-indigo"/>
+    </g>
+    <g>
+      <path class="f-kite-pink ot" d="M250 164 L255 150 Q258 145 261 150 L266 164 V286 H250 Z"/>
+      <rect x="250" y="178" width="16" height="108" class="f-paper-cream ot"/>
+      <rect x="250" y="186" width="16" height="7" class="f-kite-pink"/>
+    </g>
+    <g>
+      <path class="f-wood ot" d="M274 158 L279 144 Q282 139 285 144 L290 158 V286 H274 Z"/>
+      <rect x="274" y="172" width="16" height="114" class="f-paper-cream ot"/>
+      <rect x="274" y="180" width="16" height="7" class="f-wood"/>
+    </g>
+    <g>
+      <path class="f-soot-black ot" d="M298 150 L303 136 Q306 131 309 136 L314 150 V286 H298 Z"/>
+      <rect x="298" y="164" width="16" height="122" class="f-paper-cream ot"/>
+      <rect x="298" y="172" width="16" height="7" class="f-soot-black"/>
+    </g>
+    <g>
+      <path class="f-cotton-white ot" d="M322 146 L327 132 Q330 127 333 132 L338 146 V286 H322 Z"/>
+      <rect x="322" y="160" width="16" height="126" class="f-paper-cream ot"/>
+      <rect x="322" y="168" width="16" height="7" class="f-cotton-white"/>
+    </g>
+    <use href="#crayons-tray-front"/>
+  </g>
+
+  <g id="state-one-out" data-state="crayons:one-out" transform="translate(400 0)">
+    <use href="#crayons-tray-back"/>
+    <g>
+      <path class="f-wool-red ot" d="M58 188 L63 174 Q66 169 69 174 L74 188 V286 H58 Z"/>
+      <rect x="58" y="202" width="16" height="84" class="f-paper-cream ot"/>
+      <rect x="58" y="210" width="16" height="7" class="f-wool-red"/>
+    </g>
+    <g>
+      <path class="f-terracotta ot" d="M82 166 L87 152 Q90 147 93 152 L98 166 V286 H82 Z"/>
+      <rect x="82" y="180" width="16" height="106" class="f-paper-cream ot"/>
+      <rect x="82" y="188" width="16" height="7" class="f-terracotta"/>
+    </g>
+    <g>
+      <path class="f-haldi-yellow ot" d="M106 176 L111 162 Q114 157 117 162 L122 176 V286 H106 Z"/>
+      <rect x="106" y="190" width="16" height="96" class="f-paper-cream ot"/>
+      <rect x="106" y="198" width="16" height="7" class="f-haldi-yellow"/>
+    </g>
+    <g>
+      <path class="f-leaf-green ot" d="M130 162 L135 148 Q138 143 141 148 L146 162 V286 H130 Z"/>
+      <rect x="130" y="176" width="16" height="110" class="f-paper-cream ot"/>
+      <rect x="130" y="184" width="16" height="7" class="f-leaf-green"/>
+    </g>
+    <g>
+      <path class="f-bench-green ot" d="M154 168 L159 154 Q162 149 165 154 L170 168 V286 H154 Z"/>
+      <rect x="154" y="182" width="16" height="104" class="f-paper-cream ot"/>
+      <rect x="154" y="190" width="16" height="7" class="f-bench-green"/>
+    </g>
+    <g>
+      <path class="f-day-sky ot" d="M178 160 L183 146 Q186 141 189 146 L194 160 V286 H178 Z"/>
+      <rect x="178" y="174" width="16" height="112" class="f-paper-cream ot"/>
+      <rect x="178" y="182" width="16" height="7" class="f-day-sky"/>
+    </g>
+    <g>
+      <path class="f-phone-blue ot" d="M202 166 L207 152 Q210 147 213 152 L218 166 V286 H202 Z"/>
+      <rect x="202" y="180" width="16" height="106" class="f-paper-cream ot"/>
+      <rect x="202" y="188" width="16" height="7" class="f-phone-blue"/>
+    </g>
+    <g>
+      <path class="f-night-indigo ot" d="M226 156 L231 142 Q234 137 237 142 L242 156 V286 H226 Z"/>
+      <rect x="226" y="170" width="16" height="116" class="f-paper-cream ot"/>
+      <rect x="226" y="178" width="16" height="7" class="f-night-indigo"/>
+    </g>
+    <g>
+      <path class="f-wood ot" d="M274 158 L279 144 Q282 139 285 144 L290 158 V286 H274 Z"/>
+      <rect x="274" y="172" width="16" height="114" class="f-paper-cream ot"/>
+      <rect x="274" y="180" width="16" height="7" class="f-wood"/>
+    </g>
+    <g>
+      <path class="f-soot-black ot" d="M298 150 L303 136 Q306 131 309 136 L314 150 V286 H298 Z"/>
+      <rect x="298" y="164" width="16" height="122" class="f-paper-cream ot"/>
+      <rect x="298" y="172" width="16" height="7" class="f-soot-black"/>
+    </g>
+    <g>
+      <path class="f-cotton-white ot" d="M322 146 L327 132 Q330 127 333 132 L338 146 V286 H322 Z"/>
+      <rect x="322" y="160" width="16" height="126" class="f-paper-cream ot"/>
+      <rect x="322" y="168" width="16" height="7" class="f-cotton-white"/>
+    </g>
+    <use href="#crayons-tray-front"/>
+    <ellipse class="sh" cx="186" cy="362" rx="76" ry="5"/>
+    <g transform="translate(110 362) rotate(84) translate(0 -286)">
+      <path class="f-kite-pink ot" d="M0 164 L5 150 Q8 145 11 150 L16 164 V286 H0 Z"/>
+      <rect x="0" y="178" width="16" height="108" class="f-paper-cream ot"/>
+      <rect x="0" y="186" width="16" height="7" class="f-kite-pink"/>
+    </g>
+  </g>
+</svg>

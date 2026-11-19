@@ -89,7 +89,7 @@ compete with each other. अनाया keeps her bluntness inside the scenes.
    and he pays ₹2,840: "एक रुपया कहाँ गया?" He finally checks his own standing instruction. The
    rupee was never taken. He had set the amount himself, three years ago. He laughs — the first
    real laugh of the film. This is the granth's own image (p. 259): one whose account does not
-   tally "अपनी चूकको ढूँढता है". And it is his father's rule from thirty-five years as a bank
+   tally "अपनी चूकको ढूँढता है". And it is his father's rule from thirty-seven years as a bank
    cashier: when the tally fails, recount your own drawer first.
 2. **Diwali — the unfinished page.** दादाजी, with his new lens, turns to the last page of the
    granth. It stops on half a word: "बहु". The word was "बहुरि" — "और फिर…". It is the phrase

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" data-prop="lal-bahi">
+  <title>लाल बही — दादाजी's father's ledger</title>
+  <desc>Long narrow account book, 460 by 112, bound in red cloth quilted with white running stitch, bound along one long edge, tied with a cotton cord wound three times round the middle. It lives on top of the steel almirah. Its red is the red of the wool: both are accounts. Wear: the cloth is frayed at the top screen-right corner, an old ink stain sits near the bottom screen-left corner, the lower edge is rubbed dark. Inside, three red column rules and lines of मुड़िया script that nobody in the house can read; the script is drawn as a running hooked stroke, never as real letters. States left to right: tied, open (scene 7.5).</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-wool-red{fill:#D2312E}
+    .f-paper-cream{fill:#FFF8E4}
+    .f-ink-sepia{fill:#6E4322}
+    .s-outline{stroke:#4A2C20}
+    .s-cotton-white{stroke:#FCFAF4}
+    .s-wool-red{stroke:#D2312E}
+    .s-ink-sepia{stroke:#6E4322}
+    .stitch{fill:none;stroke:#FCFAF4;stroke-width:2.2;stroke-linecap:round;stroke-dasharray:7 5}
+    .script{fill:none;stroke:#6E4322;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;opacity:.8}
+  </style>
+  <defs>
+    <!-- one line of unreadable script, 420 long; each use breaks it into different word lengths -->
+    <path id="lal-bahi-row" d="M0 0 q5 -9 10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0"/>
+  </defs>
+
+  <g id="state-tied" data-state="bahi:tied">
+    <ellipse class="sh" cx="304" cy="272" rx="236" ry="8"/>
+    <!-- page block showing at the open long edge and the screen-right end -->
+    <path class="f-paper-cream ot" d="M76 258 L80 270 L528 270 L546 256 L546 166 L532 160 Z"/>
+    <path class="d" opacity=".5" d="M84 264 H528 M82 267 H530 M537 164 V262 M541 166 V259"/>
+    <path class="f-wool-red o" d="M78 152 C200 146 400 146 522 152 Q532 153 532 163 L534 250 Q534 260 524 261 C400 266 200 266 76 261 Q66 260 66 250 L68 163 Q68 153 78 152 Z"/>
+    <path class="sh" d="M66 236 L534 236 L534 250 Q534 260 524 261 C400 266 200 266 76 261 Q66 260 66 250 Z"/>
+    <path class="hl" style="opacity:.14" d="M110 166 C160 162 220 162 250 166 L250 196 C220 200 160 200 110 196 Z"/>
+    <!-- quilting: border, centre line, a cross at each end -->
+    <path class="stitch" d="M82 164 C200 158 400 158 518 164 L520 249 C400 254 200 254 80 249 Z M96 206 H276 M332 206 H506 M96 176 L150 236 M150 176 L96 236 M452 176 L506 236 M506 176 L452 236"/>
+    <!-- ink stain, frayed corner -->
+    <path class="f-ink-sepia" opacity=".45" d="M104 238 C110 230 124 232 126 240 C130 248 118 254 108 250 C102 248 100 242 104 238 Z"/>
+    <path class="d" d="M524 152 l6 -7 M528 155 l9 -5 M531 160 l8 -1"/>
+    <!-- cotton cord, three turns and a knot -->
+    <path class="n s-outline" stroke-width="8" stroke-linecap="round" d="M284 147 L292 266 M300 147 L308 266 M316 147 L324 266"/>
+    <path class="n s-cotton-white" stroke-width="5" stroke-linecap="round" d="M284 147 L292 266 M300 147 L308 266 M316 147 L324 266"/>
+    <path class="n s-outline" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" d="M304 204 C290 190 280 196 288 206 C294 212 300 208 304 204 C318 190 328 196 320 206 C314 212 308 208 304 204 M300 208 q-6 18 -16 26 M308 208 q6 18 18 24"/>
+    <path class="n s-cotton-white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M304 204 C290 190 280 196 288 206 C294 212 300 208 304 204 C318 190 328 196 320 206 C314 212 308 208 304 204 M300 208 q-6 18 -16 26 M308 208 q6 18 18 24"/>
+  </g>
+
+  <g id="state-open" data-state="bahi:open" transform="translate(600 0)">
+    <ellipse class="sh" cx="304" cy="330" rx="240" ry="8"/>
+    <!-- it opens upward on its long edge: cover leaf above, page leaf below -->
+    <path class="f-wool-red o" d="M72 76 C200 70 400 70 528 76 Q538 77 538 87 L540 312 Q540 322 530 323 C400 328 200 328 70 323 Q60 322 60 312 L62 87 Q62 77 72 76 Z"/>
+    <rect x="74" y="88" width="452" height="108" class="f-paper-cream ot"/>
+    <rect x="74" y="204" width="452" height="108" class="f-paper-cream ot"/>
+    <rect x="74" y="88" width="452" height="224" class="sh" style="opacity:.08"/>
+    <path class="sh" style="opacity:.12" d="M74 186 H526 V196 H74 Z M74 204 H526 V214 H74 Z"/>
+    <path class="stitch" d="M70 200 H530"/>
+    <!-- three red column rules on each leaf -->
+    <path class="n s-wool-red" stroke-width="1.500" opacity=".7" d="M146 88 V196 M388 88 V196 M456 88 V196 M146 204 V312 M388 204 V312 M456 204 V312"/>
+    <!-- मुड़िया: hooked running lines, no head-stroke, unreadable -->
+    <g class="script">
+      <use href="#lal-bahi-row" transform="translate(84 112)" stroke-dasharray="46 9 20 2000"/>
+      <use href="#lal-bahi-row" transform="translate(158 112)" stroke-dasharray="64 8 38 8 90 2000"/>
+      <use href="#lal-bahi-row" transform="translate(398 112)" stroke-dasharray="44 2000"/>
+      <use href="#lal-bahi-row" transform="translate(466 112)" stroke-dasharray="40 2000"/>
+      <use href="#lal-bahi-row" transform="translate(84 132)" stroke-dasharray="30 8 24 2000"/>
+      <use href="#lal-bahi-row" transform="translate(158 132)" stroke-dasharray="110 8 54 2000"/>
+      <use href="#lal-bahi-row" transform="translate(398 132)" stroke-dasharray="36 2000"/>
+      <use href="#lal-bahi-row" transform="translate(84 152)" stroke-dasharray="50 2000"/>
+      <use href="#lal-bahi-row" transform="translate(158 152)" stroke-dasharray="40 8 70 8 60 2000"/>
+      <use href="#lal-bahi-row" transform="translate(466 152)" stroke-dasharray="48 2000"/>
+      <use href="#lal-bahi-row" transform="translate(84 172)" stroke-dasharray="26 8 26 2000"/>
+      <use href="#lal-bahi-row" transform="translate(158 172)" stroke-dasharray="88 8 30 2000"/>
+      <use href="#lal-bahi-row" transform="translate(398 172)" stroke-dasharray="50 2000"/>
+      <use href="#lal-bahi-row" transform="translate(84 228)" stroke-dasharray="40 8 16 2000"/>
+      <use href="#lal-bahi-row" transform="translate(158 228)" stroke-dasharray="70 8 96 2000"/>
+      <use href="#lal-bahi-row" transform="translate(466 228)" stroke-dasharray="36 2000"/>
+      <use href="#lal-bahi-row" transform="translate(84 248)" stroke-dasharray="52 2000"/>
+      <use href="#lal-bahi-row" transform="translate(158 248)" stroke-dasharray="48 8 48 8 48 2000"/>
+      <use href="#lal-bahi-row" transform="translate(398 248)" stroke-dasharray="40 2000"/>
+      <use href="#lal-bahi-row" transform="translate(84 268)" stroke-dasharray="34 8 20 2000"/>
+      <use href="#lal-bahi-row" transform="translate(158 268)" stroke-dasharray="120 2000"/>
+      <use href="#lal-bahi-row" transform="translate(398 268)" stroke-dasharray="46 2000"/>
+      <use href="#lal-bahi-row" transform="translate(466 268)" stroke-dasharray="44 2000"/>
+    </g>
+    <path class="n s-ink-sepia" stroke-width="1.500" opacity=".7" d="M390 290 H524 M390 294 H524"/>
+    <path class="f-ink-sepia" opacity=".3" d="M96 286 C104 278 120 282 120 292 C120 300 106 304 98 298 C94 294 92 290 96 286 Z"/>
+    <!-- the cord, untied, lying across the lower corner -->
+    <path class="n s-outline" stroke-width="7" stroke-linecap="round" d="M470 322 C490 340 520 344 548 336 C566 330 572 344 562 356"/>
+    <path class="n s-cotton-white" stroke-width="4" stroke-linecap="round" d="M470 322 C490 340 520 344 548 336 C566 330 572 344 562 356"/>
+  </g>
+</svg>

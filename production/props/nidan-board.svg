@@ -1,0 +1,370 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3640 400" data-prop="nidan-board">
+  <title>निदान बोर्ड — the diagnosis board</title>
+  <desc>दादाजी's cork board from the bank: wooden frame, four brass corner pins, a faded notice strip at the top. Twenty fixed slots round one centre card; a card never changes slot. Red wool (लाल ऊन) runs from each card's pin to the centre card. The centre card is covered by a slip with a question mark until scene 2.8, then reads मिथ्यादर्शन. दादाजी's own card sits face down, without a thread, in the bottom screen-left slot until scene 6.8. Card titles are working titles; slots and counts are fixed. States left to right: ch1 (5 cards, 5 threads), ch2 (9, 9), ch3 (13, 13; unchanged through chapter 4), ch5 (14, 14), ch6 (17, 17, plus अर्जुन's two threads running outward to blame slips on the frame), ch7 (after 7.1: 19 face-up cards, 21 threads, all to the centre), final (after 7.5: 20 cards, 22 threads, every slot full). Anatomy of a single card: nidan-card.svg.</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.500;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.500;stroke-linecap:round;stroke-linejoin:round}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-wood{fill:#9A683C}
+    .f-cane-straw{fill:#CFAE74}
+    .f-paper-cream{fill:#FFF8E4}
+    .f-brass{fill:#C4932F}
+    .f-outline{fill:#4A2C20}
+    .f-haldi-yellow{fill:#EDB82F}
+    .f-day-sky{fill:#CDE6F0}
+    .f-kite-pink{fill:#EF6FA1}
+    .f-rust-shawl{fill:#B5532B}
+    .f-terracotta{fill:#C66B3F}
+    .f-steel{fill:#BFC8CE}
+    .f-soot-black{fill:#2A2321}
+    .f-phone-blue{fill:#4DA3F0}
+    .s-wool-red{stroke:#D2312E}
+    .s-haldi-yellow{stroke:#EDB82F}
+    .s-phone-blue{stroke:#4DA3F0}
+    .s-brass{stroke:#C4932F}
+    .s-wood{stroke:#9A683C}
+    .s-leaf-green{stroke:#6B9B3A}
+    .s-cotton-white{stroke:#FCFAF4}
+    .wool{fill:none;stroke:#D2312E;stroke-width:2.400;stroke-linecap:round}
+    .t{font-family:"Noto Sans Devanagari",sans-serif;font-weight:700}
+  </style>
+  <defs>
+    <!-- The board itself. Cell is 520 wide. Cork 34..486 by 34..366; board centre 260,207. -->
+    <g id="nidan-base">
+      <rect x="26" y="28" width="476" height="356" rx="6" class="sh"/>
+      <rect x="20" y="20" width="480" height="360" rx="6" class="f-wood o"/>
+      <path class="hl" style="opacity:.2" d="M24 24 H496 V28 H24 Z"/>
+      <path class="sh" style="opacity:.35" d="M20 366 L34 380 L26 380 Q20 380 20 374 Z"/>
+      <rect x="34" y="34" width="452" height="332" rx="2" class="f-cane-straw ot"/>
+      <!-- cork grain, old pin holes, the ghost of a notice that hung here for years -->
+      <path class="n" stroke="#4A2C20" stroke-width="2.200" stroke-linecap="round" opacity=".16" d="M60 70 h.1 M118 140 h.1 M96 208 h.1 M70 276 h.1 M130 340 h.1 M190 136 h.1 M206 268 h.1 M250 150 h.1 M262 346 h.1 M318 262 h.1 M330 140 h.1 M392 206 h.1 M404 340 h.1 M412 70 h.1 M466 140 h.1 M470 272 h.1 M186 348 h.1 M52 346 h.1 M476 206 h.1 M336 348 h.1"/>
+      <rect x="352" y="262" width="96" height="70" class="sh" style="opacity:.06"/>
+      <!-- faded bank notice strip -->
+      <path class="f-paper-cream ot" d="M150 40 H372 l-4 5 l5 4 l-5 5 l4 6 H150 Z"/>
+      <path class="sh" style="opacity:.08" d="M150 40 H372 l-4 5 l5 4 l-5 5 l4 6 H150 Z"/>
+      <text class="t f-outline" x="258" y="54" font-size="9" text-anchor="middle" opacity=".4">सूचना पट्ट · शाखा जौहरी बाज़ार</text>
+      <circle class="f-brass ot" cx="158" cy="50" r="2.500"/>
+      <!-- brass corner pins -->
+      <g class="f-brass ot">
+        <circle cx="46" cy="46" r="6"/><circle cx="474" cy="46" r="6"/><circle cx="46" cy="354" r="6"/><circle cx="474" cy="354" r="6"/>
+      </g>
+      <path class="hl" d="M43 43 a4 4 0 0 1 5 -1 a5 5 0 0 0 -5 1 Z M471 43 a4 4 0 0 1 5 -1 a5 5 0 0 0 -5 1 Z M43 351 a4 4 0 0 1 5 -1 a5 5 0 0 0 -5 1 Z M471 351 a4 4 0 0 1 5 -1 a5 5 0 0 0 -5 1 Z"/>
+    </g>
+    <!-- centre card, covered and open -->
+    <g id="nidan-centre-covered">
+      <rect x="210" y="174" width="100" height="66" rx="3" class="f-paper-cream o"/>
+      <g transform="rotate(-2 260 207)">
+        <rect x="216" y="180" width="88" height="54" rx="1" class="f-paper-cream ot"/>
+        <rect x="216" y="180" width="88" height="54" rx="1" class="sh" style="opacity:.07"/>
+        <text class="t f-outline" x="260" y="222" font-size="40" text-anchor="middle">?</text>
+        <path class="f-cane-straw ot" opacity=".8" d="M210 176 l14 -3 l2 8 l-14 3 Z M296 230 l14 -3 l2 8 l-14 3 Z"/>
+      </g>
+    </g>
+    <g id="nidan-centre-open">
+      <rect x="210" y="174" width="100" height="66" rx="3" class="f-paper-cream o"/>
+      <text class="t f-outline" x="260" y="208" font-size="14.500" text-anchor="middle">मिथ्यादर्शन</text>
+      <path class="n s-wool-red" stroke-width="1.500" stroke-linecap="round" d="M222 214 H298"/>
+      <text class="t f-outline" x="260" y="228" font-size="8.500" text-anchor="middle" opacity=".8">उलटी समझ</text>
+      <path class="f-cane-straw" opacity=".5" d="M210 176 l8 -2 l1 5 l-8 2 Z M301 232 l8 -2 l1 5 l-8 2 Z"/>
+    </g>
+    <!-- blame slips on the frame (chapter 6 only) -->
+    <g id="nidan-blame-slips">
+      <g transform="translate(486 140) rotate(4)"><rect x="-4" y="-9" width="34" height="16" class="f-paper-cream ot"/><text class="t f-outline" x="13" y="3" font-size="8" text-anchor="middle">मेहता</text></g>
+      <g transform="translate(34 138) rotate(-4)"><rect x="-30" y="-9" width="38" height="16" class="f-paper-cream ot"/><text class="t f-outline" x="-11" y="3" font-size="7.500" text-anchor="middle">सोसाइटी</text></g>
+    </g>
+    <!-- cards, each in its fixed slot -->
+    <g id="nidan-c01" transform="translate(152 174)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="n s-wool-red" stroke-width=".800" opacity=".5" d="M-29 -10 h58"/>
+      <text class="t f-outline" x="0" y="1" font-size="9" text-anchor="middle">नींद</text>
+      <path class="f-haldi-yellow ot" d="M2 3 A7.500 7.500 0 1 0 8 15 A5.500 5.500 0 1 1 2 3 Z"/>
+      <circle class="f-brass ot" cx="24" cy="6" r="3"/>
+    </g>
+    <g id="nidan-c02" transform="translate(224 108)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="n s-wool-red" stroke-width=".800" opacity=".5" d="M-29 -10 h58"/>
+      <text class="t f-outline" x="0" y="1" font-size="9" text-anchor="middle">मैंने किया!</text>
+      <circle class="f-haldi-yellow ot" cx="0" cy="11" r="4.500"/><path class="n s-haldi-yellow" stroke-width="1.800" stroke-linecap="round" d="M-9 11 h2 M7 11 h2 M0 3 v2 M-6 5 l1.500 1.500 M6 5 l-1.500 1.500"/>
+      <circle class="f-brass ot" cx="6" cy="17" r="3"/>
+    </g>
+    <g id="nidan-c03" transform="translate(368 174)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="n s-wool-red" stroke-width=".800" opacity=".5" d="M-29 -10 h58"/>
+      <text class="t f-outline" x="0" y="1" font-size="9" text-anchor="middle">बारिश</text>
+      <path class="f-day-sky ot" d="M-9 12 a3.500 3.500 0 0 1 2 -6 a5.500 5.500 0 0 1 10 -1 a4 4 0 0 1 4 7 Z"/><path class="n s-phone-blue" stroke-width="1.800" stroke-linecap="round" d="M-5 14 l-1 3 M0 14 l-1 3 M5 14 l-1 3"/>
+      <circle class="f-brass ot" cx="-24" cy="6" r="3"/>
+    </g>
+    <g id="nidan-c04" transform="translate(224 306)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="n s-wool-red" stroke-width=".800" opacity=".5" d="M-29 -10 h58"/>
+      <text class="t f-outline" x="0" y="1" font-size="9" text-anchor="middle">कमेंट</text>
+      <path class="f-kite-pink ot" d="M-9 5 h18 a2 2 0 0 1 2 2 v5 a2 2 0 0 1 -2 2 h-10 l-5 4 v-4 h-3 a2 2 0 0 1 -2 -2 v-5 a2 2 0 0 1 2 -2 Z"/>
+      <circle class="f-brass ot" cx="6" cy="-17" r="3"/>
+    </g>
+    <g id="nidan-c05" transform="translate(368 240)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="n s-wool-red" stroke-width=".800" opacity=".5" d="M-29 -10 h58"/>
+      <text class="t f-outline" x="0" y="1" font-size="9" text-anchor="middle">मेला</text>
+      <circle class="n s-wool-red" stroke-width="1.800" cx="0" cy="10" r="6"/><path class="n s-wool-red" stroke-width="1.300" stroke-linecap="round" d="M-6 10 h12 M0 4 v12 M-4 17.500 l4 -7.500 l4 7.500"/>
+      <circle class="f-brass ot" cx="-24" cy="-6" r="3"/>
+    </g>
+    <g id="nidan-c06" transform="translate(296 108)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="n s-wool-red" stroke-width=".800" opacity=".5" d="M-29 -10 h58"/>
+      <text class="t f-outline" x="0" y="1" font-size="9" text-anchor="middle">शॉल</text>
+      <path class="f-rust-shawl ot" d="M-10 6 h20 v8 h-20 Z"/><path class="n s-cotton-white" stroke-width="1" d="M-10 8 h20"/>
+      <circle class="f-brass ot" cx="-6" cy="17" r="3"/>
+    </g>
+    <g id="nidan-c07" transform="translate(152 240)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="n s-wool-red" stroke-width=".800" opacity=".5" d="M-29 -10 h58"/>
+      <text class="t f-outline" x="0" y="1" font-size="9" text-anchor="middle">गुस्सा</text>
+      <path class="n s-wool-red" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round" d="M-10 15 l4 -9 l4 7 l4 -9 l4 7 l4 -7"/>
+      <circle class="f-brass ot" cx="24" cy="-6" r="3"/>
+    </g>
+    <g id="nidan-c08" transform="translate(296 306)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="n s-wool-red" stroke-width=".800" opacity=".5" d="M-29 -10 h58"/>
+      <text class="t f-outline" x="0" y="1" font-size="9" text-anchor="middle">कमरा १४</text>
+      <circle class="n s-brass" stroke-width="2.200" cx="-7" cy="11" r="3.500"/><path class="n s-brass" stroke-width="2.200" stroke-linecap="round" d="M-3.500 11 h13 M5 11 v3 M8.500 11 v3"/>
+      <circle class="f-brass ot" cx="-6" cy="-17" r="3"/>
+    </g>
+    <g id="nidan-c09" transform="translate(80 174)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="n s-wool-red" stroke-width=".800" opacity=".5" d="M-29 -10 h58"/>
+      <text class="t f-outline" x="0" y="1" font-size="9" text-anchor="middle">तुलसी</text>
+      <path class="n s-wood" stroke-width="1.500" stroke-linecap="round" d="M0 11 v-7 M0 8 l-4 -3 M0 7 l4 -3"/><path class="f-terracotta ot" d="M-6 11 h12 l-2 7 h-8 Z"/>
+      <circle class="f-brass ot" cx="24" cy="17" r="3"/>
+    </g>
+    <g id="nidan-c10" transform="translate(80 108)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="n s-wool-red" stroke-width=".800" opacity=".5" d="M-29 -10 h58"/>
+      <text class="t f-outline" x="0" y="1" font-size="9" text-anchor="middle">गाड़ी</text>
+      <path class="f-steel ot" d="M-10 14 v-4 l4 -1 l3 -4 h8 l3 4 l2 1 v4 Z"/><circle class="f-soot-black" cx="-5" cy="14.500" r="2.300"/><circle class="f-soot-black" cx="5" cy="14.500" r="2.300"/>
+      <circle class="f-brass ot" cx="22" cy="17" r="3"/>
+    </g>
+    <g id="nidan-c11" transform="translate(440 108)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="n s-wool-red" stroke-width=".800" opacity=".5" d="M-29 -10 h58"/>
+      <text class="t f-outline" x="0" y="1" font-size="9" text-anchor="middle">फ़ंक्शन</text>
+      <circle class="n s-haldi-yellow" stroke-width="3" stroke-dasharray="0 3.800" stroke-linecap="round" cx="0" cy="11" r="6"/>
+      <circle class="f-brass ot" cx="-22" cy="17" r="3"/>
+    </g>
+    <g id="nidan-c12" transform="translate(440 240)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="n s-wool-red" stroke-width=".800" opacity=".5" d="M-29 -10 h58"/>
+      <text class="t f-outline" x="0" y="1" font-size="9" text-anchor="middle">नेटवर्क</text>
+      <path class="f-phone-blue ot" d="M-8 17 v-4 h4 v4 Z M-2 17 v-8 h4 v8 Z M4 17 v-12 h4 v12 Z"/>
+      <circle class="f-brass ot" cx="-24" cy="-17" r="3"/>
+    </g>
+    <g id="nidan-c13" transform="translate(440 174)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="n s-wool-red" stroke-width=".800" opacity=".5" d="M-29 -10 h58"/>
+      <text class="t f-outline" x="0" y="1" font-size="9" text-anchor="middle">लंदन</text>
+      <path class="f-day-sky ot" d="M-10 11 l20 -7 l-7 14 l-3 -6 Z"/>
+      <circle class="f-brass ot" cx="-24" cy="17" r="3"/>
+    </g>
+    <g id="nidan-c14" transform="translate(152 108)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="n s-wool-red" stroke-width=".800" opacity=".5" d="M-29 -10 h58"/>
+      <text class="t f-outline" x="0" y="1" font-size="9" text-anchor="middle">टारगेट</text>
+      <path class="n s-leaf-green" stroke-width="1.500" d="M-10 5 h20 v12 h-20 Z M-10 9 h20 M-10 13 h20 M-3 5 v12 M4 5 v12"/>
+      <circle class="f-brass ot" cx="12" cy="17" r="3"/>
+    </g>
+    <g id="nidan-c15" transform="translate(368 108)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="n s-wool-red" stroke-width=".800" opacity=".5" d="M-29 -10 h58"/>
+      <text class="t f-outline" x="0" y="1" font-size="9" text-anchor="middle">फ़ॉरवर्ड</text>
+      <path class="n s-phone-blue" stroke-width="2.200" stroke-linecap="round" stroke-linejoin="round" d="M-9 16 q0 -9 14 -9 M2 3 l5 4 l-5 4"/>
+      <circle class="f-brass ot" cx="-12" cy="17" r="3"/>
+    </g>
+    <g id="nidan-c16" transform="translate(80 240)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="n s-wool-red" stroke-width=".800" opacity=".5" d="M-29 -10 h58"/>
+      <text class="t f-outline" x="0" y="1" font-size="9" text-anchor="middle">व्रत</text>
+      <path class="n s-leaf-green" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round" d="M-9 7 l2 2 l4 -4 M-9 14 l2 2 l4 -4 M1 8 h8 M1 15 h8"/>
+      <circle class="f-brass ot" cx="24" cy="-17" r="3"/>
+    </g>
+    <g id="nidan-c17" transform="translate(152 306)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="n s-wool-red" stroke-width=".800" opacity=".5" d="M-29 -10 h58"/>
+      <text class="t f-outline" x="0" y="1" font-size="9" text-anchor="middle">शुद्ध आत्मा</text>
+      <ellipse class="f-steel ot" cx="0" cy="15" rx="9" ry="2.500"/><ellipse class="f-steel ot" cx="0" cy="11.500" rx="9" ry="2.500"/><ellipse class="f-steel ot" cx="0" cy="8" rx="9" ry="2.500"/>
+      <circle class="f-brass ot" cx="12" cy="-17" r="3"/>
+    </g>
+    <g id="nidan-c18" transform="translate(368 306)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="n s-wool-red" stroke-width=".800" opacity=".5" d="M-29 -10 h58"/>
+      <text class="t f-outline" x="0" y="0" font-size="7" text-anchor="middle">मैं कहाँ ग़लत</text>
+      <text class="t f-outline" x="0" y="10" font-size="7" text-anchor="middle">गिन रहा हूँ?</text>
+      <circle class="f-brass ot" cx="-12" cy="-17" r="3"/>
+    </g>
+    <g id="nidan-c19" transform="translate(440 306)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="n s-wool-red" stroke-width=".800" opacity=".5" d="M-29 -10 h58"/>
+      <text class="t f-outline" x="4" y="15" font-size="26" text-anchor="middle">१</text>
+      <circle class="f-brass ot" cx="-22" cy="-17" r="3"/>
+    </g>
+    <!-- दादाजी's own card: face down from 1.16, face up after 6.8 -->
+    <g id="nidan-c00-down" transform="translate(80 306) rotate(-3)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="sh" style="opacity:.08" d="M-20 -6 h36 v3 h-36 Z M-20 3 h28 v3 h-28 Z"/>
+      <path class="f-paper-cream ot" d="M29 12 L19 22 L29 22 Z"/>
+      <path class="sh" d="M29 12 L19 22 L21 14 Z"/>
+      <circle class="f-brass ot" cx="22" cy="-17" r="3"/>
+    </g>
+    <g id="nidan-c00-up" transform="translate(80 306)">
+      <rect x="-29" y="-22" width="58" height="44" rx="2" class="f-paper-cream ot"/>
+      <path class="n s-wool-red" stroke-width=".800" opacity=".5" d="M-29 -10 h58"/>
+      <text class="t f-outline" x="0" y="2" font-size="8" text-anchor="middle">ग्यारह</text>
+      <text class="t f-outline" x="0" y="13" font-size="8" text-anchor="middle">कहाँ गए?</text>
+      <circle class="f-brass ot" cx="22" cy="-17" r="3"/>
+    </g>
+    <!-- threads: pin of the card to the edge of the centre card, with a little sag -->
+    <path id="nidan-t01" class="wool" d="M176 180 Q193 190 210 190"/>
+    <path id="nidan-t02" class="wool" d="M230 125 Q238 154.5 246 174"/>
+    <path id="nidan-t03" class="wool" d="M344 180 Q327 190 310 190"/>
+    <path id="nidan-t04" class="wool" d="M230 289 Q238 269.5 246 240"/>
+    <path id="nidan-t05" class="wool" d="M344 234 Q327 234 310 224"/>
+    <path id="nidan-t06" class="wool" d="M290 125 Q282 154.5 274 174"/>
+    <path id="nidan-t07" class="wool" d="M176 234 Q193 234 210 224"/>
+    <path id="nidan-t08" class="wool" d="M290 289 Q282 269.5 274 240"/>
+    <path id="nidan-t09" class="wool" d="M104 191 Q140 212 210 203"/>
+    <path id="nidan-t10" class="wool" d="M102 125 Q158 155.5 214 176"/>
+    <path id="nidan-t11" class="wool" d="M418 125 Q362 155.5 306 176"/>
+    <path id="nidan-t12" class="wool" d="M416 223 Q380 204 310 211"/>
+    <path id="nidan-t13" class="wool" d="M416 191 Q380 212 310 203"/>
+    <path id="nidan-t14" class="wool" d="M164 125 Q197 154.5 230 174"/>
+    <path id="nidan-t15" class="wool" d="M356 125 Q323 154.5 290 174"/>
+    <path id="nidan-t16" class="wool" d="M104 223 Q140 204 210 211"/>
+    <path id="nidan-t17" class="wool" d="M164 289 Q197 269.5 230 240"/>
+    <path id="nidan-t18" class="wool" d="M356 289 Q323 269.5 290 240"/>
+    <path id="nidan-t19" class="wool" d="M418 289 Q362 268.5 306 238"/>
+    <path id="nidan-t00" class="wool" d="M102 289 Q158 268.5 214 238"/>
+    <path id="nidan-b1-out" class="wool" d="M464 157 Q478 152 487 142"/>
+    <path id="nidan-b2-out" class="wool" d="M128 157 Q84 136 34 140"/>
+    <path id="nidan-b1-in" class="wool" d="M416 191 Q380 221 310 207"/>
+    <path id="nidan-b2-in" class="wool" d="M176 180 Q194 180 210 186"/>
+    <!-- sets pinned in each chapter -->
+    <g id="nidan-cards-1"><use href="#nidan-c01"/><use href="#nidan-c02"/><use href="#nidan-c03"/><use href="#nidan-c04"/><use href="#nidan-c05"/></g>
+    <g id="nidan-threads-1"><use href="#nidan-t01"/><use href="#nidan-t02"/><use href="#nidan-t03"/><use href="#nidan-t04"/><use href="#nidan-t05"/></g>
+    <g id="nidan-cards-2"><use href="#nidan-c06"/><use href="#nidan-c07"/><use href="#nidan-c08"/><use href="#nidan-c09"/></g>
+    <g id="nidan-threads-2"><use href="#nidan-t06"/><use href="#nidan-t07"/><use href="#nidan-t08"/><use href="#nidan-t09"/></g>
+    <g id="nidan-cards-3"><use href="#nidan-c10"/><use href="#nidan-c11"/><use href="#nidan-c12"/><use href="#nidan-c13"/></g>
+    <g id="nidan-threads-3"><use href="#nidan-t10"/><use href="#nidan-t11"/><use href="#nidan-t12"/><use href="#nidan-t13"/></g>
+    <g id="nidan-cards-5"><use href="#nidan-c14"/></g>
+    <g id="nidan-threads-5"><use href="#nidan-t14"/></g>
+    <g id="nidan-cards-6"><use href="#nidan-c15"/><use href="#nidan-c16"/><use href="#nidan-c17"/></g>
+    <g id="nidan-threads-6"><use href="#nidan-t15"/><use href="#nidan-t16"/><use href="#nidan-t17"/></g>
+  </defs>
+
+  <g id="state-ch1" data-state="board:ch1">
+    <use href="#nidan-base"/>
+    <use href="#nidan-cards-1"/>
+    <use href="#nidan-c00-down"/>
+    <use href="#nidan-centre-covered"/>
+    <use href="#nidan-threads-1"/>
+  </g>
+
+  <g id="state-ch2" data-state="board:ch2" transform="translate(520 0)">
+    <use href="#nidan-base"/>
+    <use href="#nidan-cards-1"/>
+    <use href="#nidan-cards-2"/>
+    <use href="#nidan-c00-down"/>
+    <use href="#nidan-centre-open"/>
+    <use href="#nidan-threads-1"/>
+    <use href="#nidan-threads-2"/>
+  </g>
+
+  <g id="state-ch3" data-state="board:ch3" transform="translate(1040 0)">
+    <use href="#nidan-base"/>
+    <use href="#nidan-cards-1"/>
+    <use href="#nidan-cards-2"/>
+    <use href="#nidan-cards-3"/>
+    <use href="#nidan-c00-down"/>
+    <use href="#nidan-centre-open"/>
+    <use href="#nidan-threads-1"/>
+    <use href="#nidan-threads-2"/>
+    <use href="#nidan-threads-3"/>
+  </g>
+
+  <g id="state-ch5" data-state="board:ch5" transform="translate(1560 0)">
+    <use href="#nidan-base"/>
+    <use href="#nidan-cards-1"/>
+    <use href="#nidan-cards-2"/>
+    <use href="#nidan-cards-3"/>
+    <use href="#nidan-cards-5"/>
+    <use href="#nidan-c00-down"/>
+    <use href="#nidan-centre-open"/>
+    <use href="#nidan-threads-1"/>
+    <use href="#nidan-threads-2"/>
+    <use href="#nidan-threads-3"/>
+    <use href="#nidan-threads-5"/>
+  </g>
+
+  <g id="state-ch6" data-state="board:ch6" transform="translate(2080 0)">
+    <use href="#nidan-base"/>
+    <use href="#nidan-blame-slips"/>
+    <use href="#nidan-cards-1"/>
+    <use href="#nidan-cards-2"/>
+    <use href="#nidan-cards-3"/>
+    <use href="#nidan-cards-5"/>
+    <use href="#nidan-cards-6"/>
+    <use href="#nidan-c00-down"/>
+    <use href="#nidan-centre-open"/>
+    <use href="#nidan-threads-1"/>
+    <use href="#nidan-threads-2"/>
+    <use href="#nidan-threads-3"/>
+    <use href="#nidan-threads-5"/>
+    <use href="#nidan-threads-6"/>
+    <use href="#nidan-b1-out"/>
+    <use href="#nidan-b2-out"/>
+  </g>
+
+  <g id="state-ch7" data-state="board:ch7" transform="translate(2600 0)">
+    <use href="#nidan-base"/>
+    <use href="#nidan-cards-1"/>
+    <use href="#nidan-cards-2"/>
+    <use href="#nidan-cards-3"/>
+    <use href="#nidan-cards-5"/>
+    <use href="#nidan-cards-6"/>
+    <use href="#nidan-c00-up"/>
+    <use href="#nidan-c18"/>
+    <use href="#nidan-centre-open"/>
+    <use href="#nidan-threads-1"/>
+    <use href="#nidan-threads-2"/>
+    <use href="#nidan-threads-3"/>
+    <use href="#nidan-threads-5"/>
+    <use href="#nidan-threads-6"/>
+    <use href="#nidan-b1-in"/>
+    <use href="#nidan-b2-in"/>
+    <use href="#nidan-t00"/>
+    <use href="#nidan-t18"/>
+  </g>
+
+  <g id="state-final" data-state="board:final" transform="translate(3120 0)">
+    <use href="#nidan-base"/>
+    <use href="#nidan-cards-1"/>
+    <use href="#nidan-cards-2"/>
+    <use href="#nidan-cards-3"/>
+    <use href="#nidan-cards-5"/>
+    <use href="#nidan-cards-6"/>
+    <use href="#nidan-c00-up"/>
+    <use href="#nidan-c18"/>
+    <use href="#nidan-c19"/>
+    <use href="#nidan-centre-open"/>
+    <use href="#nidan-threads-1"/>
+    <use href="#nidan-threads-2"/>
+    <use href="#nidan-threads-3"/>
+    <use href="#nidan-threads-5"/>
+    <use href="#nidan-threads-6"/>
+    <use href="#nidan-b1-in"/>
+    <use href="#nidan-b2-in"/>
+    <use href="#nidan-t00"/>
+    <use href="#nidan-t18"/>
+    <use href="#nidan-t19"/>
+  </g>
+</svg>

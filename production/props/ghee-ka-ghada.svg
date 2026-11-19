@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" data-prop="ghee-ka-ghada">
+  <title>घी का घड़ा — the clay pot everyone calls the ghee pot</title>
+  <desc>Small round-bellied clay pot on the top kitchen shelf, its mouth covered with a white cloth tied down with cotton string. A ring of nine lime dots round the shoulder. Wear: the fourth and seventh dots have nearly rubbed away; a dark ghee stain runs down the belly from the neck on the screen-right side; the cloth has two red stripes and one ghee spot. States left to right: tied, open (cloth and string beside it, ghee showing, a steel spoon standing in it).</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-terracotta{fill:#C66B3F}
+    .f-cotton-white{fill:#FCFAF4}
+    .f-haldi-yellow{fill:#EDB82F}
+    .f-steel{fill:#BFC8CE}
+    .s-wool-red{stroke:#D2312E}
+    .s-outline{stroke:#4A2C20}
+    .s-cotton-white{stroke:#FCFAF4}
+  </style>
+  <defs>
+    <!-- The one drawing of the pot, mouth open. -->
+    <g id="ghada-pot">
+      <ellipse class="sh" cx="204" cy="326" rx="70" ry="7"/>
+      <path class="f-terracotta o" d="M128 232 C128 176 156 156 172 150 L172 132 H228 L228 150 C244 156 272 176 272 232 C272 292 242 322 200 322 C158 322 128 292 128 232 Z"/>
+      <path class="sh" d="M236 154 C252 162 272 180 272 232 C272 292 242 322 206 322 C236 300 248 268 248 232 C248 196 244 172 236 154 Z"/>
+      <path class="hl" style="opacity:.22" d="M142 214 C144 188 156 172 168 164 C158 180 152 198 152 222 C152 248 158 270 168 288 C150 270 140 244 142 214 Z"/>
+      <!-- lime dots round the shoulder: nine, the fourth and seventh almost gone -->
+      <g class="f-cotton-white ot">
+        <circle cx="140" cy="200" r="4"/><circle cx="154" cy="207" r="4"/><circle cx="169" cy="212" r="4"/>
+        <circle cx="200" cy="216" r="4"/><circle cx="216" cy="215" r="4"/>
+        <circle cx="246" cy="207" r="4"/><circle cx="260" cy="200" r="4"/>
+      </g>
+      <circle class="hl" style="opacity:.3" cx="184" cy="215" r="4"/>
+      <circle class="hl" style="opacity:.3" cx="231" cy="212" r="4"/>
+      <!-- ghee stain from the neck -->
+      <path class="sh" style="opacity:.3" d="M222 150 C232 168 236 196 232 232 C230 250 224 262 220 270 C222 250 222 232 220 214 C218 190 216 168 214 150 Z"/>
+      <!-- neck ring and rim -->
+      <path class="d" d="M172 150 C188 156 212 156 228 150"/>
+      <ellipse class="f-terracotta o" cx="200" cy="130" rx="34" ry="9"/>
+    </g>
+  </defs>
+
+  <g id="state-tied" data-state="ghada:tied">
+    <use href="#ghada-pot"/>
+    <!-- cloth: dome over the mouth, skirt below the string -->
+    <path class="f-cotton-white o" d="M160 142 C148 152 144 160 146 170 l11 -7 l10 9 l11 -9 l11 9 l11 -9 l11 9 l11 -9 l10 9 l11 -9 l11 7 C256 160 252 152 240 142 Z"/>
+    <path class="f-cotton-white o" d="M162 140 C160 112 240 112 238 140 C226 148 174 148 162 140 Z"/>
+    <path class="n s-wool-red" stroke-width="2.500" stroke-linecap="round" d="M172 124 C186 118 214 118 228 124 M166 132 C184 126 216 126 234 132"/>
+    <ellipse class="f-haldi-yellow" opacity=".5" cx="214" cy="137" rx="6" ry="3"/>
+    <path class="d" opacity=".4" d="M168 150 l-6 12 M190 152 l-2 12 M212 152 l2 12 M234 150 l6 12"/>
+    <!-- string and bow -->
+    <path class="n s-outline" stroke-width="6" stroke-linecap="round" d="M160 141 C176 149 224 149 240 141"/>
+    <path class="n s-cotton-white" stroke-width="3" stroke-linecap="round" d="M160 141 C176 149 224 149 240 141"/>
+    <path class="n s-outline" stroke-width="5.500" stroke-linecap="round" stroke-linejoin="round" d="M200 147 C190 138 182 142 188 150 C192 154 198 150 200 147 C210 138 218 142 212 150 C208 154 202 150 200 147 M198 150 q-4 12 -10 16 M202 150 q4 12 12 15"/>
+    <path class="n s-cotton-white" stroke-width="2.800" stroke-linecap="round" stroke-linejoin="round" d="M200 147 C190 138 182 142 188 150 C192 154 198 150 200 147 C210 138 218 142 212 150 C208 154 202 150 200 147 M198 150 q-4 12 -10 16 M202 150 q4 12 12 15"/>
+  </g>
+
+  <g id="state-open" data-state="ghada:open" transform="translate(400 0)">
+    <!-- spoon handle behind the near rim -->
+    <path class="f-steel o" d="M214 128 L246 62 Q252 56 256 62 Q258 68 254 74 L224 132 Z"/>
+    <path class="hl" d="M232 100 L248 68 L250 70 L236 102 Z"/>
+    <use href="#ghada-pot"/>
+    <ellipse class="f-haldi-yellow" cx="200" cy="131" rx="28" ry="6"/>
+    <ellipse class="hl" style="opacity:.45" cx="200" cy="131" rx="28" ry="6"/>
+    <path class="hl" style="opacity:.8" d="M182 129 C190 127 204 127 212 128 C204 129 192 130 184 131 Z"/>
+    <ellipse class="d" cx="200" cy="131" rx="28" ry="6"/>
+    <path class="f-steel o" d="M213 131 L217 122 L227 126 L223 133 Z"/>
+    <!-- the cloth, folded, with its string, on the shelf beside the pot -->
+    <ellipse class="sh" cx="322" cy="326" rx="44" ry="5"/>
+    <path class="f-cotton-white o" d="M284 300 L352 296 L360 318 L290 324 Z"/>
+    <path class="n s-wool-red" stroke-width="2.500" stroke-linecap="round" d="M292 306 L354 302 M294 313 L357 309"/>
+    <path class="n s-outline" stroke-width="5.500" stroke-linecap="round" d="M300 300 C310 284 334 284 342 298 C348 308 362 304 366 294"/>
+    <path class="n s-cotton-white" stroke-width="2.800" stroke-linecap="round" d="M300 300 C310 284 334 284 342 298 C348 308 362 304 366 294"/>
+  </g>
+</svg>

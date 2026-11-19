@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" data-prop="teen-dibbe">
+  <title>तीन डिब्बे — three steel tins</title>
+  <desc>Three steel kitchen tins with lids, in descending size from screen-left to screen-right, each with a paper label in मीरा's blue handwriting stuck on with tape. Wear: the big tin has a dent low on its screen-left side; the lid of the small tin sits crooked; the knob of the middle lid is a replacement in brass. States left to right: kitchen (what they hold before scene 2.3), sorted (from scene 2.3: new labels pasted over the old ones, whose top edges still show: अपना, आता-जाता, शरीर का).</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-steel{fill:#BFC8CE}
+    .f-brass{fill:#C4932F}
+    .f-paper-cream{fill:#FFF8E4}
+    .f-cane-straw{fill:#CFAE74}
+    .f-night-indigo{fill:#1F2348}
+    .t{font-family:"Noto Sans Devanagari",sans-serif;font-weight:700}
+  </style>
+  <defs>
+    <!-- The three tins without labels. Cell is 600 wide; shelf line y=330. -->
+    <g id="dibbe-tins">
+      <ellipse class="sh" cx="300" cy="334" rx="262" ry="8"/>
+      <!-- big -->
+      <path class="f-steel o" d="M62 150 V318 C62 334 218 334 218 318 V150 Z"/>
+      <path class="hl" d="M74 156 H90 V322 C84 321 78 319 74 317 Z"/>
+      <path class="hl" style="opacity:.25" d="M104 158 H124 V326 H104 Z"/>
+      <path class="sh" d="M190 156 H218 V318 C218 322 206 326 190 328 Z"/>
+      <path class="d" opacity=".5" d="M62 176 C62 190 218 190 218 176 M62 296 C62 310 218 310 218 296"/>
+      <ellipse class="sh" cx="92" cy="286" rx="11" ry="7"/>
+      <path class="hl" d="M83 290 q9 6 19 1 q-10 1 -19 -1 Z"/>
+      <path class="f-steel o" d="M56 132 C56 118 224 118 224 132 V150 C224 164 56 164 56 150 Z"/>
+      <ellipse class="f-steel ot" cx="140" cy="132" rx="84" ry="12"/>
+      <path class="hl" d="M68 130 C90 122 130 120 160 121 C130 124 96 126 74 133 Z"/>
+      <ellipse class="f-steel o" cx="140" cy="122" rx="12" ry="7"/>
+      <!-- middle -->
+      <path class="f-steel o" d="M252 190 V320 C252 334 380 334 380 320 V190 Z"/>
+      <path class="hl" d="M262 196 H276 V324 C270 323 266 322 262 320 Z"/>
+      <path class="hl" style="opacity:.25" d="M288 198 H304 V328 H288 Z"/>
+      <path class="sh" d="M356 196 H380 V320 C380 324 370 327 356 329 Z"/>
+      <path class="d" opacity=".5" d="M252 214 C252 226 380 226 380 214 M252 300 C252 312 380 312 380 300"/>
+      <path class="f-steel o" d="M246 174 C246 162 386 162 386 174 V190 C386 202 246 202 246 190 Z"/>
+      <ellipse class="f-steel ot" cx="316" cy="174" rx="70" ry="10"/>
+      <path class="hl" d="M256 172 C274 166 306 164 332 165 C306 168 280 170 262 175 Z"/>
+      <ellipse class="f-brass o" cx="316" cy="165" rx="10" ry="6"/>
+      <!-- small, lid crooked -->
+      <path class="f-steel o" d="M412 232 V322 C412 334 510 334 510 322 V232 Z"/>
+      <path class="hl" d="M420 238 H432 V326 C427 325 423 324 420 322 Z"/>
+      <path class="sh" d="M490 238 H510 V322 C510 326 502 329 490 330 Z"/>
+      <path class="d" opacity=".5" d="M412 254 C412 264 510 264 510 254"/>
+      <g transform="rotate(-4 461 222)">
+        <path class="f-steel o" d="M406 218 C406 208 516 208 516 218 V232 C516 242 406 242 406 232 Z"/>
+        <ellipse class="f-steel ot" cx="461" cy="218" rx="55" ry="8"/>
+        <path class="hl" d="M414 216 C428 211 452 210 472 211 C452 213 432 215 418 219 Z"/>
+        <ellipse class="f-steel o" cx="461" cy="210" rx="8" ry="5"/>
+      </g>
+    </g>
+    <g id="dibbe-tape">
+      <path class="f-cane-straw ot" opacity=".85" d="M-10 -4 h20 v8 h-20 Z"/>
+    </g>
+  </defs>
+
+  <g id="state-kitchen" data-state="dibbe:kitchen">
+    <use href="#dibbe-tins"/>
+    <rect x="96" y="212" width="88" height="52" rx="2" class="f-paper-cream ot"/>
+    <use href="#dibbe-tape" transform="translate(140 212)"/>
+    <text class="t f-night-indigo" x="140" y="246" font-size="22" text-anchor="middle">शक्कर</text>
+    <rect x="278" y="236" width="76" height="46" rx="2" class="f-paper-cream ot"/>
+    <use href="#dibbe-tape" transform="translate(316 236)"/>
+    <text class="t f-night-indigo" x="316" y="266" font-size="18" text-anchor="middle">मूँग दाल</text>
+    <rect x="432" y="270" width="58" height="38" rx="2" class="f-paper-cream ot"/>
+    <use href="#dibbe-tape" transform="translate(461 270)"/>
+    <text class="t f-night-indigo" x="461" y="295" font-size="17" text-anchor="middle">जीरा</text>
+  </g>
+
+  <g id="state-sorted" data-state="dibbe:sorted" transform="translate(600 0)">
+    <use href="#dibbe-tins"/>
+    <!-- old labels stay underneath; only their top edges show -->
+    <rect x="96" y="212" width="88" height="52" rx="2" class="f-paper-cream ot"/>
+    <rect x="278" y="236" width="76" height="46" rx="2" class="f-paper-cream ot"/>
+    <rect x="432" y="270" width="58" height="38" rx="2" class="f-paper-cream ot"/>
+    <g transform="rotate(-2 140 244)">
+      <rect x="92" y="220" width="96" height="52" rx="2" class="f-paper-cream ot"/>
+      <use href="#dibbe-tape" transform="translate(104 222) rotate(-30)"/>
+      <use href="#dibbe-tape" transform="translate(178 222) rotate(30)"/>
+      <text class="t f-night-indigo" x="140" y="255" font-size="24" text-anchor="middle">अपना</text>
+    </g>
+    <g transform="rotate(2 316 264)">
+      <rect x="272" y="243" width="88" height="46" rx="2" class="f-paper-cream ot"/>
+      <use href="#dibbe-tape" transform="translate(284 245) rotate(-30)"/>
+      <use href="#dibbe-tape" transform="translate(350 245) rotate(30)"/>
+      <text class="t f-night-indigo" x="316" y="273" font-size="17" text-anchor="middle">आता-जाता</text>
+    </g>
+    <g transform="rotate(-2 461 292)">
+      <rect x="424" y="276" width="74" height="38" rx="2" class="f-paper-cream ot"/>
+      <use href="#dibbe-tape" transform="translate(434 278) rotate(-30)"/>
+      <use href="#dibbe-tape" transform="translate(488 278) rotate(30)"/>
+      <text class="t f-night-indigo" x="461" y="301" font-size="15" text-anchor="middle">शरीर का</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" data-prop="phone-arjun">
+  <title>अर्जुन का फ़ोन — phone-arjun</title>
+  <desc>Phone in a navy case, 136 by 280. Wear: a crack across the top screen-left corner of the screen, from the top edge to the side edge, with three spurs; the case is scuffed at the same corner, which is the top screen-right corner when seen from the back. The screen light is one of the film's three permitted gradients. What the screen shows is added per scene as on-screen text; this file only gives the object. States left to right: on, off, back (face down, as it charges on the shoe rack in the epilogue).</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-night-indigo{fill:#1F2348}
+    .f-soot-black{fill:#2A2321}
+    .f-cotton-white{fill:#FCFAF4}
+    .f-steel{fill:#BFC8CE}
+    .s-cotton-white{stroke:#FCFAF4}
+    .s-outline{stroke:#4A2C20}
+    .c-cotton-white{stop-color:#FCFAF4}
+    .c-phone-blue{stop-color:#4DA3F0}
+  </style>
+  <defs>
+    <radialGradient id="phone-arjun-screen" cx=".5" cy=".42" r=".75">
+      <stop offset="0" class="c-cotton-white"/>
+      <stop offset=".6" class="c-phone-blue"/>
+      <stop offset="1" class="c-phone-blue"/>
+    </radialGradient>
+    <radialGradient id="phone-arjun-halo">
+      <stop offset="0" class="c-phone-blue" stop-opacity=".5"/>
+      <stop offset="1" class="c-phone-blue" stop-opacity="0"/>
+    </radialGradient>
+    <!-- case and body, seen from the front, screen dark -->
+    <g id="phone-arjun-front">
+      <path class="f-night-indigo ot" d="M268 132 h3 q2 0 2 2 v28 q0 2 -2 2 h-3 Z M268 176 h3 q2 0 2 2 v16 q0 2 -2 2 h-3 Z"/>
+      <rect x="132" y="60" width="136" height="280" rx="22" class="f-night-indigo o"/>
+      <rect x="138" y="66" width="124" height="268" rx="17" class="f-soot-black"/>
+      <path class="hl" style="opacity:.14" d="M136 90 Q136 64 160 64 H176 Q142 66 140 100 Z"/>
+    </g>
+    <!-- the crack: always drawn last, on top of whatever the screen shows -->
+    <g id="phone-arjun-crack">
+      <path class="d" stroke-width="2.600" opacity=".55" d="M179 76 L171 90 L175 96 L161 108 L163 116 L145 130 M171 90 L187 97 L196 111 M161 108 L173 123 M175 96 L183 91"/>
+      <path class="n s-cotton-white" stroke-width="1.500" stroke-linecap="round" stroke-linejoin="round" d="M178 76 L170 90 L174 96 L160 108 L162 116 L144 130 M170 90 L186 97 L195 111 M160 108 L172 123 M174 96 L182 91"/>
+      <path class="hl" style="opacity:.3" d="M170 90 L174 96 L160 108 Z M170 90 L186 97 L174 96 Z"/>
+    </g>
+  </defs>
+
+  <g id="state-on" data-state="phone-arjun:on">
+    <circle cx="200" cy="190" r="196" fill="url(#phone-arjun-halo)"/>
+    <use href="#phone-arjun-front"/>
+    <rect x="144" y="76" width="112" height="248" rx="10" fill="url(#phone-arjun-screen)"/>
+    <!-- neutral interface: no brand, no logo -->
+    <g class="f-cotton-white">
+      <rect x="156" y="108" width="54" height="8" rx="4" opacity=".9"/>
+      <rect x="154" y="134" width="92" height="64" rx="8" opacity=".85"/>
+      <rect x="154" y="208" width="92" height="30" rx="8" opacity=".6"/>
+      <rect x="154" y="248" width="92" height="30" rx="8" opacity=".6"/>
+      <rect x="176" y="304" width="48" height="5" rx="2.500" opacity=".9"/>
+    </g>
+    <g class="f-steel">
+      <rect x="164" y="148" width="40" height="6" rx="3"/>
+      <rect x="164" y="162" width="64" height="10" rx="3"/>
+      <rect x="164" y="180" width="30" height="6" rx="3"/>
+    </g>
+    <circle class="f-soot-black" cx="200" cy="88" r="3.500"/>
+    <use href="#phone-arjun-crack"/>
+  </g>
+
+  <g id="state-off" data-state="phone-arjun:off" transform="translate(400 0)">
+    <ellipse class="sh" cx="204" cy="348" rx="70" ry="6"/>
+    <use href="#phone-arjun-front"/>
+    <rect x="144" y="76" width="112" height="248" rx="10" class="f-soot-black"/>
+    <path class="hl" style="opacity:.07" d="M196 76 H246 Q256 76 256 86 V150 L170 324 H154 Q144 324 144 314 V250 Z"/>
+    <circle class="f-night-indigo" cx="200" cy="88" r="3.500"/>
+    <use href="#phone-arjun-crack"/>
+  </g>
+
+  <g id="state-back" data-state="phone-arjun:back" transform="translate(800 0)">
+    <ellipse class="sh" cx="204" cy="348" rx="70" ry="6"/>
+    <path class="f-night-indigo ot" d="M132 132 h-3 q-2 0 -2 2 v28 q0 2 2 2 h3 Z M132 176 h-3 q-2 0 -2 2 v16 q0 2 2 2 h3 Z"/>
+    <rect x="132" y="60" width="136" height="280" rx="22" class="f-night-indigo o"/>
+    <path class="hl" style="opacity:.1" d="M140 80 Q140 68 152 68 H200 L150 330 Q140 328 140 316 Z"/>
+    <!-- camera island -->
+    <rect x="146" y="74" width="54" height="54" rx="14" class="f-soot-black ot"/>
+    <circle class="f-steel ot" cx="162" cy="90" r="9"/>
+    <circle class="f-soot-black" cx="162" cy="90" r="5"/>
+    <circle class="f-steel ot" cx="184" cy="112" r="9"/>
+    <circle class="f-soot-black" cx="184" cy="112" r="5"/>
+    <circle class="f-cotton-white" cx="186" cy="88" r="3.500"/>
+    <!-- scuffed corner (the cracked corner, seen from behind) and the port cut-out -->
+    <path class="hl" style="opacity:.28" d="M246 60 Q268 60 268 82 V96 Q262 70 238 62 Z"/>
+    <path class="d" opacity=".5" d="M252 70 l8 10 M256 66 l8 12"/>
+    <rect x="186" y="332" width="28" height="8" rx="4" class="f-soot-black"/>
+  </g>
+</svg>

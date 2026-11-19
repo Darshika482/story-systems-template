@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" data-prop="sawal-copy">
+  <title>अनाया की सवाल-कॉपी — the question notebook</title>
+  <desc>Spiral-bound notebook with a pink cover. On the cover: a big crayon question mark, a name label reading अनाया, and in the lower corner a small pencil कोई. Wear: the lower outer corner is bent up, the label is stuck on crooked. Inside, every question gets one page and one crayon drawing. The open state is a sample opening: on the left a question drawn as her handwriting stroke with a kite; on the right the one question she writes out in full, और फिर?, with a lamp. States left to right: closed, open.</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-kite-pink{fill:#EF6FA1}
+    .f-paper-cream{fill:#FFF8E4}
+    .f-haldi-yellow{fill:#EDB82F}
+    .f-terracotta{fill:#C66B3F}
+    .f-lamp-gold{fill:#F5A623}
+    .f-cotton-white{fill:#FCFAF4}
+    .f-outline{fill:#4A2C20}
+    .f-ink-sepia{fill:#6E4322}
+    .s-haldi-yellow{stroke:#EDB82F}
+    .s-outline{stroke:#4A2C20}
+    .s-steel{stroke:#BFC8CE}
+    .s-day-sky{stroke:#CDE6F0}
+    .s-ink-sepia{stroke:#6E4322}
+    .pencil{fill:none;stroke:#4A2C20;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;opacity:.8}
+    .t{font-family:"Noto Sans Devanagari",sans-serif;font-weight:700}
+  </style>
+  <defs>
+    <!-- spiral: thirteen wire loops, 18 apart, starting at local 0,0 -->
+    <g id="sawal-spiral">
+      <path class="n s-outline" stroke-width="5.500" stroke-linecap="round" d="M-9 0 a9 5 0 0 1 18 0 M-9 18 a9 5 0 0 1 18 0 M-9 36 a9 5 0 0 1 18 0 M-9 54 a9 5 0 0 1 18 0 M-9 72 a9 5 0 0 1 18 0 M-9 90 a9 5 0 0 1 18 0 M-9 108 a9 5 0 0 1 18 0 M-9 126 a9 5 0 0 1 18 0 M-9 144 a9 5 0 0 1 18 0 M-9 162 a9 5 0 0 1 18 0 M-9 180 a9 5 0 0 1 18 0 M-9 198 a9 5 0 0 1 18 0 M-9 216 a9 5 0 0 1 18 0"/>
+      <path class="n s-steel" stroke-width="2.800" stroke-linecap="round" d="M-9 0 a9 5 0 0 1 18 0 M-9 18 a9 5 0 0 1 18 0 M-9 36 a9 5 0 0 1 18 0 M-9 54 a9 5 0 0 1 18 0 M-9 72 a9 5 0 0 1 18 0 M-9 90 a9 5 0 0 1 18 0 M-9 108 a9 5 0 0 1 18 0 M-9 126 a9 5 0 0 1 18 0 M-9 144 a9 5 0 0 1 18 0 M-9 162 a9 5 0 0 1 18 0 M-9 180 a9 5 0 0 1 18 0 M-9 198 a9 5 0 0 1 18 0 M-9 216 a9 5 0 0 1 18 0"/>
+    </g>
+  </defs>
+
+  <g id="state-closed" data-state="sawal-copy:closed">
+    <g transform="rotate(3 200 200)">
+      <path class="sh" d="M122 82 H300 V334 H122 Z"/>
+      <path class="f-paper-cream ot" d="M116 326 L120 334 L294 334 L296 324 L296 80 L290 76 Z"/>
+      <path class="f-kite-pink o" d="M118 72 H284 Q292 72 292 80 V300 L270 324 H118 Q110 324 110 316 V80 Q110 72 118 72 Z"/>
+      <path class="f-paper-cream ot" d="M292 300 L270 324 L272 304 Z"/>
+      <path class="hl" style="opacity:.18" d="M136 76 H284 Q288 76 288 80 V96 H136 Z"/>
+      <!-- crayon question mark -->
+      <path class="n s-outline" stroke-width="19" stroke-linecap="round" stroke-linejoin="round" d="M176 150 C176 118 236 116 238 152 C240 178 208 180 208 206"/>
+      <path class="n s-haldi-yellow" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" d="M176 150 C176 118 236 116 238 152 C240 178 208 180 208 206"/>
+      <circle class="f-haldi-yellow o" cx="208" cy="234" r="9"/>
+      <!-- name label, stuck on crooked -->
+      <g transform="rotate(-5 206 284)">
+        <rect x="160" y="266" width="92" height="36" rx="3" class="f-paper-cream ot"/>
+        <text class="t f-outline" x="206" y="291" font-size="20" text-anchor="middle">अनाया</text>
+      </g>
+      <!-- a pencil कोई in the corner -->
+      <g class="pencil">
+        <circle cx="140" cy="286" r="6"/>
+        <path d="M137 293 q-2 10 0 18 h6 q2 -8 0 -18 M137 296 l-6 8 M143 296 l6 8 M138 311 l-2 9 M142 311 l2 9"/>
+      </g>
+      <use href="#sawal-spiral" transform="translate(110 90)"/>
+    </g>
+  </g>
+
+  <g id="state-open" data-state="sawal-copy:open" transform="translate(400 0)">
+    <ellipse class="sh" cx="204" cy="326" rx="180" ry="8"/>
+    <rect x="18" y="80" width="176" height="238" rx="4" class="f-paper-cream o"/>
+    <rect x="206" y="80" width="176" height="238" rx="4" class="f-paper-cream o"/>
+    <path class="n s-day-sky" stroke-width="1.500" d="M30 118 H184 M30 144 H184 M30 280 H184 M30 302 H184 M218 118 H372 M218 144 H372 M218 280 H372 M218 302 H372"/>
+    <!-- left page: a question in her hand, and a kite -->
+    <path class="pencil" d="M36 112 q4 -8 8 0 t8 0 t8 0 t8 0 t8 0 t8 0 M96 112 q4 -8 8 0 t8 0 t8 0 M136 112 q4 -8 8 0 t8 0 t8 0 t8 0"/>
+    <text class="t f-outline" x="172" y="116" font-size="20" opacity=".8">?</text>
+    <path class="f-kite-pink ot" d="M106 166 L62 212 L106 262 Z"/>
+    <path class="f-haldi-yellow ot" d="M106 166 L150 212 L106 262 Z"/>
+    <circle class="f-haldi-yellow ot" cx="90" cy="208" r="8"/>
+    <circle class="f-kite-pink ot" cx="122" cy="208" r="8"/>
+    <path class="pencil" d="M106 262 C100 270 112 276 104 286"/>
+    <!-- right page: the one question she writes in full, and a lamp -->
+    <text class="t f-outline" x="294" y="136" font-size="27" text-anchor="middle" opacity=".85">और फिर?</text>
+    <path class="f-terracotta ot" d="M250 236 C252 256 272 266 294 266 C316 266 336 256 338 236 Z"/>
+    <path class="f-lamp-gold" d="M294 232 C284 228 282 214 288 204 C291 199 294 194 293 186 C300 194 305 202 305 212 C305 222 301 230 294 232 Z"/>
+    <path class="n s-haldi-yellow" stroke-width="3" stroke-linecap="round" d="M264 196 l-8 -8 M324 196 l8 -8 M294 176 v-10"/>
+    <use href="#sawal-spiral" transform="translate(200 92)"/>
+  </g>
+</svg>

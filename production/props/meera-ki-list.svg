@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" data-prop="meera-ki-list">
+  <title>मीरा की लिस्ट — the yellow list pad on the fridge</title>
+  <desc>Magnetic list pad, 140 by 250, pale yellow sheets under a turmeric-yellow header that reads लिस्ट, a black magnet strip along the top, a blue pen hanging from a white string at the top screen-right corner. Her handwriting is drawn as an even running stroke in blue ink: neat, level, never as invented words. Wear: the top screen-left corner of the magnet strip is chipped, a turmeric thumb-print sits on the right margin, the lowest sheet curls. States left to right: full (nine lines, four ticked: her everyday list), all-ticked (ten lines, ten ticks: the tenth day of दस लक्षण, scene 6.5), three-lines (epilogue: two lines, a third number with nothing after it).</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-haldi-yellow{fill:#EDB82F}
+    .f-cotton-white{fill:#FCFAF4}
+    .f-soot-black{fill:#2A2321}
+    .f-phone-blue{fill:#4DA3F0}
+    .f-outline{fill:#4A2C20}
+    .f-night-indigo{fill:#1F2348}
+    .s-outline{stroke:#4A2C20}
+    .s-cotton-white{stroke:#FCFAF4}
+    .pen{fill:none;stroke:#1F2348;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+    .t{font-family:"Noto Sans Devanagari",sans-serif;font-weight:700}
+  </style>
+  <defs>
+    <!-- The one drawing of the pad and its pen, without writing. -->
+    <g id="meera-list-pad">
+      <rect x="136" y="78" width="140" height="250" rx="3" class="sh"/>
+      <!-- lower sheets and the curl -->
+      <path class="f-haldi-yellow ot" d="M130 300 H270 V322 Q270 326 266 326 H134 Q130 326 130 322 Z"/>
+      <path class="hl" style="opacity:.35" d="M130 300 H270 V322 Q270 326 266 326 H134 Q130 326 130 322 Z"/>
+      <path class="d" opacity=".5" d="M132 319 H268 M132 322.500 H268"/>
+      <path class="f-haldi-yellow o" d="M130 70 H270 V318 H150 Q130 316 130 300 Z"/>
+      <path class="hl" style="opacity:.62" d="M131.500 106 H268.500 V316.500 H150 Q131.500 315 131.500 300 Z"/>
+      <path class="f-haldi-yellow ot" d="M130 300 Q132 316 150 318 Q140 310 142 300 Z"/>
+      <!-- header, magnet strip with its chipped corner -->
+      <path class="d" d="M130 106 H270"/>
+      <path class="f-soot-black" d="M139 70 H270 V80 H130 V78 Z"/>
+      <text class="t f-outline" x="200" y="100" font-size="17" text-anchor="middle">लिस्ट</text>
+      <!-- turmeric thumb-print -->
+      <ellipse class="f-haldi-yellow" opacity=".55" cx="256" cy="246" rx="7" ry="10" transform="rotate(-18 256 246)"/>
+      <!-- pen on its string -->
+      <path class="n s-outline" stroke-width="4.500" stroke-linecap="round" d="M266 76 C292 84 304 110 302 150"/>
+      <path class="n s-cotton-white" stroke-width="2.200" stroke-linecap="round" d="M266 76 C292 84 304 110 302 150"/>
+      <g transform="rotate(4 302 190)">
+        <rect x="297" y="150" width="10" height="64" rx="3" class="f-cotton-white ot"/>
+        <rect x="296" y="150" width="12" height="26" rx="3" class="f-phone-blue ot"/>
+        <path class="f-phone-blue ot" d="M298 214 h8 l-4 12 Z"/>
+        <path class="d" d="M308 156 v16"/>
+      </g>
+    </g>
+  </defs>
+
+  <g id="state-full" data-state="list:full">
+    <use href="#meera-list-pad"/>
+    <path class="d" opacity=".22" d="M140 132 H262"/>
+    <rect x="140" y="120" width="10" height="10" rx="1.500" class="n ot"/>
+    <path class="pen" d="M158 128 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+    <path class="pen" stroke-width="2.600" d="M141 124 l3 3.500 l6 -8"/>
+    <path class="d" opacity=".22" d="M140 153 H262"/>
+    <rect x="140" y="141" width="10" height="10" rx="1.500" class="n ot"/>
+    <path class="pen" d="M158 149 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+    <path class="pen" stroke-width="2.600" d="M141 145 l3 3.500 l6 -8"/>
+    <path class="d" opacity=".22" d="M140 174 H262"/>
+    <rect x="140" y="162" width="10" height="10" rx="1.500" class="n ot"/>
+    <path class="pen" d="M158 170 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+    <path class="d" opacity=".22" d="M140 195 H262"/>
+    <rect x="140" y="183" width="10" height="10" rx="1.500" class="n ot"/>
+    <path class="pen" d="M158 191 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+    <path class="pen" stroke-width="2.600" d="M141 187 l3 3.500 l6 -8"/>
+    <path class="d" opacity=".22" d="M140 216 H262"/>
+    <rect x="140" y="204" width="10" height="10" rx="1.500" class="n ot"/>
+    <path class="pen" d="M158 212 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+    <path class="pen" stroke-width="2.600" d="M141 208 l3 3.500 l6 -8"/>
+    <path class="d" opacity=".22" d="M140 237 H262"/>
+    <rect x="140" y="225" width="10" height="10" rx="1.500" class="n ot"/>
+    <path class="pen" d="M158 233 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+    <path class="d" opacity=".22" d="M140 258 H262"/>
+    <rect x="140" y="246" width="10" height="10" rx="1.500" class="n ot"/>
+    <path class="pen" d="M158 254 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+    <path class="d" opacity=".22" d="M140 279 H262"/>
+    <rect x="140" y="267" width="10" height="10" rx="1.500" class="n ot"/>
+    <path class="pen" d="M158 275 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+    <path class="d" opacity=".22" d="M140 300 H262"/>
+    <rect x="140" y="288" width="10" height="10" rx="1.500" class="n ot"/>
+    <path class="pen" d="M158 296 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+  </g>
+
+  <g id="state-all-ticked" data-state="list:all-ticked" transform="translate(400 0)">
+    <use href="#meera-list-pad"/>
+    <path class="d" opacity=".22" d="M140 130 H262"/>
+    <rect x="140" y="118" width="10" height="10" rx="1.500" class="n ot"/>
+    <path class="pen" d="M158 126 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+    <path class="pen" stroke-width="2.600" d="M141 122 l3 3.500 l6 -8"/>
+    <path class="d" opacity=".22" d="M140 149 H262"/>
+    <rect x="140" y="137" width="10" height="10" rx="1.500" class="n ot"/>
+    <path class="pen" d="M158 145 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+    <path class="pen" stroke-width="2.600" d="M141 141 l3 3.500 l6 -8"/>
+    <path class="d" opacity=".22" d="M140 168 H262"/>
+    <rect x="140" y="156" width="10" height="10" rx="1.500" class="n ot"/>
+    <path class="pen" d="M158 164 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+    <path class="pen" stroke-width="2.600" d="M141 160 l3 3.500 l6 -8"/>
+    <path class="d" opacity=".22" d="M140 187 H262"/>
+    <rect x="140" y="175" width="10" height="10" rx="1.500" class="n ot"/>
+    <path class="pen" d="M158 183 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+    <path class="pen" stroke-width="2.600" d="M141 179 l3 3.500 l6 -8"/>
+    <path class="d" opacity=".22" d="M140 206 H262"/>
+    <rect x="140" y="194" width="10" height="10" rx="1.500" class="n ot"/>
+    <path class="pen" d="M158 202 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+    <path class="pen" stroke-width="2.600" d="M141 198 l3 3.500 l6 -8"/>
+    <path class="d" opacity=".22" d="M140 225 H262"/>
+    <rect x="140" y="213" width="10" height="10" rx="1.500" class="n ot"/>
+    <path class="pen" d="M158 221 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+    <path class="pen" stroke-width="2.600" d="M141 217 l3 3.500 l6 -8"/>
+    <path class="d" opacity=".22" d="M140 244 H262"/>
+    <rect x="140" y="232" width="10" height="10" rx="1.500" class="n ot"/>
+    <path class="pen" d="M158 240 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+    <path class="pen" stroke-width="2.600" d="M141 236 l3 3.500 l6 -8"/>
+    <path class="d" opacity=".22" d="M140 263 H262"/>
+    <rect x="140" y="251" width="10" height="10" rx="1.500" class="n ot"/>
+    <path class="pen" d="M158 259 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+    <path class="pen" stroke-width="2.600" d="M141 255 l3 3.500 l6 -8"/>
+    <path class="d" opacity=".22" d="M140 282 H262"/>
+    <rect x="140" y="270" width="10" height="10" rx="1.500" class="n ot"/>
+    <path class="pen" d="M158 278 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+    <path class="pen" stroke-width="2.600" d="M141 274 l3 3.500 l6 -8"/>
+    <path class="d" opacity=".22" d="M140 301 H262"/>
+    <rect x="140" y="289" width="10" height="10" rx="1.500" class="n ot"/>
+    <path class="pen" d="M158 297 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+    <path class="pen" stroke-width="2.600" d="M141 293 l3 3.500 l6 -8"/>
+  </g>
+
+  <g id="state-three-lines" data-state="list:three-lines" transform="translate(800 0)">
+    <use href="#meera-list-pad"/>
+    <path class="d" opacity=".22" d="M140 138 H262 M140 168 H262 M140 198 H262"/>
+    <g class="t f-night-indigo" font-size="15">
+      <text x="140" y="134">१.</text>
+      <text x="140" y="164">२.</text>
+      <text x="140" y="194">३.</text>
+    </g>
+    <path class="pen" d="M160 130 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+    <path class="pen" d="M160 160 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
+    <path class="pen" stroke-width="2.600" d="M248 128 l3 3.500 l6 -8"/>
+  </g>
+</svg>

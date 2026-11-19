@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" data-prop="whiteboard">
+  <title>व्हाइटबोर्ड — अर्जुन's handheld whiteboard</title>
+  <desc>Small whiteboard, 260 by 180, thin steel frame with black plastic corner caps, a black marker tied to it by a white string. He carries it for the three days without a voice in chapter 4. Wear: the lower screen-left corner cap is missing; the surface is ghosted grey where earlier words were wiped with a palm. States left to right: blank, bona (scene 4.4: बोना = ?).</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-steel{fill:#BFC8CE}
+    .f-cotton-white{fill:#FCFAF4}
+    .f-soot-black{fill:#2A2321}
+    .s-outline{stroke:#4A2C20}
+    .s-cotton-white{stroke:#FCFAF4}
+    .t{font-family:"Noto Sans Devanagari",sans-serif;font-weight:700}
+  </style>
+  <defs>
+    <!-- The one drawing of the board and its marker, without writing. -->
+    <g id="whiteboard-body">
+      <rect x="76" y="118" width="260" height="180" rx="10" class="sh"/>
+      <rect x="70" y="110" width="260" height="180" rx="10" class="f-steel o"/>
+      <rect x="80" y="120" width="240" height="160" rx="4" class="f-cotton-white ot"/>
+      <!-- ghosting from the palm -->
+      <path class="sh" style="opacity:.06" d="M100 150 C140 136 220 140 250 156 C280 172 270 210 230 220 C180 232 120 222 104 196 C94 180 92 160 100 150 Z"/>
+      <path class="sh" style="opacity:.05" d="M190 226 C220 216 280 224 296 244 C300 262 260 270 220 266 C196 262 180 240 190 226 Z"/>
+      <path class="hl" d="M90 126 H150 L120 274 H86 Z" style="opacity:.6"/>
+      <!-- corner caps: three present, the lower screen-left one missing -->
+      <path class="f-soot-black" d="M70 128 V120 Q70 110 80 110 H88 Q88 128 70 128 Z M330 128 V120 Q330 110 320 110 H312 Q312 128 330 128 Z M330 272 V280 Q330 290 320 290 H312 Q312 272 330 272 Z"/>
+      <path class="d" d="M74 284 l6 2"/>
+      <!-- marker on its string -->
+      <path class="n s-outline" stroke-width="4.500" stroke-linecap="round" d="M324 114 C352 120 362 150 356 184 C352 210 340 226 348 250"/>
+      <path class="n s-cotton-white" stroke-width="2.200" stroke-linecap="round" d="M324 114 C352 120 362 150 356 184 C352 210 340 226 348 250"/>
+      <g transform="rotate(12 350 286)">
+        <rect x="343" y="250" width="14" height="66" rx="4" class="f-soot-black ot"/>
+        <rect x="343" y="270" width="14" height="22" class="f-cotton-white ot"/>
+        <path class="f-soot-black ot" d="M346 316 h8 l-2 10 h-4 Z"/>
+      </g>
+    </g>
+  </defs>
+
+  <g id="state-blank" data-state="whiteboard:blank">
+    <use href="#whiteboard-body"/>
+  </g>
+
+  <g id="state-bona" data-state="whiteboard:bona" transform="translate(400 0)">
+    <use href="#whiteboard-body"/>
+    <text class="t f-soot-black" x="200" y="220" font-size="52" text-anchor="middle" transform="rotate(-3 200 200)">बोना = ?</text>
+  </g>
+</svg>

@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" data-prop="haath">
+  <title>हाथ — the writing hand, Jaipur, 1760s</title>
+  <desc>Pandit Todarmalji is only ever this: one right hand, the edge of a white अंगरखा sleeve, a reed pen, an inkpot, a sheet of handmade paper. No face, no body, no shadow of a head, ever. The hand enters from the screen-right bottom corner and is cut by the frame at the forearm. Marks: the reed has one node ring and an ink-dark cut nib; the inkpot has one run of dried ink down its screen-left side; the sleeve has a single line of piping at the cuff. Body text on the sheet is drawn as ink strokes, never as invented words. States left to right: writing, dip, pen-down (scene 7.4: the hand has gone; the last word on the sheet is the unfinished बहु).</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-parchment{fill:#EAD8B1}
+    .f-cotton-white{fill:#FCFAF4}
+    .f-skin-tan{fill:#C98F63}
+    .f-brass{fill:#C4932F}
+    .f-soot-black{fill:#2A2321}
+    .f-ink-sepia{fill:#6E4322}
+    .f-cane-straw{fill:#CFAE74}
+    .s-outline{stroke:#4A2C20}
+    .s-cane-straw{stroke:#CFAE74}
+    .txt{fill:none;stroke:#6E4322;stroke-width:2.6;stroke-linecap:round;stroke-dasharray:18 6 30 6 12 6 24 6;opacity:.8}
+    .t{font-family:"Noto Sans Devanagari",sans-serif;font-weight:700}
+  </style>
+  <defs>
+    <clipPath id="haath-cell"><rect x="0" y="0" width="400" height="400"/></clipPath>
+    <!-- the sheet, lying a little askew, and the inkpot above its top screen-right corner -->
+    <g id="haath-sheet">
+      <path class="sh" d="M30 126 L300 108 L316 342 L46 360 Z"/>
+      <path class="f-parchment ot" d="M24 118 C110 110 210 104 294 100 C298 180 304 260 310 334 C220 342 130 348 40 352 C34 274 28 196 24 118 Z"/>
+      <path class="d" opacity=".3" d="M290 104 l-6 6 M36 346 l8 -5"/>
+    </g>
+    <g id="haath-inkpot">
+      <ellipse class="sh" cx="352" cy="110" rx="34" ry="5"/>
+      <path class="f-brass o" d="M330 66 C318 72 314 86 318 96 C322 106 334 110 350 110 C366 110 378 106 382 96 C386 86 382 72 370 66 L368 56 H332 Z"/>
+      <path class="sh" d="M364 62 C378 70 384 86 380 98 C376 106 366 110 354 110 C366 100 370 80 364 62 Z"/>
+      <path class="hl" style="opacity:.35" d="M324 82 C326 74 330 70 336 68 C330 76 328 86 330 96 C326 92 324 88 324 82 Z"/>
+      <ellipse class="f-brass o" cx="350" cy="56" rx="19" ry="6"/>
+      <ellipse class="f-soot-black" cx="350" cy="56" rx="13" ry="3.500"/>
+      <path class="f-ink-sepia" d="M334 60 C332 72 334 84 330 94 C328 86 328 72 330 60 Z"/>
+    </g>
+    <!-- the reed pen alone, nib at local 0,0, lying along the direction up and to the right -->
+    <g id="haath-kalam">
+      <path class="n s-outline" stroke-width="11" stroke-linecap="butt" d="M10 -8 L134 -100"/>
+      <path class="n s-cane-straw" stroke-width="7.500" stroke-linecap="butt" d="M10 -8 L133 -99"/>
+      <path class="d" d="M96 -78 l7 9"/>
+      <path class="f-ink-sepia ot" d="M0 0 L8 -13 L17 -6 Z"/>
+      <ellipse class="f-cane-straw ot" cx="134" cy="-100" rx="5.500" ry="3" transform="rotate(53 134 -100)"/>
+    </g>
+    <!-- hand, pen and sleeve as one unit; the nib touches the sheet at 196,274 -->
+    <g id="haath-hand">
+      <!-- sleeve: white angarkha cuff with one line of piping -->
+      <path class="f-cotton-white o" d="M306 262 C330 282 352 310 366 344 L560 660 L360 660 L286 330 C280 306 286 280 306 262 Z"/>
+      <path class="d" d="M300 270 C322 290 342 316 356 348 M330 330 C344 362 362 400 384 440 M312 344 C322 380 336 420 356 460"/>
+      <use href="#haath-kalam" transform="translate(196 274)"/>
+      <!-- back of the hand and three curled fingers -->
+      <path class="f-skin-tan o" d="M312 266 C296 246 276 232 256 228 C240 226 228 234 226 246 C218 250 216 262 224 268 C218 276 222 288 232 290 C230 300 240 308 250 304 C256 314 270 316 280 308 C296 318 318 314 334 300 Z"/>
+      <path class="d" d="M226 246 q10 -2 16 6 M224 268 q10 -4 18 4 M232 290 q10 -6 20 0 M250 304 q8 -8 18 -4"/>
+      <!-- thumb, in front of the pen -->
+      <path class="f-skin-tan o" d="M292 252 C276 240 256 238 242 246 C232 252 234 264 244 264 C258 264 272 268 284 276 Z"/>
+      <path class="d" d="M240 250 q-4 6 2 10"/>
+    </g>
+  </defs>
+
+  <g id="state-writing" data-state="haath:writing" clip-path="url(#haath-cell)">
+    <use href="#haath-sheet"/>
+    <g transform="rotate(-3.500 160 230)">
+      <path class="txt" d="M48 150 H280 M48 180 H282 M48 210 H284 M48 240 H286 M48 270 H186"/>
+    </g>
+    <use href="#haath-inkpot" transform="translate(-10 0)"/>
+    <use href="#haath-hand"/>
+  </g>
+
+  <g id="state-dip" data-state="haath:dip" transform="translate(400 0)" clip-path="url(#haath-cell)">
+    <use href="#haath-sheet"/>
+    <g transform="rotate(-3.500 160 230)">
+      <path class="txt" d="M48 150 H280 M48 180 H282 M48 210 H284 M48 240 H286 M48 270 H186"/>
+    </g>
+    <use href="#haath-inkpot" transform="translate(-106 30)"/>
+    <!-- the nib stands in the mouth of the pot -->
+    <use href="#haath-hand" transform="translate(48 -190)"/>
+  </g>
+
+  <g id="state-pen-down" data-state="haath:pen-down" transform="translate(800 0)" clip-path="url(#haath-cell)">
+    <use href="#haath-sheet"/>
+    <g transform="rotate(-3.500 160 230)">
+      <path class="txt" d="M48 150 H280 M48 180 H282 M48 210 H284 M48 240 H286 M48 270 H150"/>
+      <text class="t f-ink-sepia" x="160" y="278" font-size="24">बहु</text>
+    </g>
+    <use href="#haath-inkpot" transform="translate(-10 0)"/>
+    <!-- the pen, laid down on the sheet -->
+    <ellipse class="sh" cx="184" cy="318" rx="74" ry="4" transform="rotate(-14 184 318)"/>
+    <use href="#haath-kalam" transform="translate(112 330) rotate(22)"/>
+  </g>
+</svg>
