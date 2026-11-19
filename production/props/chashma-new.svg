@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" data-prop="chashma-new">
+  <title>दादाजी का नया चश्मा — chashma-new</title>
+  <desc>After the surgery (from scene 7.3). Thin gold wire rim, small oval lenses, clear nose pads, dark temple tips. No mend, no chip. States left to right: on-nose, folded. This pair is never on his head. Dashed lines are placement guides, not part of the prop.</desc>
+  <style>
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .g{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-dasharray:5 5;opacity:.5}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .f-day-sky{fill:#CDE6F0}
+    .f-cotton-white{fill:#FCFAF4}
+    .s-cotton-white{stroke:#FCFAF4}
+    .wire-o{fill:none;stroke:#4A2C20;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
+    .wire{fill:none;stroke:#C4932F;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round}
+    .tip{fill:none;stroke:#2A2321;stroke-width:8;stroke-linecap:round}
+  </style>
+  <defs>
+    <!-- The one drawing. Lens centres 146 and 254, lens 80 x 72, wire 3.5 thick. -->
+    <g id="chashma-new-front">
+      <ellipse cx="146" cy="200" rx="40" ry="36" class="f-day-sky" opacity=".4"/>
+      <ellipse cx="254" cy="200" rx="40" ry="36" class="f-day-sky" opacity=".4"/>
+      <path d="M120 188 A30 26 0 0 1 138 174 M228 188 A30 26 0 0 1 246 174" class="n s-cotton-white" stroke-width="5" stroke-linecap="round"/>
+      <!-- nose pads on their little arms -->
+      <path class="wire-o" stroke-width="4" d="M184 206 q4 2 3 8 M216 206 q-4 2 -3 8"/>
+      <ellipse cx="186" cy="219" rx="4.5" ry="8" transform="rotate(14 186 219)" class="f-cotton-white ot"/>
+      <ellipse cx="214" cy="219" rx="4.5" ry="8" transform="rotate(-14 214 219)" class="f-cotton-white ot"/>
+      <!-- wire: rims, bridge, end pieces; drawn twice so the gold carries an outline -->
+      <g class="wire-o">
+        <ellipse cx="146" cy="200" rx="40" ry="36"/>
+        <ellipse cx="254" cy="200" rx="40" ry="36"/>
+        <path d="M184 190 Q200 176 216 190"/>
+        <path d="M107 190 H98 M293 190 H302"/>
+      </g>
+      <g class="wire">
+        <ellipse cx="146" cy="200" rx="40" ry="36"/>
+        <ellipse cx="254" cy="200" rx="40" ry="36"/>
+        <path d="M184 190 Q200 176 216 190"/>
+        <path d="M107 190 H98 M293 190 H302"/>
+      </g>
+    </g>
+  </defs>
+
+  <g id="state-on-nose" data-state="chashma-naya:on-nose">
+    <path class="g" d="M52 176 C34 176 34 236 54 242 M348 176 C366 176 366 236 346 242"/>
+    <path class="g" d="M200 214 C196 250 186 274 184 286 q14 12 32 2"/>
+    <path class="g" d="M112 142 q32 -14 64 0 M224 142 q32 -14 64 0"/>
+    <path class="wire-o" d="M98 190 H52 M302 190 H348"/>
+    <path class="wire" d="M98 190 H52 M302 190 H348"/>
+    <path class="tip" d="M62 190 H50 M338 190 H350"/>
+    <use href="#chashma-new-front"/>
+  </g>
+
+  <g id="state-folded" data-state="chashma-naya:folded" transform="translate(400 0)">
+    <ellipse class="sh" cx="200" cy="252" rx="112" ry="8"/>
+    <!-- temples folded behind the front, one above the other -->
+    <path class="wire-o" d="M100 204 H250 M300 192 H150"/>
+    <path class="wire" d="M100 204 H250 M300 192 H150"/>
+    <path class="tip" d="M226 204 H252 M174 192 H148"/>
+    <use href="#chashma-new-front"/>
+  </g>
+</svg>

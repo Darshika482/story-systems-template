@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 400" data-prop="chashma-old">
+  <title>दादाजी का चश्मा (पुराना) — chashma-old</title>
+  <desc>Thick round lenses, heavy black acetate frame. Wearer's-left temple mended with white thread, eight turns. Chip on the wearer's-right rim at 8 o'clock. States left to right: on-head, on-nose, folded-on-granth, on-dadi. Dashed lines are placement guides, not part of the prop.</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .g{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-dasharray:5 5;opacity:.5}
+    .gd{fill:#4A2C20;opacity:.5}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .f-day-sky{fill:#CDE6F0}
+    .f-steel{fill:#BFC8CE}
+    .f-cotton-white{fill:#FCFAF4}
+    .f-haldi-yellow{fill:#EDB82F}
+    .f-wool-red{fill:#D2312E}
+    .s-cotton-white{stroke:#FCFAF4}
+    .s-soot-black{stroke:#2A2321}
+    .frame{fill:none;stroke:#2A2321;stroke-width:13}
+    .arm{fill:none;stroke:#2A2321;stroke-width:10;stroke-linecap:round}
+  </style>
+  <defs>
+    <!-- The one drawing. Every state below re-uses it. Lens centres 140 and 260, lens radius 46, frame 13 thick. -->
+    <g id="chashma-old-front">
+      <circle cx="140" cy="200" r="46" class="f-day-sky" opacity=".5"/>
+      <circle cx="260" cy="200" r="46" class="f-day-sky" opacity=".5"/>
+      <!-- power rings: the lenses are thick -->
+      <circle cx="140" cy="200" r="31" class="n s-cotton-white" stroke-width="3" opacity=".75"/>
+      <circle cx="260" cy="200" r="31" class="n s-cotton-white" stroke-width="3" opacity=".75"/>
+      <path d="M113 186 A31 31 0 0 1 131 171 M233 186 A31 31 0 0 1 251 171" class="n s-cotton-white" stroke-width="6" stroke-linecap="round"/>
+      <!-- frame, saddle bridge, end pieces -->
+      <circle cx="140" cy="200" r="46" class="frame"/>
+      <circle cx="260" cy="200" r="46" class="frame"/>
+      <path d="M185 189 Q200 175 215 189" class="n s-soot-black" stroke-width="11" stroke-linecap="round"/>
+      <path d="M92 190 H86 M308 190 H314" class="n s-soot-black" stroke-width="13" stroke-linecap="round"/>
+      <path d="M104 172 A46 46 0 0 1 150 155 M224 172 A46 46 0 0 1 270 155" class="n s-cotton-white" stroke-width="2.5" stroke-linecap="round" opacity=".3"/>
+      <!-- chip: wearer's-right rim (screen-left lens), 8 o'clock -->
+      <path d="M99.8 233.7 L90.7 218 L101.9 222 Z" class="f-steel"/>
+    </g>
+    <!-- The mend: white thread, eight turns, starting 6 units from the hinge. Local x runs along the temple. -->
+    <g id="chashma-old-mend">
+      <rect x="6" y="-7" width="32" height="14" rx="3.5" class="f-cotton-white ot"/>
+      <path class="d" d="M11 -6.5 l-2 13 M15 -6.5 l-2 13 M19 -6.5 l-2 13 M23 -6.5 l-2 13 M27 -6.5 l-2 13 M31 -6.5 l-2 13 M35 -6.5 l-2 13"/>
+      <path class="n s-cotton-white" stroke-width="2.5" stroke-linecap="round" d="M37 5 q6 2 8 9"/>
+    </g>
+  </defs>
+
+  <g id="state-on-head" data-state="chashma:on-head">
+    <path class="g" d="M52 236 C40 110 120 44 200 44 C280 44 360 110 348 236"/>
+    <path class="g" d="M70 178 C120 146 280 146 330 178"/>
+    <path class="g" d="M52 236 C34 236 34 290 54 296 M348 236 C366 236 366 290 346 296"/>
+    <path class="g" d="M112 252 q28 -12 56 0 M232 252 q28 -12 56 0 M200 262 C196 292 188 312 186 322 q12 10 28 2"/>
+    <circle class="gd" cx="140" cy="270" r="4"/>
+    <circle class="gd" cx="260" cy="270" r="4"/>
+    <path class="arm" d="M86 113 L50 236"/>
+    <path class="arm" d="M314 113 L350 236"/>
+    <use href="#chashma-old-mend" transform="translate(314 113) rotate(73.7)"/>
+    <use href="#chashma-old-front" transform="translate(200 118) scale(1 .56) translate(-200 -200)"/>
+  </g>
+
+  <g id="state-on-nose" data-state="chashma:on-nose" transform="translate(400 0)">
+    <path class="g" d="M44 176 C26 176 26 236 46 242 M356 176 C374 176 374 236 354 242"/>
+    <path class="g" d="M200 214 C196 250 186 274 184 286 q14 12 32 2"/>
+    <path class="g" d="M108 132 q32 -14 64 0 M228 132 q32 -14 64 0"/>
+    <path class="arm" d="M88 190 H42"/>
+    <path class="arm" d="M312 190 H358"/>
+    <use href="#chashma-old-mend" transform="translate(312 190)"/>
+    <use href="#chashma-old-front"/>
+  </g>
+
+  <g id="state-folded-on-granth" data-state="chashma:folded-on-granth" transform="translate(800 0)">
+    <!-- top of the wrapped granth (see granth.svg, state-wrapped) -->
+    <path class="f-haldi-yellow o" d="M38 196 C38 180 50 172 66 172 L334 172 C350 172 362 180 362 196 L366 316 C366 332 354 340 338 340 L62 340 C46 340 34 332 34 316 Z"/>
+    <path class="d" d="M38 190 L176 262 M362 190 L224 262 M40 328 L170 276 M360 328 L230 276"/>
+    <path class="f-haldi-yellow o" d="M170 258 C182 246 218 246 230 258 C240 270 232 286 200 288 C168 286 160 270 170 258 Z"/>
+    <path class="sh" d="M34 316 C34 332 46 340 62 340 L338 340 C354 340 366 332 366 316 L365 300 L35 300 Z"/>
+    <path class="f-wool-red o" stroke-width="2" d="M300 340 l2 26 l7 -7 l7 7 l-2 -26 Z"/>
+    <g transform="translate(200 214) rotate(-5) scale(1 .8) translate(-200 -200)">
+      <ellipse class="sh" cx="200" cy="258" rx="118" ry="8"/>
+      <!-- temples folded behind the front: plain one lower, mended one on top -->
+      <path class="arm" d="M90 208 H262"/>
+      <path class="arm" d="M310 192 H138"/>
+      <use href="#chashma-old-mend" transform="translate(310 192) rotate(180)"/>
+      <use href="#chashma-old-front"/>
+    </g>
+  </g>
+
+  <g id="state-on-dadi" data-state="chashma:on-dadi" transform="translate(1200 0)">
+    <!-- her face is narrower than the frame: the temples overshoot her ears, and her eyes look over the rims -->
+    <path class="g" d="M78 150 C62 150 62 208 80 214 M322 150 C338 150 338 208 320 214"/>
+    <path class="g" d="M112 150 q28 -12 56 0 M232 150 q28 -12 56 0"/>
+    <circle class="gd" cx="142" cy="170" r="4"/>
+    <circle class="gd" cx="258" cy="170" r="4"/>
+    <path class="g" d="M200 186 C197 222 190 246 188 258 q12 10 28 2"/>
+    <g transform="translate(0 30) rotate(-4 200 200)">
+      <path class="arm" d="M88 190 L44 176"/>
+      <path class="arm" d="M312 190 L356 176"/>
+      <use href="#chashma-old-mend" transform="translate(312 190) rotate(-17.7)"/>
+      <use href="#chashma-old-front"/>
+    </g>
+  </g>
+</svg>

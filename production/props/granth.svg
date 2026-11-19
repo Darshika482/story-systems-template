@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 400" data-prop="granth">
+  <title>ग्रन्थ — मोक्षमार्गप्रकाशक, रेहल और पीला कपड़ा</title>
+  <desc>The book: large, maroon cloth binding, gold title, red ribbon marker; its yellow wrapping cloth; its folding wooden rehal. Wear: lower outer corner of the cover rubbed down to the board, two hairline cracks at the top of the joint, thumb shadows on both lower outer page corners, the rehal's screen-left foot worn pale. Body text is drawn as ink strokes, never as invented words; the only real word on a page is the unfinished बहु. States left to right: closed, wrapped, open-on-stand, open-in-hands, open-last-page.</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-granth-maroon{fill:#7A1E2C}
+    .f-paper-cream{fill:#FFF8E4}
+    .f-haldi-yellow{fill:#EDB82F}
+    .f-wool-red{fill:#D2312E}
+    .f-brass{fill:#C4932F}
+    .f-cane-straw{fill:#CFAE74}
+    .f-skin-tan{fill:#C98F63}
+    .f-ink-sepia{fill:#6E4322}
+    .s-outline{stroke:#4A2C20}
+    .s-wood{stroke:#9A683C}
+    .s-cane-straw{stroke:#CFAE74}
+    .s-brass{stroke:#C4932F}
+    .s-wool-red{stroke:#D2312E}
+    .txt{fill:none;stroke:#6E4322;stroke-width:2.2;stroke-linecap:round;stroke-dasharray:15 5 24 5 9 5 30 5;opacity:.75}
+    .t{font-family:"Noto Sans Devanagari",sans-serif;font-weight:700}
+  </style>
+  <defs>
+    <!-- रेहल: one piece of wood that opens into an X. Cross point 200,304. -->
+    <g id="granth-rehal">
+      <ellipse class="sh" cx="200" cy="353" rx="136" ry="6"/>
+      <path class="n s-outline" stroke-width="17" d="M334 258 L78 346"/>
+      <path class="n s-wood" stroke-width="11" d="M334 258 L78 346"/>
+      <path class="n s-cane-straw" stroke-width="11" d="M78 346 L92 341"/>
+      <path class="n s-outline" stroke-width="17" d="M66 258 L322 346"/>
+      <path class="n s-wood" stroke-width="11" d="M66 258 L322 346"/>
+      <path class="d" d="M286 327 l4 12 M294 330 l4 12 M106 339 l4 -12 M114 342 l4 -12"/>
+    </g>
+    <!-- one page of body text: nine ruled strokes, 92 long, starting at local 0,0 -->
+    <g id="granth-lines">
+      <path class="txt" d="M0 0 H92 M0 11 H92 M0 22 H92 M0 33 H92 M0 44 H92 M0 55 H92 M0 66 H92 M0 77 H92 M0 88 H74"/>
+    </g>
+  </defs>
+
+  <g id="state-closed" data-state="granth:closed">
+    <ellipse class="sh" cx="204" cy="318" rx="104" ry="7"/>
+    <!-- page block: fore-edge and bottom edge -->
+    <path class="f-paper-cream o" d="M282 62 L294 70 L294 310 L130 310 L118 300 L282 300 Z"/>
+    <path class="d" opacity=".6" d="M286 68 V304 M290 70 V308 M124 304 H288 M128 307 H291"/>
+    <path class="f-granth-maroon o" d="M124 62 H276 Q282 62 282 68 V294 Q282 300 276 300 H124 Q118 300 118 294 V68 Q118 62 124 62 Z"/>
+    <path class="sh" d="M118 68 Q118 62 124 62 H132 V300 H124 Q118 300 118 294 Z"/>
+    <path class="d" d="M132 64 V298"/>
+    <path class="d" d="M121 70 l6 12 M124 66 l7 9"/>
+    <!-- gold: double rule, title, ornament, author -->
+    <rect x="144" y="78" width="126" height="206" rx="3" class="n s-brass" stroke-width="2.5"/>
+    <rect x="150" y="84" width="114" height="194" rx="2" class="n s-brass" stroke-width="1"/>
+    <text class="t f-brass" x="207" y="140" font-size="22" text-anchor="middle">मोक्षमार्ग</text>
+    <text class="t f-brass" x="207" y="170" font-size="22" text-anchor="middle">प्रकाशक</text>
+    <path class="f-brass" d="M199 196 l8 -8 l8 8 l-8 8 Z"/>
+    <path class="n s-brass" stroke-width="2" stroke-linecap="round" d="M166 196 H190 M224 196 H248"/>
+    <text class="t f-brass" x="207" y="262" font-size="11" text-anchor="middle">पं. टोडरमलजी</text>
+    <!-- wear: corner rubbed to the board -->
+    <path class="f-cane-straw ot" d="M282 276 V294 Q282 300 276 300 H258 Z"/>
+    <!-- ribbon marker -->
+    <path class="f-wool-red ot" d="M232 306 H240 L241 338 L236 332 L231 339 Z"/>
+  </g>
+
+  <g id="state-wrapped" data-state="granth:wrapped" transform="translate(400 0)">
+    <use href="#granth-rehal"/>
+    <!-- the bundle lies level across the two tips of the rehal -->
+    <path class="f-wool-red ot" d="M284 250 h8 l1 24 l-5 -5 l-5 6 Z"/>
+    <path class="f-haldi-yellow o" d="M84 214 C80 214 78 218 78 224 L80 244 C80 250 84 254 92 254 L308 254 C316 254 320 250 320 244 L322 224 C322 218 320 214 316 214 Z"/>
+    <path class="sh" d="M84 214 C80 214 78 218 78 224 L80 244 C80 250 84 254 92 254 L308 254 C316 254 320 250 320 244 L322 224 C322 218 320 214 316 214 Z"/>
+    <path class="f-haldi-yellow o" d="M96 144 C90 144 86 148 86 154 L80 206 C80 212 84 216 92 216 L308 216 C316 216 320 212 320 206 L314 154 C314 148 310 144 304 144 Z"/>
+    <!-- envelope folds to a tucked knot; one red running stitch along each fold -->
+    <path class="d" d="M88 150 L182 178 M312 150 L218 178 M82 210 L180 188 M318 210 L220 188"/>
+    <path class="n s-wool-red" stroke-width="2" stroke-dasharray="6 5" stroke-linecap="round" d="M96 160 L176 184 M304 160 L224 184"/>
+    <path class="f-haldi-yellow o" d="M176 174 C184 164 216 164 224 174 C232 184 226 196 200 198 C174 196 168 184 176 174 Z"/>
+    <path class="d" d="M188 178 q12 6 24 0 M196 172 q4 12 0 22"/>
+    <path class="d" opacity=".6" d="M110 226 q6 12 2 22 M250 222 q-4 14 2 26 M180 224 q4 10 0 22"/>
+  </g>
+
+  <g id="state-open-on-stand" data-state="granth:open-on-stand" transform="translate(800 0)">
+    <use href="#granth-rehal"/>
+    <!-- screen-left leaf -->
+    <g transform="translate(200 0) skewY(18.78) translate(-200 0)">
+      <rect x="80" y="168" width="120" height="129" rx="4" class="f-granth-maroon o"/>
+      <rect x="86" y="174" width="114" height="118" class="f-paper-cream ot"/>
+      <path class="d" opacity=".5" d="M86 286 H200 M86 289 H200"/>
+      <use href="#granth-lines" transform="translate(98 190)"/>
+      <ellipse class="sh" cx="98" cy="276" rx="10" ry="12"/>
+      <rect x="190" y="174" width="10" height="118" class="sh" opacity=".1"/>
+    </g>
+    <!-- screen-right leaf -->
+    <g transform="translate(200 0) skewY(-18.78) translate(-200 0)">
+      <rect x="200" y="168" width="120" height="129" rx="4" class="f-granth-maroon o"/>
+      <rect x="200" y="174" width="114" height="118" class="f-paper-cream ot"/>
+      <path class="d" opacity=".5" d="M200 286 H314 M200 289 H314"/>
+      <use href="#granth-lines" transform="translate(210 190)"/>
+      <ellipse class="sh" opacity=".26" cx="302" cy="276" rx="10" ry="12"/>
+      <rect x="200" y="174" width="10" height="118" class="sh" opacity=".1"/>
+    </g>
+    <path class="f-wool-red ot" d="M197 178 H204 L205 294 L209 330 L203 324 L198 331 L198 294 Z"/>
+  </g>
+
+  <g id="state-open-in-hands" data-state="granth:open-in-hands" transform="translate(1200 0)">
+    <g transform="translate(200 0) skewY(7) translate(-200 0)">
+      <rect x="62" y="96" width="138" height="200" rx="4" class="f-granth-maroon o"/>
+      <rect x="68" y="102" width="132" height="188" class="f-paper-cream ot"/>
+      <path class="d" opacity=".5" d="M68 284 H200 M68 287 H200"/>
+      <use href="#granth-lines" transform="translate(82 122) scale(1.16 1.5)"/>
+      <ellipse class="sh" cx="84" cy="270" rx="12" ry="16"/>
+      <rect x="188" y="102" width="12" height="188" class="sh" opacity=".1"/>
+    </g>
+    <g transform="translate(200 0) skewY(-7) translate(-200 0)">
+      <rect x="200" y="96" width="138" height="200" rx="4" class="f-granth-maroon o"/>
+      <rect x="200" y="102" width="132" height="188" class="f-paper-cream ot"/>
+      <path class="d" opacity=".5" d="M200 284 H332 M200 287 H332"/>
+      <use href="#granth-lines" transform="translate(212 122) scale(1.16 1.5)"/>
+      <ellipse class="sh" opacity=".26" cx="316" cy="270" rx="12" ry="16"/>
+      <rect x="200" y="102" width="12" height="188" class="sh" opacity=".1"/>
+    </g>
+    <path class="f-wool-red ot" d="M197 104 H204 L205 292 L209 330 L203 324 L198 331 L198 292 Z"/>
+    <!-- thumbs only: fingers are behind the covers. The hands themselves belong to the character rig. -->
+    <path class="f-skin-tan o" d="M58 316 C54 294 62 270 80 256 C90 249 101 257 98 269 C94 286 86 300 82 318 Z"/>
+    <path class="d" d="M80 262 q9 -2 13 6"/>
+    <path class="f-skin-tan o" d="M342 316 C346 294 338 270 320 256 C310 249 299 257 302 269 C306 286 314 300 318 318 Z"/>
+    <path class="d" d="M320 262 q-9 -2 -13 6"/>
+  </g>
+
+  <g id="state-open-last-page" data-state="granth:open-last-page" transform="translate(1600 0)">
+    <!-- flat insert view of the last opening: p. 338 full, p. 339 stops on half a word -->
+    <rect x="30" y="74" width="340" height="252" rx="6" class="f-granth-maroon o"/>
+    <rect x="38" y="82" width="162" height="236" class="f-paper-cream ot"/>
+    <rect x="200" y="82" width="162" height="236" class="f-paper-cream ot"/>
+    <rect x="186" y="82" width="14" height="236" class="sh" opacity=".1"/>
+    <rect x="200" y="82" width="14" height="236" class="sh" opacity=".1"/>
+    <path class="txt" stroke-width="2.6" d="M54 108 H184 M54 124 H184 M54 140 H184 M54 156 H184 M54 172 H184 M54 188 H184 M54 204 H184 M54 220 H184 M54 236 H184 M54 252 H184 M54 268 H184 M54 284 H184"/>
+    <path class="txt" stroke-width="2.6" d="M216 108 H346 M216 124 H346 M216 140 H346 M216 156 H346 M216 172 H346 M216 188 H284"/>
+    <text class="t f-ink-sepia" x="292" y="195" font-size="21">बहु</text>
+    <text class="t f-ink-sepia" x="119" y="308" font-size="9" text-anchor="middle" opacity=".7">३३८</text>
+    <text class="t f-ink-sepia" x="281" y="308" font-size="9" text-anchor="middle" opacity=".7">३३९</text>
+    <ellipse class="sh" cx="52" cy="298" rx="12" ry="16"/>
+    <ellipse class="sh" opacity=".26" cx="348" cy="298" rx="12" ry="16"/>
+    <path class="f-wool-red ot" d="M197 82 H204 L205 318 L209 352 L203 346 L198 353 L198 318 Z"/>
+  </g>
+</svg>

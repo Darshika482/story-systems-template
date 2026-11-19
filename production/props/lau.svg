@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 400" data-prop="lau">
+  <title>लौ — the one flame</title>
+  <desc>The flame shared by जयपुर का दीया, घर का दीया and every small clay lamp. Wick tip (anchor) at 312,218 in each cell, drawn at scale 1.25, exactly as in the lamp files. All five outlines use the same path commands in the same order, so any state can be morphed into any other. States left to right: steady, flicker-a, flicker-b, low, blue (the carry from the Jaipur lamp to the phone screen). A flame has no outline: light is never outlined.</desc>
+  <style>
+    .f-flame-core{fill:#FFE9A6}
+    .f-cotton-white{fill:#FCFAF4}
+    .c-flame-core{stop-color:#FFE9A6}
+    .c-lamp-gold{stop-color:#F5A623}
+    .c-phone-blue{stop-color:#4DA3F0}
+    .c-cotton-white{stop-color:#FCFAF4}
+  </style>
+  <defs>
+    <radialGradient id="lau-fire" cx=".5" cy=".7" r=".62">
+      <stop offset="0" class="c-flame-core"/>
+      <stop offset=".5" class="c-lamp-gold"/>
+      <stop offset="1" class="c-lamp-gold"/>
+    </radialGradient>
+    <radialGradient id="lau-halo">
+      <stop offset="0" class="c-lamp-gold" stop-opacity=".5"/>
+      <stop offset="1" class="c-lamp-gold" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lau-fire-blue" cx=".5" cy=".7" r=".62">
+      <stop offset="0" class="c-cotton-white"/>
+      <stop offset=".5" class="c-phone-blue"/>
+      <stop offset="1" class="c-phone-blue"/>
+    </radialGradient>
+    <radialGradient id="lau-halo-blue">
+      <stop offset="0" class="c-phone-blue" stop-opacity=".5"/>
+      <stop offset="1" class="c-phone-blue" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g id="state-steady" data-state="lau:steady">
+    <g transform="translate(312 218) scale(1.25)">
+      <circle cx="0" cy="-30" r="76" fill="url(#lau-halo)"/>
+      <path fill="url(#lau-fire)" d="M0 0 C-15 -3 -19 -22 -9 -38 C-4 -46 0 -54 -1 -66 C9 -55 17 -42 17 -26 C17 -12 11 -2 0 0 Z"/>
+      <path class="f-flame-core" d="M1 -3 C-7 -5 -9 -15 -4 -23 C-2 -27 1 -31 1 -37 C6 -31 9 -24 9 -16 C9 -9 6 -4 1 -3 Z"/>
+    </g>
+  </g>
+
+  <g id="state-flicker-a" data-state="lau:flicker-a" transform="translate(400 0)">
+    <g transform="translate(312 218) scale(1.25)">
+      <circle cx="0" cy="-30" r="72" fill="url(#lau-halo)"/>
+      <path fill="url(#lau-fire)" d="M0 0 C-16 -3 -21 -22 -12 -38 C-8 -46 -5 -54 -8 -64 C4 -55 15 -42 16 -26 C16 -12 11 -2 0 0 Z"/>
+      <path class="f-flame-core" d="M1 -3 C-8 -5 -10 -15 -6 -23 C-4 -27 -2 -31 -3 -36 C4 -31 8 -24 8 -16 C8 -9 6 -4 1 -3 Z"/>
+    </g>
+  </g>
+
+  <g id="state-flicker-b" data-state="lau:flicker-b" transform="translate(800 0)">
+    <g transform="translate(312 218) scale(1.25)">
+      <circle cx="0" cy="-30" r="80" fill="url(#lau-halo)"/>
+      <path fill="url(#lau-fire)" d="M0 0 C-14 -3 -17 -22 -7 -39 C-2 -48 3 -57 4 -70 C12 -57 17 -43 17 -26 C17 -12 11 -2 0 0 Z"/>
+      <path class="f-flame-core" d="M1 -3 C-6 -5 -8 -15 -3 -24 C0 -28 3 -33 4 -39 C8 -32 9 -24 9 -16 C9 -9 6 -4 1 -3 Z"/>
+    </g>
+  </g>
+
+  <g id="state-low" data-state="lau:low" transform="translate(1200 0)">
+    <g transform="translate(312 218) scale(1.25)">
+      <circle cx="0" cy="-22" r="54" fill="url(#lau-halo)"/>
+      <path fill="url(#lau-fire)" d="M0 0 C-13 -3 -16 -16 -8 -27 C-4 -33 -1 -38 -1 -46 C7 -39 14 -30 14 -19 C14 -9 9 -2 0 0 Z"/>
+      <path class="f-flame-core" d="M1 -3 C-6 -4 -7 -11 -3 -17 C-1 -20 1 -23 1 -27 C5 -23 7 -18 7 -12 C7 -7 5 -4 1 -3 Z"/>
+    </g>
+  </g>
+
+  <g id="state-blue" data-state="lau:blue" transform="translate(1600 0)">
+    <g transform="translate(312 218) scale(1.25)">
+      <circle cx="0" cy="-30" r="76" fill="url(#lau-halo-blue)"/>
+      <path fill="url(#lau-fire-blue)" d="M0 0 C-15 -3 -19 -22 -9 -38 C-4 -46 0 -54 -1 -66 C9 -55 17 -42 17 -26 C17 -12 11 -2 0 0 Z"/>
+      <path class="f-cotton-white" d="M1 -3 C-7 -5 -9 -15 -4 -23 C-2 -27 1 -31 1 -37 C6 -31 9 -24 9 -16 C9 -9 6 -4 1 -3 Z"/>
+    </g>
+  </g>
+</svg>
