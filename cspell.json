@@ -32,5 +32,8 @@
     "exports",
     ".git",
     "package-lock.json"
+  ],
+  "ignoreRegExpList": [
+    "/[\\u0900-\\u097F]+/g"
   ]
 }
