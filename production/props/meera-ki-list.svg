@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" data-prop="meera-ki-list">
   <title>मीरा की लिस्ट — the yellow list pad on the fridge</title>
-  <desc>Magnetic list pad, 140 by 250, pale yellow sheets under a turmeric-yellow header that reads लिस्ट, a black magnet strip along the top, a blue pen hanging from a white string at the top screen-right corner. Her handwriting is drawn as an even running stroke in blue ink: neat, level, never as invented words. Wear: the top screen-left corner of the magnet strip is chipped, a turmeric thumb-print sits on the right margin, the lowest sheet curls. States left to right: full (nine lines, four ticked: her everyday list), all-ticked (ten lines, ten ticks: the tenth day of दस लक्षण, scene 6.5), three-lines (epilogue: two lines, a third number with nothing after it).</desc>
+  <desc>Magnetic list pad, 140 by 250, pale yellow sheets under a turmeric-yellow header that reads लिस्ट, a black magnet strip along the top, a blue pen hanging from a white string at the top screen-right corner. Her handwriting is drawn as an even running stroke in blue ink, neat and level; the only words lettered on the pad are the ones the screenplay shows. Wear: the top screen-left corner of the magnet strip is chipped, a turmeric thumb-print sits on the right margin, the lowest sheet curls. States left to right: full (nine lines, four ticked: her everyday list), all-ticked (ten lines, ten ticks: the tenth day of दस लक्षण, scene 6.5), three-lines (epilogue: लड्डू, पापाजी की दवा, and a third number with nothing after it).</desc>
   <style>
     .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
     .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
@@ -130,13 +130,10 @@
   <g id="state-three-lines" data-state="list:three-lines" transform="translate(800 0)">
     <use href="#meera-list-pad"/>
     <path class="d" opacity=".22" d="M140 138 H262 M140 168 H262 M140 198 H262"/>
-    <g class="t f-night-indigo" font-size="15">
-      <text x="140" y="134">१.</text>
-      <text x="140" y="164">२.</text>
+    <g class="t f-night-indigo" font-size="14">
+      <text x="140" y="134">१. लड्डू</text>
+      <text x="140" y="164">२. पापाजी की दवा</text>
       <text x="140" y="194">३.</text>
     </g>
-    <path class="pen" d="M160 130 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
-    <path class="pen" d="M160 160 q3 -5 6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0 t6 0"/>
-    <path class="pen" stroke-width="2.600" d="M248 128 l3 3.500 l6 -8"/>
   </g>
 </svg>

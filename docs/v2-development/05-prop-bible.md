@@ -15,8 +15,10 @@ How to use it:
   needs something a sheet does not allow, the sheet changes first, then the shot.
 - **Continuity** reads section 5: one row per prop, one column per chapter.
 
-Scene numbers are those of `03-treatment.md`. "Screen-left" and "screen-right" are the viewer's
-left and right. "Wearer's left" is the left of the person wearing the thing.
+Scene numbers are those of `03-treatment.md` and of the assembled screenplay
+`moksha-marg-prakashak.fountain`, which keeps the same numbers and adds 5.5A, 5.5B, 7.1A, 7.1B,
+7.4A, 7.4B, E.0 and E.3. Where the two differ, this page follows the screenplay.
+"Screen-left" and "screen-right" are the viewer's left and right. "Wearer's left" is the left of the person wearing the thing.
 
 ## 1. Design language
 
@@ -44,7 +46,7 @@ left and right. "Wearer's left" is the left of the person wearing the thing.
 |-------|--------|------|-------|------|
 | The flat (and the rest of 2027) | `wall-cream` | `outline`, 2 px | lamp gold, screen blue, daylight | warm, lived-in, every object a little worn |
 | The parchment page | `parchment` | `ink-sepia`, hand-drawn wobble | none — the page is evenly lit | sepia ink only; no fills except the page colour; no shadows |
-| Jaipur, 1760s | `night-indigo` | `outline`, 2 px | lamp gold only | one lamp lights everything; what the lamp does not reach stays indigo |
+| Jaipur, 1760s | `night-indigo` | `outline`, 2 px | lamp gold; flat moonlight through the jali | one lamp lights everything and its flame never moves; what the lamp does not reach stays indigo |
 
 The wobble of the page world is one filter (`koi-wobble` in `koi.svg`: fractal noise, base
 frequency 0.018, displacement 4). Stepping its seed every eight frames makes the line boil;
@@ -158,15 +160,17 @@ It is lighter, smaller and unmarked on purpose.
 | Scene | State | Note |
 |-------|-------|------|
 | 1.1 | `chashma:on-nose` | first seen: reading in the kitchen at 1:52 |
-| 1.2 | `chashma:on-head`, then `on-nose` | the gag is planted |
+| 1.2 | `chashma:on-head`, then `on-nose`, then `on-head` again | the gag is planted |
+| 1.12 | `on-nose`, then `chashma:folded-on-granth` | "वो चश्मा ग्रन्थ पर रखते हैं।" |
 | 3.2 | `chashma:on-head` | the photo shoot |
 | 5.1, 5.5 | `chashma:on-nose` | on his nose and still he cannot read |
 | 6.3 | `on-nose`, then `folded-on-granth` | "मुझे दिखाई नहीं दे रहा।" — he takes them off |
 | 6.8, 7.1 | `chashma:folded-on-granth` | not worn; in 7.1 he wears the eye shield (section 4) |
-| 7.3, 7.4 | `chashma-naya:on-nose` | the new pair, from the stairs onward; the old pair is on top of the almirah |
-| 7.5 | `chashma:on-dadi` | the old pair changes hands; अनाया pushes it up |
-| E.1 | `chashma-naya:on-nose` | on his nose, and now it is the book he cannot find |
-| E.2 | `chashma:on-dadi` | the last image of the old pair |
+| 7.2 | — | dark glasses after the operation (section 4); neither pair |
+| 7.3, 7.4 | `chashma-naya:on-nose` | the new pair, from the stairs onward; the old pair lies in the drawer of his desk |
+| 7.5 | `chashma:on-dadi` | the old pair comes out of the drawer and changes hands; अनाया pushes it up |
+| E.0, E.1 | `chashma-naya:on-nose` | on his nose, and now it is the book he cannot find |
+| E.1, E.2 | `chashma:on-dadi` | on the terrace and at the kitchen table; she looks over the thick rims |
 
 **Never**
 
@@ -221,9 +225,10 @@ fifty by another.
 | 1.17, 2.2, 5.1 | `granth:wrapped`, then `open-in-hands` | carried to the bench in its cloth |
 | 5.5 | `granth:open-in-hands` | passes from दादाजी's hands to सम's |
 | 6.3 | `open-in-hands`, then `closed` | opened to stop a fight; he cannot see it |
-| 6.8 | `granth:wrapped`, then `open-on-stand` | no book open when the scene starts; अर्जुन opens it and reads |
+| 6.8 | `granth:wrapped`, then `open-on-stand` | the रेहल stands empty and the book lies wrapped beside it; अर्जुन opens it and reads |
+| 7.1 | `open-on-stand`, then `granth:wrapped` | अर्जुन wraps it, carefully, the way his father does |
 | 7.4 | `granth:open-last-page` | the unfinished word |
-| E.1 | `granth:closed` | in दादी's hands |
+| E.1 | `granth:wrapped` | in दादी's lap, at the parapet, where the wool basket was a year ago |
 | E.2 | `granth:open-on-stand` | first page; her finger under the line |
 
 **Never**
@@ -251,6 +256,8 @@ which it is read carry the same flame, and that flame is what turns into a phone
 - `lau.svg` holds five states built from the same path commands in the same order, so that any
   one can be morphed into any other: `lau:steady`, `lau:flicker-a`, `lau:flicker-b`, `lau:low`,
   and `lau:blue` — the same shape in the screen gradient, used once, for the carry out of P.1.
+- **In Jaipur the flame is `lau:steady` and nothing else.** It does not flicker, lean or dim:
+  "लौ ज़रा भी नहीं हिलती।" The flicker states belong to the home lamp and the small clay lamps.
 
 **Construction — `जयपुर का दीया`** (clay, 1760s)
 
@@ -272,7 +279,7 @@ back rim. Two throwing ridges.
 streak under the spout. Tarnish on the screen-right side of the foot.
 
 **`छोटा मिट्टी का दीया`.** The plain small clay lamp, 30 wide, no marks at all: these are new
-every year. Flame at scale 1.
+every year. Flame at scale 1. Six of them stand on a steel plate in 5.5.
 
 | State key | In the script | Drawing |
 |-----------|---------------|---------|
@@ -285,15 +292,20 @@ every year. Flame at scale 1.
 |-------|----------------|------|
 | P.1 | `diya-jaipur:lit` | first image of the film; carry: `lau:steady` → `lau:blue` → अर्जुन's screen |
 | 1.1, 1.6 | `diya-ghar:lit` | on the kitchen table, screen-right of the रेहल: the gold room |
-| 5.5 | `diya-ghar:lit`, then five `diya-mitti:lit` | one lamp lights five; carry to `diya-jaipur:lit` |
-| 6.8 | `diya-ghar:unlit` | no book open, no lamp: only the ceiling bulb, until अर्जुन reads |
-| 7.4 | `diya-ghar:lit`, a row of `diya-mitti:lit` | दिवाली; carry to `diya-jaipur:lit` |
-| E.2 | `diya-ghar:lit` | beside दादी; last carry of the film to `diya-jaipur:lit` |
+| 1.12 | `diya-ghar:lit` | on his desk in L4, beside the रेहल |
+| 5.5 | `diya-ghar:lit`, then six `diya-mitti:lit` | the power cut: the home lamp goes from hand to hand and lights six clay lamps on a steel plate |
+| 5.5A | `diya-jaipur:lit` | the carry lands here; the pile of written leaves has grown |
+| 6.8 | `diya-ghar:unlit` | suggested: the book is wrapped and the lamp is out; only the ceiling bulb, until अर्जुन reads |
+| 7.4, 7.4A | `diya-ghar:lit` and a row of `diya-mitti:lit`; then `diya-jaipur:lit` | दिवाली, then the last page |
+| 7.5 | `diya-ghar:lit` | the one light in L4 |
+| E.2 | `diya-ghar:lit` | beside दादी, together with the ceiling bulb |
+| E.3 | `diya-jaipur:lit` | the last picture of the film: five seconds, the flame does not move |
 
 **Never**
 
-- Never redraw the flame. Flicker by morphing between the five states.
-- Never light the home lamp unless the granth is open on its stand beside it, or it is दिवाली.
+- Never redraw the flame. Flicker — in the flat only — by morphing between the five states.
+- Never light the home lamp as decoration. It burns when the granth is read, in the power cut,
+  on दिवाली, and in 7.5.
 - Never show the Jaipur lamp going out, being lit, or being touched.
 - Never put the soot mark on the brass lamp or polish it off the clay one.
 
@@ -327,6 +339,7 @@ centre with one short branch. The face has yellowed in a crescent from ६ to �
 |-------|------|
 | 1.12 | first seen, high on the back wall of L4 |
 | 1.14, 1.16, 5.3, 7.5 | in every shot of that wall |
+| E.2 | glimpsed through the half-open door as अर्जुन passes |
 | 2.6 | cut-away from the balcony; granth card over it |
 
 **Never**
@@ -359,9 +372,9 @@ centre with one short branch. The face has yellowed in a crescent from ६ to �
 
 | Scene | State | Note |
 |-------|-------|------|
-| 1.6 | `gilas:full` | first seen; slid from दादाजी's side to अर्जुन's — screen-left to screen-right |
+| 1.6 | `gilas:full` | first seen; filled from the मटका; slid from दादाजी's side to अर्जुन's — screen-left to screen-right |
 | 1.17 | `gilas:full` | अनाया carries it to the bench |
-| 6.8 | `gilas:full` | on the table between father and son; nobody slides it |
+| 6.8 | `gilas:full` | अर्जुन fills it and sets it down; what दादाजी slides across this time, "गिलास की तरह", is his card |
 | E.2 | `gilas:full` | slid from अर्जुन to दादी — screen-right to screen-left, along the same line of the table |
 
 **Never**
@@ -385,76 +398,73 @@ tied to the same centre.
   once: `सूचना पट्ट · शाखा जौहरी बाज़ार` at 40 % strength. It names the branch, not the bank.
 - **Twenty fixed slots** round the centre: six across the top row, six across the bottom row,
   two at each side of the centre on the two middle rows. Slots are numbered 1–20 in reading
-  order. **A card never changes slot.**
+  order. **A card never changes slot.** Six slots are still free at the end of the film.
 - **Case card**: `paper-cream` index card 14.5 by 11, one red head-rule; title lettered by
   दादाजी; one crayon drawing by अनाया; one `brass` pin on the edge that faces the centre.
 - **Centre card**: 25 by 16.5. Until 2.8 it is covered by a slip, taped at two corners, that
-  shows only `?`. From 2.8 it reads `मिथ्यादर्शन`, a red rule, and `उलटी समझ`; two scraps of
-  tape stay on it for the rest of the film.
+  shows only `?`. From 2.8 it reads `मिथ्यादर्शन`, in old ink, over a red rule and `उलटी समझ`;
+  two scraps of tape stay on it for the rest of the film.
 - **`लाल ऊन`**: one thread of `wool-red`, 0.6 thick, from each card's pin to the nearest edge of
-  the centre card, with a slight sag. Threads from the four outer side cards run through the
-  channel between the two middle rows.
-- **दादाजी's own card** sits in slot 15, bottom screen-left, **face down**, tilted 3°, one
-  corner lifting, and has **no thread** — until 6.8.
+  the centre card, with a slight sag. Threads from the outer side cards run through the channel
+  between the two middle rows.
+- **दादाजी's own card** sits in slot 15, the bottom screen-left corner, **face down**, tilted
+  3°, one corner lifting, and has **no thread**.
+- **Map tags** (from 5.3): small `paper-cream` tags, 7 by 4, pinned close round the centre card
+  — `जीव` and `अजीव` above it, `पुण्य-पाप` below. Between the two upper tags, right above the
+  centre card, सम's slip: a `wool-red` dot and `आप यहाँ हैं`.
 
 **Wear marks.** The lower screen-left corner of the frame is chipped. Old pin-holes in the cork.
 A darker rectangle low on the screen-right where one notice hung for years.
 
-| Slot | Card | Pinned in | Drawing on it |
-|------|------|-----------|---------------|
-| 8 | `नींद` | 1.16 | moon over a lit phone |
-| 3 | `मैंने किया!` | 1.16 | sun |
-| 9 | `बारिश` | 1.16 | cloud and three drops |
-| 17 | `कमेंट` | 1.16 | speech bubble |
-| 13 | `मेला` | 1.16 | giant wheel |
-| 15 | दादाजी's own — `ग्यारह कहाँ गए?` | 1.16, face down | none |
-| 4 | `शॉल` | 2.2 | a rust rectangle |
-| 12 | `गुस्सा` | 2.3, by मीरा herself | a red zigzag |
-| 18 | `कमरा १४` | 2.5 | a key |
-| 7 | `तुलसी` | 2.8 | a pot with a bare twig |
-| 1 | `गाड़ी` | 3.1 | a car |
-| 6 | `फ़ंक्शन` | 3.2 | a garland |
-| 14 | `नेटवर्क` | 3.3 | signal bars |
-| 10 | `लंदन` | 3.4 | a paper plane |
-| 2 | `टारगेट` | 5.1 | a spreadsheet grid |
-| 5 | `फ़ॉरवर्ड` | 6.1 | a curved arrow |
-| 11 | `व्रत` | 6.3 | a checklist |
-| 16 | `शुद्ध आत्मा` | 6.4 | a stack of unwashed plates |
-| 19 | `मैं कहाँ ग़लत गिन रहा हूँ?` | 7.1, in अर्जुन's hand | none |
-| 20 | दादी's — the numeral `१` | 7.5 | none: the count that was one short |
+| Slot | Card, as lettered | Pinned in | Drawing on it |
+|------|-------------------|-----------|---------------|
+| 13 | `कूपन` — अनाया's case | 1.16, the first card | a girl, ten coupons, ten arrows |
+| 8 | `रात 2 बजे` — अर्जुन's | 1.16 | a moon |
+| 9 | `मेहता` | 1.16 | a call tile with the camera off |
+| 12 | `बस ये दर्द जाए` | 1.16 | a red zigzag |
+| 3 | `मैंने किया / ऐसा ही होना था` | 1.16 | none: two lines of words |
+| 4 | `बारिश` | 1.16 | cloud and three drops |
+| 15 | दादाजी's own — `ग्यारह कहाँ गए?` | 1.16, face down, after अर्जुन has left | none |
+| 17 | `मेरी शॉल` | 2.2 | a rust rectangle |
+| 2 | `गुस्सा मेरा nature है?` | 2.3, by मीरा, in her own blue hand | none |
+| 18 | `कमरा 14` | 2.5 | a key |
+| 5 | `सूरजमुखी` | 2.6 | a sunflower |
+| 7 | `गाड़ी वाला slot` | 3.1 | a car |
+| 10 | `91.4` | 3.5 | none |
+| 16 | दादी's — the numerals `११` | 7.5, beside his | none |
 
-Card titles are working titles and may change with the screenplay. Slots, order and counts may not.
-
-| State key | In the script | Face-up cards | Threads | Centre | दादाजी's card |
-|-----------|---------------|---------------|---------|--------|---------------|
-| `board:ch1` | `निदान बोर्ड — पाँच कार्ड` | 5 | 5 | covered, `?` | face down |
-| `board:ch2` | `निदान बोर्ड — नौ कार्ड` | 9 | 9 | `मिथ्यादर्शन` | face down |
-| `board:ch3` | `निदान बोर्ड — तेरह कार्ड` | 13 | 13 | open | face down |
-| `board:ch5` | `निदान बोर्ड — चौदह कार्ड` | 14 | 14 | open | face down |
-| `board:ch6` | `निदान बोर्ड — सत्रह कार्ड` | 17 | 17 to the centre, plus 2 outward | open | face down |
-| `board:ch7` | `निदान बोर्ड — सब धागे बीच में` | 19 | 21, all to the centre | open | face up, threaded |
-| `board:final` | `निदान बोर्ड — पूरा` | 20 | 22 | open | face up |
+| State key | In the script | Cards with a thread | Centre | दादाजी's card | Extras |
+|-----------|---------------|---------------------|--------|---------------|--------|
+| `board:ch1` | `निदान बोर्ड — छह कार्ड` | 6 | covered, `?` | face down | — |
+| `board:ch2` | `निदान बोर्ड — दस कार्ड` | 10 | `मिथ्यादर्शन` | face down | — |
+| `board:ch3` | `निदान बोर्ड — बारह कार्ड` | 12 | open | face down | — |
+| `board:ch5` | `निदान बोर्ड — नक्शे के मोहरे` | 12 | open | face down | three map tags, सम's slip |
+| `board:ch6` | `निदान बोर्ड — कोना ख़ाली` | 12 | open | **gone**: a pale rectangle and a pin-hole | as before |
+| `board:ch7` | `निदान बोर्ड — कार्ड पलटा हुआ` | 13 | open | back in its slot, face up, threaded | slot 8 now reads `मैं कहाँ ग़लत गिन रहा हूँ?` |
+| `board:final` | `निदान बोर्ड — पूरा` | 14 | open | face up | दादी's `११` in slot 16 |
 
 | Scene | Change |
 |-------|--------|
-| 1.16 | the board is born: `board:ch1`. Wool comes from `लाल ऊन का गोला` |
-| 2.2, 2.3, 2.5 | one card each; in 2.3 मीरा pins her own |
-| 2.8 | the slip comes off the centre; `तुलसी` is pinned: `board:ch2` |
-| 3.1–3.4 | four cards: `board:ch3` |
-| 3.5 | his hand rests on the face-down card (see section 6, question 2) |
-| chapter 4 | no change: three silent days |
-| 5.1, 5.2 | one card: `board:ch5`. In 5.2 every thread runs to the centre |
-| 6.1–6.4 | three cards. अर्जुन adds two threads of his own that run **outward**, from `लंदन` to a slip `मेहता` on the screen-right frame and from `नींद` to a slip `सोसाइटी` on the screen-left frame: `board:ch6` |
-| 6.8 | दादाजी fetches his card; it goes back face up, with a thread |
-| 7.1 | अर्जुन unpins his two outward threads and brings them to the centre; the slips go; he pins slot 19: `board:ch7` |
-| 7.5 | दादी pins slot 20 with the last of her own wool: `board:final` |
+| 1.16 | the board is born. `कूपन` first, then five more; the centre card and its `?`; the threads, pulled from `लाल ऊन का गोला`; last, when अर्जुन has gone, the face-down card in the corner: `board:ch1` |
+| 2.2, 2.5, 2.6 | one card each |
+| 2.3 | मीरा pins her own, alone, to the still-covered centre |
+| 2.8 | the slip comes off: `board:ch2` |
+| 3.1, 3.5 | one card each: `board:ch3`. In 3.5 दादाजी walks from the dining table to the board and rests his hand on the face-down card. He does not turn it |
+| chapter 4 | no change |
+| 5.2 | seen from the living room through the open door; every thread on one card |
+| 5.3 | the two map tags and सम's slip; by 5.4 the third tag: `board:ch5` |
+| 6.8 | the card is in दादाजी's kurta pocket; he slides it across the kitchen table; अर्जुन turns it over and leaves it face up beside the granth: `board:ch6` |
+| 7.1A | अर्जुन unpins `रात 2 बजे`, writes on its back, pins it in the same slot with the same thread. दादाजी's card is back, face up: `board:ch7` |
+| 7.5 | दादी writes `११` on a blank card and ties it with the last of her wool: `board:final` |
+| E.2 | glimpsed through the half-open door |
 
 **Never**
 
-- Never move a card to another slot, and never take one down.
-- Never let a thread end anywhere but on the centre card — except अर्जुन's two in chapter 6.
+- Never move a card to another slot.
+- Never let a thread end anywhere but on the centre card.
 - Never show the face of दादाजी's card before 6.8, not even in a reflection.
 - Never use any thread colour but `wool-red`.
+- Never letter a card that the screenplay has not named. Free slots stay empty.
 
 ### 2.7 `लाल ऊन का गोला`
 
@@ -471,25 +481,29 @@ Card titles are working titles and may change with the screenplay. Slots, order 
   10 wide and 5 deep.
 
 **Wear marks.** One broken cane strand sticks out of the rim on screen-right. One needle has
-lost its end knob. The knitting **never grows**: the wool goes to the board instead.
+lost its end knob. The strip of knitting stays short all year: most of the wool goes to the board.
 
 | State key | In the script | Ball radius | Chapters |
 |-----------|---------------|-------------|----------|
 | `oon:full` | `ऊन का गोला — पूरा` | 14.5 | P, 1 |
 | `oon:half` | `ऊन का गोला — आधा` | 11 | 2, 3, 4 |
 | `oon:small` | `ऊन का गोला — छोटा` | 7.5 | 5, 6 |
-| `oon:last` | `ऊन का गोला — आख़िरी` | 4.25 | 7; after 7.5 only the tail is left |
+| `oon:last` | `ऊन का गोला — मुट्ठी भर` | 4.25 | 7; after 7.5 the ball is gone and the basket is put away |
 
 | Scene | Note |
 |-------|------|
-| 1.12 | first seen, on the floor at दादी's side of the bed |
-| 1.16 | "मेरा ऊन कहाँ जा रहा है?" — the first five threads are cut from it |
-| 7.5 | she uses the last of it herself |
+| 1.2 | first seen, in her lap on the terrace, needles moving |
+| 1.14 | on the bed in L4 |
+| 1.16 | "मेरा ऊन कहाँ जा रहा है?" — the first six threads are pulled from it |
+| 2.4 | one strand, knotted in the corner of her pallu, becomes the vow thread |
+| 7.4 | "ऊन का गोला अब मुट्ठी भर रह गया है।" |
+| 7.5 | she ties her own card with the last of it: "गोला ख़त्म।" |
+| E.1 | no basket in her lap: the wrapped granth is there instead |
 
 **Never**
 
 - Never let the ball grow back between scenes, and never show a second ball.
-- Never add rows to the knitting.
+- Never let the knitting grow faster than the ball shrinks.
 
 ### 2.8 `अर्जुन का फ़ोन` and `सम का फ़ोन`
 
@@ -512,7 +526,7 @@ the top screen-right corner when the phone lies face down.
 
 **Construction — `सम का फ़ोन`**
 
-- Silver (`steel`) phone in a clear case, 32 wide by 68 high. **Always upright.** When he films,
+- Silver (`steel`) phone in a clear case, 32 wide by 68 high. **Always upright when he films.** When he films,
   the screen shows four corner brackets, a `wool-red` recording dot with a timer bar, and a
   round shutter with a red square.
 - **The sticker**, on the back under the case: a plain five-point star, `haldi-yellow`, on a
@@ -539,12 +553,14 @@ lower screen-right.
 | 5.5 | `phone-sam:on` with no network; `phone-arjun:on` | "आज आख़िरी दिन" |
 | 6.9 | `phone-sam:off` | into his pocket, unasked |
 | 7.1 | `phone-arjun:on` | his own standing instruction |
+| E.0 | `phone-arjun:on` | it rings in his pocket; he lets it ring twice, answers in one line, and puts it back |
 | E.1 | `phone-sam:off`, then `on` | he asks before he films |
 | E.2 | both `back` | face down on the shoe rack, charging; no glow anywhere |
 
 **Never**
 
-- Never show सम's phone held sideways, and never show अर्जुन's without the crack.
+- Never show सम filming with the phone sideways (he holds it sideways once, to edit, in 3.6),
+  and never show अर्जुन's without the crack.
 - Never put a real logo, app, or interface on either screen.
 - Never let a lit screen appear in the epilogue's night scene.
 
@@ -575,13 +591,13 @@ plain cotton — never glass-coated.
 | `patang:drifting` | `कटी पतंग — गिरती हुई` | tilted 24° to screen-left, string trailing up |
 | `patang:tied` | `कटी पतंग — ग्रिल से बँधी` | hanging 12° off true from the top rail of the balcony grill |
 | `patang:gone` | `पतंग नहीं — सिर्फ़ गाँठ` | the knot and a hand's length of string on the rail |
-| `patang:2028` | `दूसरी पतंग` | same pattern with the colours mirrored, no tear |
+| `patang:2028` | `दूसरी पतंग — हरी-सफ़ेद` | another kite: the same pattern in `leaf-green` and `cotton-white`, no tear |
 
 | Scene | State | Note |
 |-------|-------|------|
-| 1.2 | `patang:drifting` | first seen; lands on the terrace; by evening `patang:tied` |
+| 1.2 | `patang:drifting` | first seen; lands on the terrace; she hugs it; by evening `patang:tied` |
 | 1.13 | `patang:tied` | on the grill in the winter rain |
-| 2.6 | `patang:gone` | "आई तो मेरे पास थी।" |
+| 2.6 | `patang:gone` | a piece of string flaps on the grill: "आई तो मेरे पास थी।" It stays there for the rest of the year |
 | E.1 | `patang:2028` | lands, is held up, is let go |
 
 **Never**
@@ -617,19 +633,20 @@ near the foot.
 | `gamla:1-sprout` | `गमला — अंकुर` | one spear and two leaves, 14 | chapter 5 |
 | `gamla:2-knee` | `गमला — घुटने तक` | five blades and a tiller, 41 | chapter 6 |
 | `gamla:3-waist` | `गमला — कमर तक` | two jointed stalks and seven blades, 76 | chapter 7 |
-| `gamla:4-tall` | `गमला — निशान से ऊँचा` | three jointed stalks, nine blades, one dry leaf, 107 — top at 137 from the floor | epilogue |
+| `gamla:4-tall` | `गन्ने का गमला — निशान से ऊँचा` | three jointed stalks, nine blades, one dry leaf, 107 — top at 137 from the floor | epilogue |
 
 The cane stalks are `cane-straw` with ring-shaped nodes; every living blade is `leaf-green`.
-अनाया's latest pencil mark is at 122 from the floor; the `4-tall` cell shows it as a guide.
+अनाया's height mark of January 2027 is at 122 from the floor; the `4-tall` cell shows it as a guide.
 
 | Scene | State | Note |
 |-------|-------|------|
 | 1.13 | `gamla:surajmukhi` | background, at the screen-right end of the balcony |
 | 2.6 | `gamla:surajmukhi` | the flower faces the lane; मीरा turns the pot every morning — turn the plant group, never the pot |
+| 4.3 | the pot of the `kana-ganna` cell, empty | beside the new tulsi at the railing; its white band catches the last sun |
 | 4.4 | `gamla:kana-ganna` | the vendor throws the length aside; दादाजी picks it up |
 | 4.5 | `gamla:0-node` | planted as the first rain arrives |
 | 5.x, 6.x, 7.x | `1-sprout`, `2-knee`, `3-waist` | one step per chapter; never two steps inside a chapter |
-| E.1 | `gamla:4-tall` | on the terrace, beside the stair-head door (see section 6, question 6) |
+| E.1 | `gamla:4-tall` | carried up to a corner of the terrace for the sun; मीरा shows with her hand where last year's mark was, and the cane is above it |
 
 **Never**
 
@@ -742,7 +759,7 @@ and 8 up from a long edge. It is visible in every state.
 | 1.7, 1.12, 1.17 | `shawl:draped`, on दादाजी | |
 | 2.2 | `shawl:draped`, on अर्जुन | three mornings; the same drawing on the other rig |
 | 2.7 to chapter 7 | `shawl:folded` | over the back of his chair in L4 |
-| E.1 | `shawl:draped`, on दादाजी | |
+| E.0, E.1 | `shawl:draped`, on दादाजी | on the bench at dawn, then on the terrace |
 
 **Never**
 
@@ -752,7 +769,7 @@ and 8 up from a long edge. It is visible in every state.
 
 ### 2.14 `दादी की माला` and `व्रत की कॉपी`
 
-**Files** `mala.svg` · `vrat-ki-copy.svg`
+**Files** `mala.svg` (also `दादाजी की माला`) · `vrat-ki-copy.svg`
 
 **Purpose.** Her two ledgers. One counts on beads, the other in numerals; both are bargains.
 
@@ -763,41 +780,48 @@ and 8 up from a long edge. It is visible in every state.
 - The beads are round dashes on one path whose length is declared as 108, so the count is exact
   by construction. Hanging, the loop is 53 wide by 63.5 high.
 
-**Wear marks — माला.** The fourteen beads on either side of the head bead are darker, polished
-by fingers. One bead — the twenty-second, counting clockwise from the peg — is a paler replacement.
+**Wear marks — her mala.** The fourteen beads on either side of the head bead are darker,
+polished by fingers. One bead — the twenty-second, counting clockwise from the peg — is a paler
+replacement.
+
+**`दादाजी की माला`.** His own, "सादी, काठ के दानों की": the same loop in plain dark `wood`
+beads on a white thread, a knot where hers has a tassel, no polished run, no replaced bead. It
+is seen once, in 6.8.
 
 **Construction — `व्रत की कॉपी`**
 
-- Soft school exercise notebook, 46 by 62.5, swollen with use, covered in brown paper
-  (`cane-straw`), spine mended with `wood`-coloured cloth tape.
+- Soft school exercise notebook, 46 by 62.5, swollen with use, corners worn round, covered in
+  brown paper (`cane-straw`), spine mended with `wood`-coloured cloth tape.
 - A name label with a red rule. On it, in her rounded numerals, only `१९७७ –`. No name.
 - A `wool-red` thread tied round the book.
 - Inside: school ruling (blue lines, red margin) and **dates in Devanagari numerals only**, two
   columns to a page, in `night-indigo` ink. Not one word.
 
-**Wear marks — कॉपी.** The lower outer corner is curled. A round water stain on the cover.
+**Wear marks — notebook.** The lower outer corner is curled. A round water stain on the cover.
 
 | State key | In the script | Drawing |
 |-----------|---------------|---------|
 | `mala:loop` | `माला — खूँटी पर` / `माला — हाथ में` | the full loop; in a hand it is the same loop passed over the fingers |
 | `mala:coiled` | `माला — रखी हुई` | lying in a double coil |
+| `mala:dadaji` | `दादाजी की माला` | the plain wooden one |
 | `vrat-copy:closed` | `व्रत की कॉपी — बंद` | cover and label |
 | `vrat-copy:open` | `व्रत की कॉपी — खुली` | the opening of scene 6.5: the last entry is `१४·९·२७` |
 
 | Scene | State | Note |
 |-------|-------|------|
-| 1.12 | `mala:loop`, in her hand | first seen: two extra rounds that night |
+| 1.12 | `mala:loop`, in her hand | first seen: it stops for a moment, then runs fast; two extra rounds that night |
 | chapters 2–5 | `mala:loop`, on its peg | by her pillow in L4; `vrat-copy:closed` on the shelf beneath it |
-| 6.5 | `vrat-copy:open` | two women, two ledgers |
-| 6.8 | `mala:loop`, in दादाजी's hand | he turns it fast; it is this mala (see section 6, question 7) |
+| 6.5 | `vrat-copy:open` | she brings it under her arm with the plate of rice and slides it across: two women, two ledgers |
+| 6.8 | `mala:dadaji`, in his hand | fast, far faster than usual, until अर्जुन speaks |
 | 6.9 | `mala:loop`, in her hand | the hospital corridor |
 | E.2 | `mala:coiled` | suggested: on the kitchen table beside the granth, not in her hand |
 
 **Never**
 
 - Never redraw the beads by hand or change the count.
+- Never give दादाजी's mala a tassel, or hers a knot.
 - Never write a word in the notebook, and never a date later than the scene's own date.
-- Never show the mala on the floor.
+- Never show a mala on the floor.
 
 ### 2.15 `मीरा की लिस्ट`
 
@@ -812,8 +836,10 @@ by fingers. One bead — the twenty-second, counting clockwise from the peg — 
   along the top.
 - A blue pen (`phone-blue` cap and tip, white barrel) hanging from a `cotton-white` string
   fixed at the top screen-right corner.
-- Her handwriting is an even running stroke in `night-indigo`: level, neat, never real words.
-  Each line has a tick-box; each tick is its own path, so ticks can be added one at a time.
+- Her handwriting is an even running stroke in `night-indigo`: level and neat. When a scene
+  needs the words, they are on-screen text laid over the pad. Each line has a tick-box; each
+  tick is its own path, so ticks can be added one at a time.
+- A slip torn from this pad is the same pale yellow: the labels of `तीन डिब्बे` are three of them.
 
 **Wear marks.** The top screen-left corner of the magnet strip is chipped. A turmeric
 thumb-print on the right margin. The lowest sheet curls up at the bottom screen-left.
@@ -821,21 +847,22 @@ thumb-print on the right margin. The lowest sheet curls up at the bottom screen-
 | State key | In the script | Drawing |
 |-----------|---------------|---------|
 | `list:full` | `मीरा की लिस्ट — रोज़ की` | nine lines, four ticked |
-| `list:all-ticked` | `मीरा की लिस्ट — सब पर टिक` | ten lines for the ten days, ten ticks |
-| `list:three-lines` | `मीरा की लिस्ट — तीन लाइनें` | `१.` a line, ticked; `२.` a line; `३.` nothing |
+| `list:all-ticked` | `मीरा की लिस्ट — सब पर टिक` | ten lines, ten ticks |
+| `list:three-lines` | `मीरा की लिस्ट — तीन लाइनें` | lettered on the pad: `१. लड्डू` · `२. पापाजी की दवा` · `३.` and nothing after it |
 
 | Scene | State | Note |
 |-------|-------|------|
 | 1.1 | `list:full` | first seen, on the fridge door in L2 |
+| 2.3 | `list:full` | three slips are torn off for the tins; the exam timetable hangs above it |
 | 3.2 | `list:full`, in her hand | the pad comes off the fridge for the function list |
-| 5.4 | ten lines, no ticks | "इस बार दस लक्षण — पूरे नियम से।" |
-| 6.3 | ten lines, one tick | one tick more for each day done |
+| 5.4 | a new sheet, no ticks | `दस लक्षण 2027`, added as on-screen text |
+| 6.3 | the same sheet, ticks begun | one tick more for each day done |
 | 6.5 | `list:all-ticked` | "सब सही किया। फिर भी?" |
-| E.1 | `list:three-lines` | the third line is blank |
+| E.1 | `list:three-lines`, in her hand on the terrace | she lifts the pen, thinks, and lets it fall back on its string |
 
 **Never**
 
-- Never write a readable item on it other than the three numerals of the last state.
+- Never letter words on the drawing except the three lines of the epilogue.
 - Never show the pen anywhere but on its string or in her hand.
 - Never leave the fridge door without the pad, except while she is holding it.
 
@@ -847,27 +874,30 @@ thumb-print on the right margin. The lowest sheet curls up at the bottom screen-
 
 **Construction** (cell 100 × 100)
 
-- Small round-bellied clay pot, `terracotta`, 36 wide by 48 high, short neck, rolled rim.
+- An old, thick, round-bellied clay pot, `terracotta`, 36 wide by 48 high, short neck, rolled rim.
 - A ring of **nine lime dots** round the shoulder.
 - Mouth covered by a `cotton-white` cloth with two `wool-red` stripes, tied down with cotton
   string in a bow, the cloth's edge standing out below the string in ten points.
 
-**Wear marks.** The fourth and seventh dots are almost rubbed away. A dark ghee stain runs down
+**Wear marks.** **The shoulder is blackened** (`soot-black` at 40 %): "काला पड़ा कंधा, पीढ़ियों
+का घिसा हुआ।" The fourth and seventh dots are almost rubbed away. A dark ghee stain runs down
 the belly from the neck on screen-right. One ghee spot on the cloth.
 
 | State key | In the script | Drawing |
 |-----------|---------------|---------|
-| `ghada:tied` | `घी का घड़ा — बँधा` | cloth on |
-| `ghada:open` | `घी का घड़ा — खुला` | cloth and string beside it, ghee showing, a steel spoon standing in it |
+| `ghada:tied` | `घी का घड़ा — बँधा` | cloth on, upright |
+| `ghada:overturned` | `घी का घड़ा — औंधा` | mouth down and leaning, in a pool of ghee (`haldi-yellow` under white), cloth and string beside it |
 
 | Scene | State | Note |
 |-------|-------|------|
 | 1.1 | `ghada:tied` | first seen, at the screen-right end of the top kitchen shelf; there in every kitchen shot |
-| 6.6 | `ghada:tied`, then `ghada:open` for the insert | the pot is looked at, not handled roughly |
+| 6.6 | `ghada:overturned`, then upright in दादाजी's hands | the scene opens on it; he feels for it, lifts it and wipes it with his palm |
+| after 6.6 | `ghada:tied` | back on the shelf |
 
 **Never**
 
-- Never show it broken, dropped or spilled.
+- Never show it cracked or in pieces. It is overturned, not broken.
+- Never show the throw. 6.6 begins after it.
 - Never move it from the top shelf except in 6.6.
 
 ### 2.17 `बेंच`
@@ -903,8 +933,9 @@ the belly from the neck on screen-right. One ghee spot on the cloth.
 |-------|-------|------|
 | 1.7 | `bench:dry` | first seen, in fog; दादाजी on screen-left, screen-right empty |
 | 1.17 | `bench:dry` | अनाया sits on screen-right without thinking |
-| 2.2 | `bench:dry` | अर्जुन, in the shawl, sits on screen-right |
+| 2.2 | `bench:dry` | अर्जुन, in the shawl, sits at the screen-right end |
 | 5.1 | `bench:wet` | the first page |
+| E.0 | `bench:dry` | fog again. दादाजी on screen-left; अर्जुन, in a kurta, on screen-right, under the pale slat |
 
 **Never**
 
@@ -924,26 +955,28 @@ by labelling tins (2.3).
 - Three `steel` kitchen tins with lids, in descending size from screen-left: 39 by 50, 32 by 39,
   24.5 by 28. Each has two embossed rings, a highlight on its screen-left side and shade on its
   screen-right.
-- Each carries a `paper-cream` label held by tape, lettered in her `night-indigo` hand.
+- Before 2.3 each carries her own white kitchen label, held by one piece of tape. From 2.3 each
+  carries a **slip torn from the yellow list pad**, stuck over the old label, lettered in her
+  `night-indigo` hand.
 
 **Wear marks.** A dent low on the screen-left side of the big tin. The knob of the middle lid is
 a `brass` replacement. The lid of the small tin sits 4° crooked.
 
 | State key | In the script | Labels, large to small |
 |-----------|---------------|------------------------|
-| `dibbe:kitchen` | `तीन डिब्बे — रसोई के लेबल` | `शक्कर` · `मूँग दाल` · `जीरा` |
-| `dibbe:sorted` | `तीन डिब्बे — नए लेबल` | `अपना` · `आता-जाता` · `शरीर का` — pasted over the old labels, whose top edges still show |
+| `dibbe:kitchen` | `तीन डिब्बे — रसोई के लेबल` | `शक्कर` · `अजवाइन` · `जीरा` |
+| `dibbe:sorted` | `तीन डिब्बे — नए लेबल` | `जानना` · `गुस्सा — आना-जाना` · `रंग-रूप` |
 
 | Scene | State | Note |
 |-------|-------|------|
 | 1.1 | `dibbe:kitchen` | on the top shelf, screen-left of the ghee pot |
-| 2.3 | `kitchen`, then `sorted` | she labels them and says nothing |
+| 2.3 | `kitchen`, then `sorted` | दादाजी brings them in empty, stacked one on another; she lines them up, labels them, and looks at the middle one a moment longer |
 | after 2.3 | `dibbe:sorted` | they stay that way for the rest of the film |
 
 **Never**
 
-- Never change their order on the shelf: large, middle, small.
-- Never peel the new labels off again.
+- Never change their order: large, middle, small.
+- Never peel the yellow slips off again.
 
 ### 2.19 `अनाया की सवाल-कॉपी` and her crayons
 
@@ -985,6 +1018,7 @@ the tray is mended with tape.
 | 1.11 | `sawal-copy:closed` | first seen, beside her on the sofa |
 | 1.16 | `crayons:ordered` | she draws the first five cards |
 | 4.2 | `sawal-copy:open` | at the window |
+| 6.3 | `crayons:ordered` | she walks through the fight carrying the tray |
 | any | `crayons:one-out` | only when a scene uses the trait; she puts it back before the scene ends |
 
 **Never**
@@ -1014,9 +1048,10 @@ where earlier words were wiped with a palm.
 
 | Scene | State | Note |
 |-------|-------|------|
-| 4.1 | `whiteboard:blank`, plus the scene's words | first seen; nobody reads it |
+| 4.1 | `whiteboard:blank`, plus the scene's words | first seen; nobody reads it. This scene's hidden कोई is a small ink figure अनाया drew in the one corner that is never wiped |
 | 4.4 | `whiteboard:bona` | |
-| 4.5 | `whiteboard:blank` | put down, face up, when his voice comes back |
+| 4.2 | `whiteboard:blank` | under his arm |
+| 4.5 | `whiteboard:blank` | put down when his voice comes back |
 
 **Never**
 
@@ -1055,6 +1090,7 @@ page. "ये 'कोई' कौन है, आज तक पता नहीं
 | 1.10 | `koi:credit` | first seen: he takes the credit for the sunrise |
 | 1.14 | `koi:search` (hand to head), then `koi:scold` | the stone is already on the ground when the page opens; no blow is drawn |
 | 2.2 | `koi:clutch` | the borrowed cloth |
+| 5.1 | `koi:stand` | holding a very small lamp |
 | later pages | any of the six | a page uses at most three poses and lasts 5 to 8 seconds |
 
 **The hidden कोई.** One is hidden in every present-day scene: a doodle, a pattern in a curtain,
@@ -1076,7 +1112,7 @@ never in the same place twice in one location. The script supervisor keeps the l
 
 **Purpose.** Pandit Todarmalji, Jaipur, 1760s: a hand, a sleeve, a pen, a page. Nothing more.
 
-**Construction** (cell 100 × 100, seen from above the desk)
+**Construction** (cell 100 × 100, seen from above the low desk)
 
 - **Sheet**: handmade paper, `parchment`, 68 by 60, lying 3.5° askew, lines of writing drawn as
   `ink-sepia` strokes.
@@ -1090,25 +1126,290 @@ never in the same place twice in one location. The script supervisor keeps the l
   the sheet.
 
 **Wear marks.** One run of dried ink down the screen-left side of the inkpot. The nib end of the
-reed is stained for a fifth of its length.
+reed is stained.
 
 | State key | In the script | Drawing |
 |-----------|---------------|---------|
 | `haath:writing` | `हाथ — लिखता हुआ` | nib on the sheet at the end of the fifth line |
 | `haath:dip` | `हाथ — दवात में` | nib in the mouth of the pot |
-| `haath:pen-down` | `क़लम — रखी हुई` | no hand; the pen lies on the sheet; the last word written is `बहु` |
+| `haath:pen-down` | `क़लम — दवात पर आड़ी` | no hand; the pen lies across the mouth of the inkpot; the last word on the sheet is `बहु` |
 
 | Scene | State | Note |
 |-------|-------|------|
-| P.1 | `haath:writing`, `haath:dip` | first seen; the opening words are added as on-screen text from the quote bank |
-| 5.5 | `haath:writing` | carry from the home lamp |
-| 7.4 | `haath:writing`, then `haath:pen-down` | he writes `बहु`; the pen is laid down; the lamp burns on |
-| E.2 | `haath:pen-down` | the last picture of the film, with `diya-jaipur:lit` |
+| P.1 | `haath:dip`, `haath:writing` | first seen; the opening words are on-screen text from the quote bank |
+| 5.5A | `haath:writing` | carry from the home lamp |
+| 7.4A | `haath:writing`, `haath:dip`, then `haath:pen-down` | two letters; the pen stops; the hand lays it across the pot and leaves the frame |
+| E.3 | `haath:pen-down` | the last picture of the film, with `diya-jaipur:lit` |
 
 **Never**
 
 - **Never a face.** Never a head, a shoulder, a shadow of a head, a reflection, a second hand.
   The frame never rises above the forearm.
 - Never a voice. Never his name on screen in this world.
-- Never show the hand falling, the lamp going out, or anything that depicts or suggests his death.
-- Never show the hand lifting the pen away from `बहु`: the cut happens, and the pen is down.
+- Never show the hand falling or trembling, the lamp going out, or anything that depicts or
+  suggests his death. The hand lays the pen down gently and goes out of frame; that is all.
+- Never put a full stop, a blot or a flourish after `बहु`.
+
+
+## 3. Location sheets
+
+Each scene uses one location from this list. A new location needs a reason and a sheet.
+
+### 3.1 The dollhouse — how flat B-502 is drawn
+
+The flat is drawn once, as a doll's house with its front wall taken off. It has five rooms and a
+balcony, and it is a diagram, not a floor plan: the flat is on one storey, but its **front row of
+rooms is drawn below and its back row above**, like two shelves. Nobody ever climbs between the
+shelves; a person who leaves a room through its door simply arrives in the next shot.
+
+| | Screen-left | Middle | Screen-right |
+|---|-------------|--------|--------------|
+| **Back row** (drawn above) | L4 grandparents' room | L3 living room | L3 balcony — open to the sky on its right |
+| **Front row** (drawn below) | L1 master bedroom | L5 kids' room | L2 kitchen + dining — front door in its right wall |
+
+This arrangement is fixed, and it is the one the screenplay already uses: at 2 a.m. the front row
+reads blue (अर्जुन), blue (सम), gold (the kitchen), and the fourth room — दादी, awake in the dark
+— is found by moving up to the back row.
+
+- **Each room is one 9:16 column.** A 16:9 frame of 1920 × 1080 holds one row: three columns of
+  608 × 1080 separated and edged by four walls of 24. Cropping a column and scaling it by 1.776
+  gives the 1080 × 1920 reel frame, so the same render serves the film and the reel.
+- **One row at a time** is the normal wide frame — "तीन कमरे अगल-बगल". The people who matter
+  stand in the middle third of their own column.
+- **The whole house** is both rows at half size: 960 × 1080 in the middle of the film frame with
+  the building's wall and the night on either side; in a reel it is 1080 × 1215, with the sky
+  above and room for दादी's question below. This is the frame for "गिनो।"
+- **Fourth walls.** The camera always looks at a room's back wall. The door from L4 to the rest
+  of the flat is in the unseen front wall, which is why kitchen light never falls into it.
+- **One pipe, three stains (5.2).** The cracked pipe runs inside the wall between the
+  screen-left and middle columns. From July it leaves a damp patch in the three rooms that touch
+  it — L4, L3 living room and L1 — and each is covered differently: a calendar (दादी), a strip
+  of marble-finish wallpaper (मीरा), a square of putty (अर्जुन). All three covers stay to the
+  end of the film. The fourth room on that wall, L5, hides its patch behind the bunk bed.
+- **Night.** Walls go `night-indigo`. A lit phone tints its room `phone-blue`; the kitchen bulb
+  and the home lamp tint theirs `lamp-gold`; the night-light in L5 is a small blue glow that is
+  never counted as a "बत्ती".
+
+### 3.2 L1 — master bedroom (front row, screen-left)
+
+| | |
+|---|---|
+| Fixed furniture | double bed against the back wall, centre: मीरा's side screen-left, अर्जुन's side screen-right; a bedside table on his side; a low three-legged stool (तिपाई) on hers; wardrobe at screen-left; dressing mirror at the screen-right end of the back wall; curtained window above the bed |
+| Light | night: `phone-blue` from his side of the bed (P.2, 1.1), nothing at all in E.2; afternoon with curtains shut (1.4): cream gloom and one slit of `day-sky`; morning: daylight from the window |
+| Always present | his phone charger hanging empty from the bedside socket (in use until the epilogue); the square of putty high on the back wall from 5.2; her old class register on top of the wardrobe; the fitness-band box on the bedside table from 2.1 |
+| Props that live here | `अर्जुन का फ़ोन` until the epilogue |
+
+### 3.3 L2 — kitchen + dining (front row, screen-right)
+
+One room, one table. A heading that says KITCHEN frames the counter and shelf; a heading that
+says DINING frames the table. It is the same table in both.
+
+| | |
+|---|---|
+| Fixed furniture | back wall, from screen-left: fridge, then the counter with a two-burner stove under a window, then the clay मटका on its stand; one long **top shelf** above the counter; the dining table in front, long side to camera, four chairs; the front door in the screen-right wall with the shoe rack beside it and key hooks above |
+| The table | the reader's chair is at the screen-left end, facing right, with the `रेहल` in front of it and `घर का दीया` at the reader's right hand. The other chair of the 2 a.m. scenes is at the screen-right end. The steel glass travels along the near edge |
+| Light | 2 a.m.: one warm bulb in a steel shade over the table, `lamp-gold`, plus the home lamp when the granth is open — this is the gold room; day: `day-sky` from the window over the counter; the family eats before sunset, so no meal is ever lit by the bulb |
+| Always present | `मीरा की लिस्ट` on the fridge door; on the top shelf, from screen-left, `तीन डिब्बे` and, at the screen-right end, `घी का घड़ा`; the मटका with its steel lid and ladle; a wall clock that runs; the shoe rack by the door |
+| Props that live here | `स्टील का गिलास` (upturned on the मटका's lid), `मीरा की लिस्ट`, `तीन डिब्बे`, `घी का घड़ा`; in the epilogue both phones, face down, on the shoe rack. In chapter 2 a tulsi cutting stands in a glass of water on the window sill until 2.8 |
+
+### 3.4 L3 — living room + balcony (back row, middle and screen-right)
+
+Two columns, one location. The sliding door between them is in the wall they share.
+
+| | |
+|---|---|
+| Living room, fixed | three-seat sofa against the back wall, centre; दादाजी's chair at screen-left by the door to L4; a window with a wide sill (the seat of 4.2) at the screen-left end of the back wall, a desert cooler under it in summer; a floor rug. The television is the fourth wall: it is never seen, only its light and its sound |
+| Living room, always present | the **photo wall** above the sofa — a row of frames from a cradle to दादाजी on the day he retired with a garland in his hands, and after the last frame a peg with his father's walking stick; the strip of marble-finish wallpaper from 5.2; a biscuit tin on the side shelf |
+| Balcony, fixed | iron grill on the open side: upright bars and a top rail; a clothes line; two cane stools. At the railing, side by side: `तुलसी का गमला` on the screen-left and the round pot (`गन्ने का गमला`) in the corner on the screen-right |
+| Light | day: the daylight gradient from the balcony across the living room; evening: low gold sun from the balcony side; night: television blue in the living room; दिवाली (7.4): only flames — the home lamp and twenty small clay lamps along the grill, the threshold and the window |
+| Always present on the balcony | from 1.2 the kite tied to the top rail, and from 2.6 only its knot and a hand of string; the next balcony, where वर्माजी is a silhouette; the sky, which tells the season — kites, winter rain, loo, monsoon, दिवाली |
+| Props that live here | `कटी पतंग`, `तुलसी का गमला`, `गन्ने का गमला` until it is carried to the terrace; `अनाया की सवाल-कॉपी` and her crayons on the rug |
+
+### 3.5 L4 — grandparents' room (back row, screen-left)
+
+| | |
+|---|---|
+| Fixed furniture | back wall, from screen-left: दादाजी's low desk with one drawer, and above it the `निदान बोर्ड`; high in the middle of the wall, `रुकी हुई घड़ी`; at screen-right the steel almirah. The bed stands in front of the almirah, दादी's side nearest the camera. His wooden armchair is by the desk; a stool stands beside the almirah |
+| Light | evening: gold sun through the door from the living room; night: `घर का दीया` on the desk and nothing else, unless someone carries a phone in |
+| Always present | `लाल बही` on top of the almirah; the stopped clock; the board; दादी's small radio on the shelf by her pillow; the calendar she hung over the damp patch, from 5.2, with this scene's hidden कोई in its printed border |
+| Props that live here | `ग्रन्थ` on its `रेहल` on the desk (home position), `घर का दीया` beside it, `निदान बोर्ड`, `रुकी हुई घड़ी`, `लाल बही`, `जंग-रंग शॉल` over the chair-back in the warm months, `दादी की माला` on its peg, `व्रत की कॉपी` under it, `लाल ऊन का गोला` on the floor at her side; from 7.3 the old spectacles in the desk drawer |
+
+### 3.6 L5 — kids' room (front row, middle)
+
+| | |
+|---|---|
+| Fixed furniture | bunk bed against the screen-left wall: सम below, अनाया above; a study table under the window at the back, centre; a cupboard at screen-right, on whose top a phone can be banished; a mirror on the back wall at the screen-left end, back to back with the mirror of L1 |
+| Light | night: `phone-blue` from under सम's blanket, and a small blue night-light that is always on; the strip of that light under the closed door is all the next room sees of him (3.7); day: window daylight |
+| Always present | the night-light; अनाया's height marks in pencil on the door frame at screen-right, the top one at 122 cm in January 2027; her drawings taped above the upper bunk; the exam timetable in chapter 2 |
+| Props that live here | `सम का फ़ोन` until the epilogue; `अनाया की सवाल-कॉपी`; her crayons |
+
+### 3.7 L6 — terrace
+
+| | |
+|---|---|
+| Fixed elements | parapet (मुँडेर) across the back at two fifths of the frame height; the stair-head room with its door at screen-right; two water tanks at screen-left; a rug (दरी) laid in the middle on संक्रांति; the next roof beyond the parapet at screen-right, where वर्माजी is only ever a silhouette |
+| Light | morning, fog lifting: the daylight gradient, `day-sky` above to `wall-cream` at the parapet; no cast shadows until the fog has gone |
+| Always present | the sky full of kites as small diamonds; the cry "वो काटा!" from every roof; a steel plate of तिल के लड्डू on the rug; दादी's place by the parapet at screen-left |
+| Props seen here | 1.2: `कटी पतंग` (`drifting`), `लाल ऊन का गोला` in her lap, the old spectacles `on-head`. E.1: `patang:2028`, `गन्ने का गमला` (`4-tall`) in the corner by the tanks, `ग्रन्थ` (`wrapped`) in her lap, `मीरा की लिस्ट` (`three-lines`) in मीरा's hand |
+
+### 3.8 L7 — society garden bench
+
+| | |
+|---|---|
+| Fixed elements | `बेंच`, centred, facing camera; a hedge behind it; one tree with a round platform at screen-left; a lamp post at screen-right; the path in front; the society gate far off at screen-right, in the direction both men look |
+| Light | dawn: fog as a flat `cotton-white` veil over everything behind the bench, the lamp post still lit (`lamp-gold`, one small glow), cool `day-sky` above; 5.1: after rain, everything one step darker |
+| Always present | birdsong; the lamp post; the gate in the fog; the brass plate; the empty half |
+| Props seen here | `बेंच`; `ग्रन्थ` (`wrapped`, then `open-in-hands`); `जंग-रंग शॉल`; `स्टील का गिलास` (1.17) |
+
+### 3.9 L8 — Gupta corridor, stairwell, lift lobby
+
+| | |
+|---|---|
+| Gupta's corridor (1.8) | a door standing ajar at screen-right; a row of white slippers outside it; through the gap, a stool with गुप्ता अंकल's garlanded photograph and a white sheet on the floor; voices of the two sons behind the door |
+| Stairwell (1.9, 7.3) | a dog-leg stair seen in section: one flight rising to the right, a landing with a window, one flight rising to the left; iron handrail; the floor number painted on each landing |
+| Lift lobby (7.3) | the lift door with a paper taped to it — "असुविधा के लिए खेद।"; in one corner a half-made rangoli and a plate of lamps, and the hands of the woman making it |
+| Fifth-floor landing | the door of B-502 and its brass nameplate: `हरिप्रसाद जैन` |
+| Light | 1.8: flat grey morning, lamp-gold from inside the door; 1.9: one tube light per landing, the rest `night-indigo`; 7.3: evening gold through the landing windows, and दिवाली lamps on the lower floors |
+| Always present | the handrail; the landing window; the lift door; the door of another flat on every landing |
+
+### 3.10 L9 — parking
+
+| | |
+|---|---|
+| Fixed elements | a row of slots under the building, pillars with painted numbers; slot `B-502` in the middle of frame; the family's grey hatchback; in 3.1 a strange car standing in the slot with a doctor's sticker on its rear glass; the guard's cabin far back |
+| Light | 41°: white overhead sun outside, hard-edged shade under the building, no gradient; everything outside the shade bleached toward `cotton-white` |
+| Always present | the painted `B-502`; the pillar; a drain grate; heat shimmer at the open end |
+
+### 3.11 L10 — school fun fair
+
+| | |
+|---|---|
+| Fixed elements | bunting across the top; stalls as flat painted fronts in a row; a giant wheel as a silhouette behind; a bench where दादाजी sits; the school gate at screen-right for the sunset |
+| The hammer stall (1.15, recalled in 3.7) | a box with six round holes and a wooden mallet. What pops up is drawn as plain painted wooden pegs with two dots, never as animals with fur, tails or faces (see section 6, question 4) |
+| Light | bright afternoon turning to a low orange sun at the gate |
+| Always present | the crowd as silhouettes and sound; coupons as small pink slips, ten at the start and none at the end; सम's upright phone |
+
+### 3.12 L11 — dharmshala courtyard
+
+| | |
+|---|---|
+| Fixed elements | a sunny tiled courtyard with a row of numbered doors on three sides, room 14 in the centre of the back row; the office window in one corner, with keys on wooden tags hanging from nails; a rope cot in the courtyard; a heap of the family's bags |
+| Light | noon: flat bright daylight, short shadows |
+| Always present | the key board; the door numbered 14; people returning as silhouettes at the edge of frame; a bell heard far away. The inside of the temple is never shown, and no image is visible anywhere |
+
+### 3.13 L12 — banquet lawn
+
+| | |
+|---|---|
+| Fixed elements | a stage with two chairs and a marigold arch; behind it the LED wall, "50 Golden Years"; buffet counters at screen-left, cleared before sunset; a store room at screen-right with stacked chairs and one tube light |
+| Light | slanting evening sun, then dusk; the LED wall is a screen and glows `phone-blue`; the store room is tube-light white |
+| Always present | the guests as silhouettes, laughter and bangles; the microphone; the photographer's umbrella light; the LED wall |
+
+### 3.14 L13 — hospital corridor
+
+| | |
+|---|---|
+| Fixed elements | a long steel bench against a green wall (`leaf-green` under a 60 % white overlay); a door at screen-right that closes; a clock on the wall |
+| Light | tube-light white, flat, no warmth, no shadows |
+| Always present | **the clock runs** — it is the only clock in the film whose hands are seen to move; the closed door; the sound of a trolley; names being called |
+| Props seen here | `दादी की माला`; two threads on her wrist; `सम का फ़ोन` (`off`) |
+
+### 3.15 L14 — the writer's room, Jaipur, 1760s
+
+| | |
+|---|---|
+| Fixed elements | a low wooden desk (चौकी) seen from above and in front; the sheet on it; the inkpot above the sheet's top screen-right corner; `जयपुर का दीया` at screen-right, its wick tip at (78, 54.5) of the frame's prop cell; a pile of finished leaves at screen-left; a stone jali window behind |
+| Light | `lamp-gold` on `night-indigo`: the lamp gradient falls on the sheet, the hand and the nearest edge of the desk; moonlight through the jali is a flat pattern of `day-sky` at low strength on the floor, without a gradient |
+| Always present | the flame, perfectly still; the pile of leaves, which is the only thing that changes — a few in P.1, higher in 5.5A, very high in 7.4A and E.3; the jali; wet ink catching the light |
+| Framing rule | the camera never rises above the forearm and never turns to the room. No face, no figure, no shadow of one |
+| Props that live here | `हाथ`, `जयपुर का दीया` |
+
+### 3.16 L15 — the parchment page
+
+| | |
+|---|---|
+| Fixed elements | the page fills the frame: `parchment`, with a double red margin rule down each side as in a manuscript, and ruled ink lines. कोई stands on one of those lines, in the upper two thirds; Panditji's words sit in the lower third as a granth card |
+| Light | none. The page is evenly lit; nothing on it casts a shadow |
+| Always present | the ruled line under his feet; the boil of the ink line; silence — a page has no music and no voice except the reader's |
+| What may appear | things he acts with are drawn in the same ink line, without fill: a stone, a cloth, a sun, a very small lamp. Nothing coloured, nothing from the flat |
+
+## 4. Character costume notes
+
+Rigs are a later job. These notes fix only what the props and the story depend on. Skin and hair
+use the tokens of section 1: `skin-tan` for दादाजी, अर्जुन and सम्यक्; `skin-wheat` for दादी,
+मीरा and अनाया; hair `cotton-white` (दादाजी), `steel` (दादी), `soot-black` (the others).
+
+| Person | Signature outfit | Silhouette cue | Story-linked changes |
+|--------|------------------|----------------|----------------------|
+| दादाजी | `cotton-white` kurta-pyjama; a `steel`-grey sleeveless woollen vest in winter; brown sandals | a slight stoop, and a bump on the top of the head: the spectacles | `जंग-रंग शॉल` in January and February and again in the epilogue. **Old thick spectacles** until the operation of 20 September; a clear plastic shield taped over the **right eye** in 7.1; dark glasses at the gate in 7.2; **thin gold-rim spectacles from 7.3** |
+| दादी | cotton sari in `granth-maroon` with a thin `haldi-yellow` border — the colours of the book and its cloth, worn all year by the one person who has never opened it; pallu over her hair | small and broad; the pallu; a bun | a strand of the red wool knotted in the corner of her pallu becomes a vow thread on her wrist in 2.4; by 6.9 there are two, one faded and one new. **From 7.5 she wears दादाजी's old thick spectacles**, low on her nose |
+| अर्जुन | **office shirt**: `day-sky`, tucked in, a pen in the pocket, grey trousers; the fitness band from 2.1 | rounded shoulders bent to a phone | in 3.3 a stiff shirt and tie above, pyjama below. **Kurta**, `cotton-white`, like his father's: first at the bench in 1.17, then on bench mornings, and in the epilogue. The borrowed shawl in 2.2. Vest and pyjama at 2 a.m. |
+| मीरा | cotton kurta in `haldi-yellow` — the colour of her list pad — with a `cotton-white` dupatta | a tight bun with a pen pushed through it | a silk sari in `kite-pink` with a `brass` border for the function (3.4); plain white through दस लक्षण (6.3–6.5) |
+| सम्यक् | `night-indigo` hoodie in winter, a loose `steel` T-shirt otherwise; headphones round his neck | tall and thin; the phone held upright at chest height | school uniform on school days; nothing else changes — he changes by what he does with the phone |
+| अनाया | frock in `kite-pink` with `haldi-yellow` pockets; two short pigtails tied with `wool-red` ribbon; in winter a red cardigan knitted from the same wool as the ball | two pigtails; a notebook under one arm | taller by a hand's width in the epilogue, with no new mark on the door frame yet |
+| The hand | the edge of a white `अंगरखा` sleeve | — | none |
+
+## 5. Continuity table
+
+One row per prop, one column per chapter. A dash means the prop is not seen. Keys are given
+without the prop prefix.
+
+| Prop | P | 1 | 2 | 3 | 4 | 5 | 6 | 7 | E |
+|------|---|---|---|---|---|---|---|---|---|
+| `दादाजी का चश्मा` (old) | — | on-nose; on-head in 1.2; folded-on-granth in 1.12 | on-nose | on-nose; on-head in 3.2 | on-nose | on-nose | on-nose; folded-on-granth from 6.3 | in the desk drawer; on-dadi from 7.5 | on-dadi |
+| `दादाजी का नया चश्मा` | — | — | — | — | — | — | — | on-nose from 7.3 | on-nose |
+| `ग्रन्थ` | — | open-on-stand; wrapped and open-in-hands at the bench | the same | the same | open-in-hands | open-in-hands | closed in 6.3; wrapped, then open-on-stand in 6.8 | open-on-stand, wrapped in 7.1; open-last-page in 7.4 | wrapped in E.1; open-on-stand in E.2 |
+| `जयपुर का दीया` | lit | — | — | — | — | lit (5.5A) | — | lit (7.4A) | lit (E.3) |
+| `घर का दीया` | — | lit beside the open granth | lit | lit | lit | lit; lights six clay lamps in 5.5 | unlit in 6.8 | lit; twenty clay lamps in 7.4 | lit (E.2) |
+| `रुकी हुई घड़ी` | — | stopped | stopped | stopped | stopped | stopped | stopped | stopped | stopped |
+| `स्टील का गिलास` | — | full (1.6, 1.17) | — | — | — | full (5.4) | full (6.8) | full (7.1) | full (E.2) |
+| `निदान बोर्ड` | — | ch1 from 1.16 | ch2 at 2.8 | ch3 | ch3 | ch5 | ch5; ch6 at 6.8 | ch7 after 7.1A; final after 7.5 | final |
+| `लाल ऊन का गोला` | — | full | half | half | half | small | small | last; gone after 7.5 | — |
+| `अर्जुन का फ़ोन` | on | on | on | on | on | on | on | on in 7.1 | rings in his pocket (E.0); back (E.2) |
+| `सम का फ़ोन` | — | on | on | on | on | on; no network in 5.5 | on; off in 6.9 | off | on, after asking (E.1); back (E.2) |
+| `कटी पतंग` | — | drifting, then tied | gone from 2.6 | gone | gone | gone | gone | gone | 2028 |
+| `गन्ने का गमला` | — | surajmukhi | surajmukhi | surajmukhi | empty; kana-ganna in 4.4; 0-node in 4.5 | 1-sprout | 2-knee | 3-waist | 4-tall, on the terrace |
+| `तुलसी का गमला` | — | green | dried; new-cutting from 2.8 | new-cutting | new-cutting | new-cutting | cutting-grown | cutting-grown | cutting-grown |
+| `लाल बही` | — | tied | tied | tied | tied | tied | tied | tied; open in 7.5 | tied |
+| `जंग-रंग शॉल` | — | draped (दादाजी) | draped on अर्जुन in 2.2; folded from 2.7 | folded | folded | folded | folded | folded | draped (दादाजी) |
+| `दादी की माला` | — | loop, in her hand in 1.12 | loop | loop | loop | loop | loop, in her hand in 6.9 | loop | coiled (E.2, suggested) |
+| `दादाजी की माला` | — | — | — | — | — | — | dadaji (6.8) | — | — |
+| `व्रत की कॉपी` | — | closed | closed | closed | closed | closed | open in 6.5 | closed | closed |
+| `मीरा की लिस्ट` | — | full | full | full | full | full; new sheet in 5.4 | ticks grow; all-ticked in 6.5 | full | three-lines |
+| `घी का घड़ा` | — | tied | tied | tied | tied | tied | overturned in 6.6, then tied | tied | tied |
+| `बेंच` | — | dry | dry | — | — | wet | — | — | dry (E.0) |
+| `तीन डिब्बे` | — | kitchen | sorted from 2.3 | sorted | sorted | sorted | sorted | sorted | sorted |
+| `अनाया की सवाल-कॉपी` | — | closed | closed | closed | open in 4.2 | closed | closed | closed | closed |
+| `अनाया के क्रेयॉन` | — | ordered | ordered | ordered | ordered | ordered | ordered | ordered; one green one put right in 7.4 | ordered |
+| `व्हाइटबोर्ड` | — | — | — | — | blank; bona in 4.4 | — | — | — | — |
+| `कोई` | — | credit (1.10); search, scold (1.14) | clutch (2.2) | as the pages need | as the pages need | stand, with a small lamp (5.1) | as the pages need | as the pages need | — |
+| `हाथ` | dip, writing | — | — | — | — | writing (5.5A) | — | writing, then pen-down (7.4A) | pen-down (E.3) |
+
+## 6. Open questions for the writers
+
+These are places where the story documents disagree with each other, or leave a choice that a
+drawing had to make. Each has been drawn one way; say so if it should be the other.
+
+1. **The dollhouse has two rows.** B-502 is a flat on one storey, but five rooms and a balcony
+   cannot be "three rooms across" in one row. Section 3.1 draws the front row below and the back
+   row above. The order of the front row — master bedroom, kids' room, kitchen — is the
+   screenplay's own (1.1, 2.1, 3.3, 3.7, E.2).
+2. **Scene 3.6 puts the dining room "in the middle"**, between the two closed bedroom doors. In
+   every other dollhouse line the kids' room is in the middle and the kitchen and dining are at
+   screen-right. The drawing follows the majority; 3.6 needs one word changed.
+3. **दादाजी's own card after 6.8.** The screenplay leaves it face up beside the granth on the
+   kitchen table and does not say that it goes back on the board. `board:ch7` and `board:final`
+   put it back in its corner, face up, with a thread — and दादी's `११` in the slot beside it, so
+   that `ग्यारह कहाँ गए?` and `११` sit next to each other. Confirm or correct.
+4. **The hammer stall.** The screenplay has toy mice jumping out of holes to be pressed down
+   with a mallet (1.15, recalled in 3.7). The maryada rule is that nothing on screen depicts
+   harm to a living thing. The location sheet draws the pop-ups as plain wooden pegs.
+5. **सम's phone is "always upright"**, yet in 3.6 he holds it sideways to edit. The sheet now
+   reads "always upright when he films".
+6. **The map tags of 5.3.** दादाजी pins `जीव` and `अजीव` and says five more will come "अपनी बारी
+   से"; in 5.4 मीरा has read `पुण्य-पाप` on a card. The board shows those three tags and no more.
+   If the other tags are to appear, they go in a row under the centre card.
+7. **The home lamp in 6.8.** The drawing has it unlit while the granth lies wrapped, so that the
+   kitchen at the low point is lit by the bulb alone. The screenplay does not mention the lamp
+   in that scene.
+8. **The mala in E.2** lying coiled on the table, unused, is a suggestion, not something written.

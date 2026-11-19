@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" data-prop="haath">
   <title>हाथ — the writing hand, Jaipur, 1760s</title>
-  <desc>Pandit Todarmalji is only ever this: one right hand, the edge of a white अंगरखा sleeve, a reed pen, an inkpot, a sheet of handmade paper. No face, no body, no shadow of a head, ever. The hand enters from the screen-right bottom corner and is cut by the frame at the forearm. Marks: the reed has one node ring and an ink-dark cut nib; the inkpot has one run of dried ink down its screen-left side; the sleeve has a single line of piping at the cuff. Body text on the sheet is drawn as ink strokes, never as invented words. States left to right: writing, dip, pen-down (scene 7.4: the hand has gone; the last word on the sheet is the unfinished बहु).</desc>
+  <desc>Pandit Todarmalji is only ever this: one right hand, the edge of a white अंगरखा sleeve, a reed pen, an inkpot, a sheet of handmade paper. No face, no body, no shadow of a head, ever. The hand enters from the screen-right bottom corner and is cut by the frame at the forearm. Marks: the reed has one node ring and an ink-dark cut nib; the inkpot has one run of dried ink down its screen-left side; the sleeve has a single line of piping at the cuff. Body text on the sheet is drawn as ink strokes, never as invented words. States left to right: writing, dip, pen-down (scenes 7.4A and E.3: the hand has gone, the pen lies across the mouth of the inkpot, the last word on the sheet is the unfinished बहु).</desc>
   <style>
     .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
     .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
@@ -86,8 +86,7 @@
       <text class="t f-ink-sepia" x="160" y="278" font-size="24">बहु</text>
     </g>
     <use href="#haath-inkpot" transform="translate(-10 0)"/>
-    <!-- the pen, laid down on the sheet -->
-    <ellipse class="sh" cx="184" cy="318" rx="74" ry="4" transform="rotate(-14 184 318)"/>
-    <use href="#haath-kalam" transform="translate(112 330) rotate(22)"/>
+    <!-- the pen, laid across the mouth of the inkpot -->
+    <use href="#haath-kalam" transform="translate(244 73) rotate(27.600)"/>
   </g>
 </svg>

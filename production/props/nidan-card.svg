@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 400" data-prop="nidan-card">
   <title>निदान बोर्ड का कार्ड — anatomy of one case card</title>
-  <desc>Cream index card, 5 by 3 inches, one red head-rule and faint blue rules. दादाजी letters the title and a serial number in the corner, the way a cashier numbers a voucher. अनाया adds one crayon drawing. One brass pin; the red wool is knotted round it. States left to right: face-up (card 1, नींद), face-down (दादाजी's own card, corner lifting, no thread), centre-covered (until scene 2.8), centre-open (from scene 2.8; two scraps of tape remain where the slip was).</desc>
+  <desc>Cream index card, 5 by 3 inches, one red head-rule and faint blue rules. दादाजी letters the title and a serial number in the corner, the way a cashier numbers a voucher. अनाया adds one crayon drawing. One brass pin; the red wool is knotted round it. States left to right: face-up (अर्जुन's card, रात 2 बजे), face-down (दादाजी's own card, corner lifting, no thread), centre-covered (until scene 2.8), centre-open (from scene 2.8; two scraps of tape remain where the slip was).</desc>
   <style>
     .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
     .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
@@ -40,8 +40,8 @@
   <g id="state-face-up" data-state="card:face-up">
     <use href="#nidan-card-blank"/>
     <use href="#nidan-card-rules"/>
-    <text class="t f-outline" x="72" y="148" font-size="17" opacity=".7">क्र. १</text>
-    <text class="t f-outline" x="74" y="232" font-size="48">नींद</text>
+    <text class="t f-outline" x="72" y="148" font-size="17" opacity=".7">क्र. २</text>
+    <text class="t f-outline" x="70" y="228" font-size="37">रात 2 बजे</text>
     <!-- अनाया's crayon: a moon over a lit phone -->
     <path class="f-haldi-yellow ot" d="M262 176 A30 30 0 1 0 286 224 A22 22 0 1 1 262 176 Z"/>
     <path class="n s-haldi-yellow" stroke-width="3" stroke-linecap="round" d="M304 180 l5 -6 M312 196 l8 -2 M300 164 l1 -8"/>

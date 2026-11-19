@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 400" data-prop="kati-patang">
   <title>कटी पतंग — आँखदार, गुलाबी-पीली</title>
-  <desc>Paper fighter kite cut loose on संक्रांति 2027. Diamond 244 wide by 260 tall, pink on the screen-left half, yellow on the screen-right half, one round eye on each half in the other colour, bamboo spine and bow, white paper tabs at three corners, a two-colour tail. Wear: a V-shaped tear in the lower screen-right edge near the tail, and a short length of plain white cotton string with a frayed end. States left to right: flat (construction), drifting, tied (to the balcony grill), gone (scene 2.6: only the knot and a hand of string are left on the grill), 2028 (the kite that lands a year later: same pattern, colours mirrored, no tear).</desc>
+  <desc>Paper fighter kite cut loose on संक्रांति 2027. Diamond 244 wide by 260 tall, pink on the screen-left half, yellow on the screen-right half, one round eye on each half in the other colour, bamboo spine and bow, white paper tabs at three corners, a two-colour tail. Wear: a V-shaped tear in the lower screen-right edge near the tail, and a short length of plain white cotton string with a frayed end. States left to right: flat (construction), drifting, tied (to the balcony grill), gone (scene 2.6: only the knot and a hand of string are left on the grill), 2028 (the kite that lands a year later: another kite, the same pattern in green and white, no tear).</desc>
   <style>
     .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
     .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
@@ -9,6 +9,7 @@
     .f-kite-pink{fill:#EF6FA1}
     .f-haldi-yellow{fill:#EDB82F}
     .f-cotton-white{fill:#FCFAF4}
+    .f-leaf-green{fill:#6B9B3A}
     .s-outline{stroke:#4A2C20}
     .s-cotton-white{stroke:#FCFAF4}
     .s-soot-black{stroke:#2A2321}
@@ -35,15 +36,15 @@
       <path class="f-cotton-white ot" d="M200 52 L188 66 H212 Z M78 176 L92 164 V188 Z M322 176 L308 164 V188 Z"/>
       <circle class="f-cotton-white ot" cx="200" cy="172" r="3.500"/>
     </g>
-    <!-- 2028: the same pattern mirrored, whole -->
+    <!-- 2028: another kite altogether. Same pattern, green and white, whole. -->
     <g id="kati-patang-2028">
-      <path class="f-kite-pink o" d="M200 298 L178 350 L200 350 Z"/>
-      <path class="f-haldi-yellow o" d="M200 298 L222 350 L200 350 Z"/>
-      <path class="f-haldi-yellow o" d="M200 52 L78 176 L200 312 Z"/>
-      <path class="f-kite-pink o" d="M200 52 L322 176 L200 312 Z"/>
-      <circle class="f-kite-pink ot" cx="158" cy="168" r="22"/>
-      <circle class="f-cotton-white ot" cx="158" cy="168" r="8"/>
-      <circle class="f-haldi-yellow ot" cx="242" cy="168" r="22"/>
+      <path class="f-cotton-white o" d="M200 298 L178 350 L200 350 Z"/>
+      <path class="f-leaf-green o" d="M200 298 L222 350 L200 350 Z"/>
+      <path class="f-leaf-green o" d="M200 52 L78 176 L200 312 Z"/>
+      <path class="f-cotton-white o" d="M200 52 L322 176 L200 312 Z"/>
+      <circle class="f-cotton-white ot" cx="158" cy="168" r="22"/>
+      <circle class="f-leaf-green ot" cx="158" cy="168" r="8"/>
+      <circle class="f-leaf-green ot" cx="242" cy="168" r="22"/>
       <circle class="f-cotton-white ot" cx="242" cy="168" r="8"/>
       <path class="d" stroke-width="2.2" d="M200 52 V350 M78 176 Q200 40 322 176"/>
       <path class="f-cotton-white ot" d="M200 52 L188 66 H212 Z M78 176 L92 164 V188 Z M322 176 L308 164 V188 Z"/>

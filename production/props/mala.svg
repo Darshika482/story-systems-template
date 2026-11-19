@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" data-prop="mala">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" data-prop="mala">
   <title>दादी की माला — sandalwood mala, 108 beads</title>
-  <desc>108 sandalwood beads on a red thread, one larger head bead, a turmeric-yellow tassel. The beads are drawn as round dashes on one path whose length is declared as 108 units, so the count is exact by construction: never redraw them by hand. Wear: the fourteen beads on either side of the head bead are darker, polished by fifty years of fingers; one bead on the screen-right side is a paler replacement. States left to right: loop (hanging from its peg), coiled (lying on a table or on the व्रत की कॉपी). In scene 6.8 दादाजी turns this same mala.</desc>
+  <desc>108 sandalwood beads on a red thread, one larger head bead, a turmeric-yellow tassel. The beads are drawn as round dashes on one path whose length is declared as 108 units, so the count is exact by construction: never redraw them by hand. Wear: the fourteen beads on either side of the head bead are darker, polished by fifty years of fingers; one bead on the screen-right side is a paler replacement. States left to right: loop (hanging from its peg), coiled (lying on a table or on the व्रत की कॉपी), dadaji (दादाजी's own mala of scene 6.8: the same loop in plain dark wood, a knot where hers has a tassel, no polished run, no replaced bead).</desc>
   <style>
     .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
     .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
@@ -10,10 +10,13 @@
     .f-cane-straw{fill:#CFAE74}
     .f-haldi-yellow{fill:#EDB82F}
     .f-wood{fill:#9A683C}
+    .s-cotton-white{stroke:#FCFAF4}
+    .s-outline{stroke:#4A2C20}
     .s-wool-red{stroke:#D2312E}
     .thread{fill:none;stroke:#D2312E;stroke-width:1.2}
     .bead-o{fill:none;stroke:#4A2C20;stroke-width:7.6;stroke-linecap:round;stroke-dasharray:0 1}
     .bead{fill:none;stroke:#CFAE74;stroke-width:5;stroke-linecap:round;stroke-dasharray:0 1}
+    .bead-wood{fill:none;stroke:#9A683C;stroke-width:5;stroke-linecap:round;stroke-dasharray:0 1}
     .bead-new{fill:none;stroke:#FFF8E4;stroke-width:5;stroke-linecap:round;stroke-dasharray:0 108}
     .bead-dark{fill:none;stroke:#4A2C20;stroke-width:5;stroke-linecap:round;opacity:.28}
   </style>
@@ -48,5 +51,15 @@
     <path class="bead-o" pathLength="107" d="M114.3 246.3 C104.8 198.7 160.3 160.6 220.6 166.9 C276.2 173.3 303.1 214.5 279.3 252.6 C255.5 289.1 176.2 293.9 141.3 262.1 C117.5 238.3 144.5 198.7 200 195.5 C249.2 193.9 268.2 227.2 246 249.5 C225.4 270.1 181 265.3 174.6 241.5"/>
     <path class="bead" pathLength="107" d="M114.3 246.3 C104.8 198.7 160.3 160.6 220.6 166.9 C276.2 173.3 303.1 214.5 279.3 252.6 C255.5 289.1 176.2 293.9 141.3 262.1 C117.5 238.3 144.5 198.7 200 195.5 C249.2 193.9 268.2 227.2 246 249.5 C225.4 270.1 181 265.3 174.6 241.5"/>
     <use href="#mala-sumeru" transform="translate(114.3 246.3) rotate(40)"/>
+  </g>
+
+  <g id="state-dadaji" data-state="mala:dadaji" transform="translate(800 0)">
+    <path class="n s-cotton-white" stroke-width="1.200" d="M200 62 C262 62 306 118 306 188 C306 260 252 308 200 316 C148 308 94 260 94 188 C94 118 138 62 200 62 Z"/>
+    <path class="bead-o" pathLength="108" d="M200 62 C262 62 306 118 306 188 C306 260 252 308 200 316 C148 308 94 260 94 188 C94 118 138 62 200 62 Z"/>
+    <path class="bead-wood" pathLength="108" d="M200 62 C262 62 306 118 306 188 C306 260 252 308 200 316 C148 308 94 260 94 188 C94 118 138 62 200 62 Z"/>
+    <!-- head bead and a plain knot: no tassel -->
+    <circle class="f-wood ot" cx="200" cy="328" r="7.500"/>
+    <path class="n s-outline" stroke-width="4" stroke-linecap="round" d="M200 336 v6 M200 342 l-5 12 M200 342 l5 12"/>
+    <path class="n s-cotton-white" stroke-width="1.800" stroke-linecap="round" d="M200 336 v6 M200 342 l-5 12 M200 342 l5 12"/>
   </g>
 </svg>

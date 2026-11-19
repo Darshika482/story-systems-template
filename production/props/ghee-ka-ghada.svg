@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" data-prop="ghee-ka-ghada">
   <title>घी का घड़ा — the clay pot everyone calls the ghee pot</title>
-  <desc>Small round-bellied clay pot on the top kitchen shelf, its mouth covered with a white cloth tied down with cotton string. A ring of nine lime dots round the shoulder. Wear: the fourth and seventh dots have nearly rubbed away; a dark ghee stain runs down the belly from the neck on the screen-right side; the cloth has two red stripes and one ghee spot. States left to right: tied, open (cloth and string beside it, ghee showing, a steel spoon standing in it).</desc>
+  <desc>An old, thick clay pot from the top kitchen shelf, worn by generations, its mouth covered with a white cloth tied down with cotton string. A ring of nine lime dots round the shoulder. Wear: the shoulder is blackened with age; the fourth and seventh dots have nearly rubbed away; a dark ghee stain runs down the belly from the neck on the screen-right side; the cloth has two red stripes and one ghee spot. States left to right: tied (on the shelf), overturned (scene 6.6: mouth down on the kitchen floor in a pool of ghee, its cloth and string beside it; it is not broken).</desc>
   <style>
     .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
     .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
@@ -11,7 +11,7 @@
     .f-terracotta{fill:#C66B3F}
     .f-cotton-white{fill:#FCFAF4}
     .f-haldi-yellow{fill:#EDB82F}
-    .f-steel{fill:#BFC8CE}
+    .f-soot-black{fill:#2A2321}
     .s-wool-red{stroke:#D2312E}
     .s-outline{stroke:#4A2C20}
     .s-cotton-white{stroke:#FCFAF4}
@@ -19,10 +19,11 @@
   <defs>
     <!-- The one drawing of the pot, mouth open. -->
     <g id="ghada-pot">
-      <ellipse class="sh" cx="204" cy="326" rx="70" ry="7"/>
       <path class="f-terracotta o" d="M128 232 C128 176 156 156 172 150 L172 132 H228 L228 150 C244 156 272 176 272 232 C272 292 242 322 200 322 C158 322 128 292 128 232 Z"/>
       <path class="sh" d="M236 154 C252 162 272 180 272 232 C272 292 242 322 206 322 C236 300 248 268 248 232 C248 196 244 172 236 154 Z"/>
       <path class="hl" style="opacity:.22" d="M142 214 C144 188 156 172 168 164 C158 180 152 198 152 222 C152 248 158 270 168 288 C150 270 140 244 142 214 Z"/>
+      <!-- shoulder blackened with age -->
+      <path class="f-soot-black" opacity=".4" d="M136 196 C142 172 160 158 172 152 H228 C240 158 258 172 264 196 C240 186 160 186 136 196 Z"/>
       <!-- lime dots round the shoulder: nine, the fourth and seventh almost gone -->
       <g class="f-cotton-white ot">
         <circle cx="140" cy="200" r="4"/><circle cx="154" cy="207" r="4"/><circle cx="169" cy="212" r="4"/>
@@ -40,6 +41,7 @@
   </defs>
 
   <g id="state-tied" data-state="ghada:tied">
+    <ellipse class="sh" cx="204" cy="326" rx="70" ry="7"/>
     <use href="#ghada-pot"/>
     <!-- cloth: dome over the mouth, skirt below the string -->
     <path class="f-cotton-white o" d="M160 142 C148 152 144 160 146 170 l11 -7 l10 9 l11 -9 l11 9 l11 -9 l11 9 l11 -9 l10 9 l11 -9 l11 7 C256 160 252 152 240 142 Z"/>
@@ -54,21 +56,18 @@
     <path class="n s-cotton-white" stroke-width="2.800" stroke-linecap="round" stroke-linejoin="round" d="M200 147 C190 138 182 142 188 150 C192 154 198 150 200 147 C210 138 218 142 212 150 C208 154 202 150 200 147 M198 150 q-4 12 -10 16 M202 150 q4 12 12 15"/>
   </g>
 
-  <g id="state-open" data-state="ghada:open" transform="translate(400 0)">
-    <!-- spoon handle behind the near rim -->
-    <path class="f-steel o" d="M214 128 L246 62 Q252 56 256 62 Q258 68 254 74 L224 132 Z"/>
-    <path class="hl" d="M232 100 L248 68 L250 70 L236 102 Z"/>
-    <use href="#ghada-pot"/>
-    <ellipse class="f-haldi-yellow" cx="200" cy="131" rx="28" ry="6"/>
-    <ellipse class="hl" style="opacity:.45" cx="200" cy="131" rx="28" ry="6"/>
-    <path class="hl" style="opacity:.8" d="M182 129 C190 127 204 127 212 128 C204 129 192 130 184 131 Z"/>
-    <ellipse class="d" cx="200" cy="131" rx="28" ry="6"/>
-    <path class="f-steel o" d="M213 131 L217 122 L227 126 L223 133 Z"/>
-    <!-- the cloth, folded, with its string, on the shelf beside the pot -->
-    <ellipse class="sh" cx="322" cy="326" rx="44" ry="5"/>
-    <path class="f-cotton-white o" d="M284 300 L352 296 L360 318 L290 324 Z"/>
-    <path class="n s-wool-red" stroke-width="2.500" stroke-linecap="round" d="M292 306 L354 302 M294 313 L357 309"/>
-    <path class="n s-outline" stroke-width="5.500" stroke-linecap="round" d="M300 300 C310 284 334 284 342 298 C348 308 362 304 366 294"/>
-    <path class="n s-cotton-white" stroke-width="2.800" stroke-linecap="round" d="M300 300 C310 284 334 284 342 298 C348 308 362 304 366 294"/>
+  <g id="state-overturned" data-state="ghada:overturned" transform="translate(400 0)">
+    <!-- the pool of ghee on the floor -->
+    <path class="f-haldi-yellow ot" d="M40 318 C60 296 150 292 214 296 C286 290 352 300 366 322 C376 344 316 356 240 352 C170 360 86 356 52 342 C34 334 32 326 40 318 Z"/>
+    <path class="hl" style="opacity:.5" d="M40 318 C60 296 150 292 214 296 C286 290 352 300 366 322 C376 344 316 356 240 352 C170 360 86 356 52 342 C34 334 32 326 40 318 Z"/>
+    <path class="hl" style="opacity:.8" d="M70 316 C100 304 150 302 190 304 C150 306 104 310 78 320 Z"/>
+    <!-- the pot, mouth down, leaning -->
+    <ellipse class="sh" cx="196" cy="326" rx="78" ry="8"/>
+    <use href="#ghada-pot" transform="translate(-14 16) rotate(156 200 226)"/>
+    <!-- its cloth and string, soaked, beside it -->
+    <path class="f-cotton-white o" d="M286 316 C300 304 332 304 346 314 C352 324 340 334 318 336 C298 336 282 328 286 316 Z"/>
+    <path class="n s-wool-red" stroke-width="2.500" stroke-linecap="round" d="M294 318 C308 312 328 312 340 318 M296 326 C310 320 326 320 338 326"/>
+    <path class="n s-outline" stroke-width="5.500" stroke-linecap="round" d="M336 306 C350 296 366 300 368 312 C370 322 358 326 352 320"/>
+    <path class="n s-cotton-white" stroke-width="2.800" stroke-linecap="round" d="M336 306 C350 296 366 300 368 312 C370 322 358 326 352 320"/>
   </g>
 </svg>

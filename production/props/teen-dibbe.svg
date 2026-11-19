@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" data-prop="teen-dibbe">
   <title>तीन डिब्बे — three steel tins</title>
-  <desc>Three steel kitchen tins with lids, in descending size from screen-left to screen-right, each with a paper label in मीरा's blue handwriting stuck on with tape. Wear: the big tin has a dent low on its screen-left side; the lid of the small tin sits crooked; the knob of the middle lid is a replacement in brass. States left to right: kitchen (what they hold before scene 2.3), sorted (from scene 2.3: new labels pasted over the old ones, whose top edges still show: अपना, आता-जाता, शरीर का).</desc>
+  <desc>Three steel kitchen tins with lids, in descending size from screen-left to screen-right. Wear: the big tin has a dent low on its screen-left side; the lid of the small tin sits crooked; the knob of the middle lid is a replacement in brass. States left to right: kitchen (मीरा's own white labels, before scene 2.3), sorted (from scene 2.3: three slips torn from her yellow list pad and stuck over the old labels, in her blue hand: जानना, गुस्सा — आना-जाना, रंग-रूप).</desc>
   <style>
     .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
     .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
@@ -12,6 +12,7 @@
     .f-brass{fill:#C4932F}
     .f-paper-cream{fill:#FFF8E4}
     .f-cane-straw{fill:#CFAE74}
+    .f-haldi-yellow{fill:#EDB82F}
     .f-night-indigo{fill:#1F2348}
     .t{font-family:"Noto Sans Devanagari",sans-serif;font-weight:700}
   </style>
@@ -65,7 +66,7 @@
     <text class="t f-night-indigo" x="140" y="246" font-size="22" text-anchor="middle">शक्कर</text>
     <rect x="278" y="236" width="76" height="46" rx="2" class="f-paper-cream ot"/>
     <use href="#dibbe-tape" transform="translate(316 236)"/>
-    <text class="t f-night-indigo" x="316" y="266" font-size="18" text-anchor="middle">मूँग दाल</text>
+    <text class="t f-night-indigo" x="316" y="266" font-size="17" text-anchor="middle">अजवाइन</text>
     <rect x="432" y="270" width="58" height="38" rx="2" class="f-paper-cream ot"/>
     <use href="#dibbe-tape" transform="translate(461 270)"/>
     <text class="t f-night-indigo" x="461" y="295" font-size="17" text-anchor="middle">जीरा</text>
@@ -73,27 +74,25 @@
 
   <g id="state-sorted" data-state="dibbe:sorted" transform="translate(600 0)">
     <use href="#dibbe-tins"/>
-    <!-- old labels stay underneath; only their top edges show -->
+    <!-- old labels stay underneath; only their top edges show. New labels are slips torn from the yellow list pad. -->
     <rect x="96" y="212" width="88" height="52" rx="2" class="f-paper-cream ot"/>
     <rect x="278" y="236" width="76" height="46" rx="2" class="f-paper-cream ot"/>
     <rect x="432" y="270" width="58" height="38" rx="2" class="f-paper-cream ot"/>
     <g transform="rotate(-2 140 244)">
-      <rect x="92" y="220" width="96" height="52" rx="2" class="f-paper-cream ot"/>
-      <use href="#dibbe-tape" transform="translate(104 222) rotate(-30)"/>
-      <use href="#dibbe-tape" transform="translate(178 222) rotate(30)"/>
-      <text class="t f-night-indigo" x="140" y="255" font-size="24" text-anchor="middle">अपना</text>
+      <rect x="92" y="220" width="96" height="52" rx="2" class="f-haldi-yellow ot"/>
+      <rect x="93" y="221" width="94" height="50" rx="1.500" class="hl" style="opacity:.62"/>
+      <text class="t f-night-indigo" x="140" y="255" font-size="24" text-anchor="middle">जानना</text>
     </g>
     <g transform="rotate(2 316 264)">
-      <rect x="272" y="243" width="88" height="46" rx="2" class="f-paper-cream ot"/>
-      <use href="#dibbe-tape" transform="translate(284 245) rotate(-30)"/>
-      <use href="#dibbe-tape" transform="translate(350 245) rotate(30)"/>
-      <text class="t f-night-indigo" x="316" y="273" font-size="17" text-anchor="middle">आता-जाता</text>
+      <rect x="270" y="241" width="92" height="50" rx="2" class="f-haldi-yellow ot"/>
+      <rect x="271" y="242" width="90" height="48" rx="1.500" class="hl" style="opacity:.62"/>
+      <text class="t f-night-indigo" x="316" y="262" font-size="17" text-anchor="middle">गुस्सा —</text>
+      <text class="t f-night-indigo" x="316" y="282" font-size="16" text-anchor="middle">आना-जाना</text>
     </g>
     <g transform="rotate(-2 461 292)">
-      <rect x="424" y="276" width="74" height="38" rx="2" class="f-paper-cream ot"/>
-      <use href="#dibbe-tape" transform="translate(434 278) rotate(-30)"/>
-      <use href="#dibbe-tape" transform="translate(488 278) rotate(30)"/>
-      <text class="t f-night-indigo" x="461" y="301" font-size="15" text-anchor="middle">शरीर का</text>
+      <rect x="424" y="276" width="74" height="38" rx="2" class="f-haldi-yellow ot"/>
+      <rect x="425" y="277" width="72" height="36" rx="1.500" class="hl" style="opacity:.62"/>
+      <text class="t f-night-indigo" x="461" y="301" font-size="16" text-anchor="middle">रंग-रूप</text>
     </g>
   </g>
 </svg>

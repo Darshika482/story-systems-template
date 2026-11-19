@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 400" data-prop="lal-oon">
   <title>लाल ऊन का गोला — दादी's red wool in its cane basket</title>
-  <desc>A ball of red wool in a shallow round cane basket, with two wooden knitting needles and a few cast-on rows that never grow: the wool goes to the निदान बोर्ड instead. Wear: one broken cane strand sticks out of the rim on the screen-right; one needle has lost its end knob. The ball shrinks through the film; the basket, needles and knitting never change. States left to right: full (radius 58), half (44), small (30), last (17).</desc>
+  <desc>A ball of red wool in a shallow round cane basket, with two wooden knitting needles and a short strip of knitting that stays short all year: most of the wool goes to the निदान बोर्ड. Wear: one broken cane strand sticks out of the rim on the screen-right; one needle has lost its end knob. The ball shrinks through the film; the basket and needles never change. States left to right: full (radius 58), half (44), small (30), last (17).</desc>
   <style>
     .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
     .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
@@ -24,7 +24,7 @@
       <path class="f-cane-straw o" d="M94 250 C110 230 290 230 306 250 C290 270 110 270 94 250 Z"/>
       <path class="sh" style="opacity:.4" d="M104 250 C120 236 280 236 296 250 C280 264 120 264 104 250 Z"/>
     </g>
-    <!-- the two needles and the knitting that never grows -->
+    <!-- the two needles and the short strip of knitting -->
     <g id="lal-oon-needles">
       <path class="n s-outline" stroke-width="8" stroke-linecap="round" d="M236 268 L322 122 M254 270 L346 152"/>
       <path class="n s-wood" stroke-width="5" stroke-linecap="round" d="M236 268 L322 122 M254 270 L346 152"/>
