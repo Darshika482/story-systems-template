@@ -87,6 +87,6 @@
     </g>
     <use href="#haath-inkpot" transform="translate(-10 0)"/>
     <!-- the pen, laid across the mouth of the inkpot -->
-    <use href="#haath-kalam" transform="translate(244 73) rotate(27.600)"/>
+    <use href="#haath-kalam" transform="translate(226 74) rotate(27.600)"/>
   </g>
 </svg>

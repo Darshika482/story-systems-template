@@ -79,9 +79,9 @@ These 26 tokens are the single source of truth. The same names and values are in
 | `steel` | `#BFC8CE` | material | tumbler, tins, almirah, spoon; दादी's grey hair |
 | `brass` | `#C4932F` | material | home lamp, clock rim, pins, donor plate, gold title, gold wire rim, lamp oil |
 | `terracotta` | `#C66B3F` | material | clay lamps, both flower pots, the ghee pot |
-| `wood` | `#9A683C` | material | rehal, board frame, needles, soil, stems |
+| `wood` | `#9A683C` | material | rehal, board frame, needles, soil, stems, दादाजी's mala |
 | `cane-straw` | `#CFAE74` | material | cork, cane basket, sandalwood beads, cane stalk, dry leaves, brown paper, tape |
-| `leaf-green` | `#6B9B3A` | material | every living leaf |
+| `leaf-green` | `#6B9B3A` | material | every living leaf; the kite of 2028; the hospital wall, under white |
 | `bench-green` | `#2F6D54` | material | the bench; dark green crayon |
 | `skin-wheat` | `#E3B68D` | skin | दादी, मीरा, अनाया |
 | `skin-tan` | `#C98F63` | skin | दादाजी, अर्जुन, सम्यक्; the hand in Jaipur |
@@ -392,8 +392,8 @@ tied to the same centre.
 
 **Construction** (cell 130 × 100)
 
-- दादाजी's cork board from the bank: `wood` frame 120 by 90, 3.5 wide; `cane-straw` cork; a
-  `brass` pin at each corner of the cork.
+- दादाजी's cork board from the bank where he worked for thirty-seven years (1977–2014): `wood`
+  frame 120 by 90, 3.5 wide; `cane-straw` cork; a `brass` pin at each corner of the cork.
 - A **faded notice strip** across the top, `paper-cream`, torn at its screen-right end, pinned
   once: `सूचना पट्ट · शाखा जौहरी बाज़ार` at 40 % strength. It names the branch, not the bank.
 - **Twenty fixed slots** round the centre: six across the top row, six across the bottom row,
