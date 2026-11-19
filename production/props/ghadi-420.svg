@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" data-prop="ghadi-420">
+  <title>रुकी हुई घड़ी — ghadi-420</title>
+  <desc>Round wind-up wall clock in the grandparents' room. Cream face, brass rim, Devanagari numerals. Stopped at 4:20: the minute hand lies exactly on 4, the hour hand a third of the way from 4 to 5, so the two hands almost touch. The red second hand is frozen at 52. Hairline crack in the glass at 7. One winding hole above 6. One state only: stopped. Nothing on this clock ever moves.</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-paper-cream{fill:#FFF8E4}
+    .f-brass{fill:#C4932F}
+    .f-soot-black{fill:#2A2321}
+    .f-outline{fill:#4A2C20}
+    .s-outline{stroke:#4A2C20}
+    .s-soot-black{stroke:#2A2321}
+    .s-wool-red{stroke:#D2312E}
+    .s-cotton-white{stroke:#FCFAF4}
+    .s-brass{stroke:#C4932F}
+    .t{font-family:"Noto Sans Devanagari",sans-serif;font-weight:700}
+  </style>
+
+  <g id="state-stopped" data-state="ghadi:stopped">
+    <!-- shadow on the wall, nail, hanging loop -->
+    <circle class="sh" cx="208" cy="214" r="130"/>
+    <path class="n s-outline" stroke-width="7" d="M200 76 V64"/>
+    <path class="n s-brass" stroke-width="3.5" d="M200 76 V64"/>
+    <circle class="f-soot-black" cx="200" cy="60" r="4"/>
+    <!-- brass rim and cream face -->
+    <circle class="f-brass o" cx="200" cy="205" r="130"/>
+    <path class="hl" style="opacity:.4" d="M92 150 A122 122 0 0 1 176 86 A126 126 0 0 0 92 150 Z"/>
+    <path class="sh" d="M318 240 A124 124 0 0 1 236 324 A128 128 0 0 0 318 240 Z"/>
+    <circle class="f-paper-cream o" cx="200" cy="205" r="114"/>
+    <!-- age: the face has yellowed toward the crack -->
+    <path class="sh" style="opacity:.07" d="M96 232 C104 268 132 300 170 314 C176 290 168 262 150 244 C134 230 112 226 96 232 Z"/>
+    <!-- minute track and hour marks -->
+    <circle class="n s-outline" cx="200" cy="205" r="109" stroke-width="5" pathLength="60" stroke-dasharray=".14 .86" stroke-dashoffset=".07" stroke-linecap="butt"/>
+    <circle class="n s-outline" cx="200" cy="205" r="107" stroke-width="9" pathLength="12" stroke-dasharray=".05 .95" stroke-dashoffset=".025" stroke-linecap="butt"/>
+    <circle class="d" cx="200" cy="205" r="102" opacity=".5"/>
+    <!-- numerals -->
+    <g class="t f-outline" font-size="20" text-anchor="middle">
+      <text x="200" y="131">१२</text>
+      <text x="242" y="142">१</text>
+      <text x="273" y="173">२</text>
+      <text x="284" y="212">३</text>
+      <text x="273" y="254">४</text>
+      <text x="242" y="285">५</text>
+      <text x="200" y="296">६</text>
+      <text x="158" y="285">७</text>
+      <text x="127" y="254">८</text>
+      <text x="116" y="212">९</text>
+      <text x="127" y="173">१०</text>
+      <text x="158" y="142">११</text>
+    </g>
+    <text class="t f-outline" x="200" y="166" font-size="9" text-anchor="middle" letter-spacing="1.5" opacity=".7">जयपुर</text>
+    <!-- winding hole -->
+    <circle class="f-brass ot" cx="200" cy="250" r="6.5"/>
+    <circle class="f-soot-black" cx="200" cy="250" r="3.2"/>
+    <!-- hands: hour at 130 degrees, minute at 120 degrees, second frozen at 312 degrees -->
+    <path class="n s-soot-black" stroke-width="7" stroke-linecap="round" d="M190.800 197.300 L242.900 241"/>
+    <path class="n s-soot-black" stroke-width="4" stroke-linecap="round" d="M187.900 198 L272.700 247"/>
+    <path class="n s-wool-red" stroke-width="1.800" stroke-linecap="round" d="M214.900 218.400 L131.600 143.400"/>
+    <circle class="f-brass ot" cx="200" cy="205" r="6"/>
+    <!-- glass: glare and the hairline crack at 7 -->
+    <path class="hl" style="opacity:.28" d="M112 170 A96 96 0 0 1 178 112 A104 104 0 0 0 112 170 Z"/>
+    <path class="n s-cotton-white" stroke-width="1.6" stroke-linejoin="round" opacity=".9" d="M144 304.700 L151 291 L148 285 L159 273 L157 267 L167 257 M151 291 L142 286"/>
+    <path class="d" stroke-width="1.100" d="M143 303.700 L150 290 L147 284 L158 272 L156 266 L166 256 M150 290 L141 285"/>
+  </g>
+</svg>

@@ -88,7 +88,7 @@
       <path class="d" opacity=".5" d="M86 286 H200 M86 289 H200"/>
       <use href="#granth-lines" transform="translate(98 190)"/>
       <ellipse class="sh" cx="98" cy="276" rx="10" ry="12"/>
-      <rect x="190" y="174" width="10" height="118" class="sh" opacity=".1"/>
+      <rect x="190" y="174" width="10" height="118" class="sh" style="opacity:.1"/>
     </g>
     <!-- screen-right leaf -->
     <g transform="translate(200 0) skewY(-18.78) translate(-200 0)">
@@ -96,8 +96,8 @@
       <rect x="200" y="174" width="114" height="118" class="f-paper-cream ot"/>
       <path class="d" opacity=".5" d="M200 286 H314 M200 289 H314"/>
       <use href="#granth-lines" transform="translate(210 190)"/>
-      <ellipse class="sh" opacity=".26" cx="302" cy="276" rx="10" ry="12"/>
-      <rect x="200" y="174" width="10" height="118" class="sh" opacity=".1"/>
+      <ellipse class="sh" style="opacity:.26" cx="302" cy="276" rx="10" ry="12"/>
+      <rect x="200" y="174" width="10" height="118" class="sh" style="opacity:.1"/>
     </g>
     <path class="f-wool-red ot" d="M197 178 H204 L205 294 L209 330 L203 324 L198 331 L198 294 Z"/>
   </g>
@@ -109,15 +109,15 @@
       <path class="d" opacity=".5" d="M68 284 H200 M68 287 H200"/>
       <use href="#granth-lines" transform="translate(82 122) scale(1.16 1.5)"/>
       <ellipse class="sh" cx="84" cy="270" rx="12" ry="16"/>
-      <rect x="188" y="102" width="12" height="188" class="sh" opacity=".1"/>
+      <rect x="188" y="102" width="12" height="188" class="sh" style="opacity:.1"/>
     </g>
     <g transform="translate(200 0) skewY(-7) translate(-200 0)">
       <rect x="200" y="96" width="138" height="200" rx="4" class="f-granth-maroon o"/>
       <rect x="200" y="102" width="132" height="188" class="f-paper-cream ot"/>
       <path class="d" opacity=".5" d="M200 284 H332 M200 287 H332"/>
       <use href="#granth-lines" transform="translate(212 122) scale(1.16 1.5)"/>
-      <ellipse class="sh" opacity=".26" cx="316" cy="270" rx="12" ry="16"/>
-      <rect x="200" y="102" width="12" height="188" class="sh" opacity=".1"/>
+      <ellipse class="sh" style="opacity:.26" cx="316" cy="270" rx="12" ry="16"/>
+      <rect x="200" y="102" width="12" height="188" class="sh" style="opacity:.1"/>
     </g>
     <path class="f-wool-red ot" d="M197 104 H204 L205 292 L209 330 L203 324 L198 331 L198 292 Z"/>
     <!-- thumbs only: fingers are behind the covers. The hands themselves belong to the character rig. -->
@@ -132,15 +132,15 @@
     <rect x="30" y="74" width="340" height="252" rx="6" class="f-granth-maroon o"/>
     <rect x="38" y="82" width="162" height="236" class="f-paper-cream ot"/>
     <rect x="200" y="82" width="162" height="236" class="f-paper-cream ot"/>
-    <rect x="186" y="82" width="14" height="236" class="sh" opacity=".1"/>
-    <rect x="200" y="82" width="14" height="236" class="sh" opacity=".1"/>
+    <rect x="186" y="82" width="14" height="236" class="sh" style="opacity:.1"/>
+    <rect x="200" y="82" width="14" height="236" class="sh" style="opacity:.1"/>
     <path class="txt" stroke-width="2.6" d="M54 108 H184 M54 124 H184 M54 140 H184 M54 156 H184 M54 172 H184 M54 188 H184 M54 204 H184 M54 220 H184 M54 236 H184 M54 252 H184 M54 268 H184 M54 284 H184"/>
     <path class="txt" stroke-width="2.6" d="M216 108 H346 M216 124 H346 M216 140 H346 M216 156 H346 M216 172 H346 M216 188 H284"/>
     <text class="t f-ink-sepia" x="292" y="195" font-size="21">बहु</text>
     <text class="t f-ink-sepia" x="119" y="308" font-size="9" text-anchor="middle" opacity=".7">३३८</text>
     <text class="t f-ink-sepia" x="281" y="308" font-size="9" text-anchor="middle" opacity=".7">३३९</text>
     <ellipse class="sh" cx="52" cy="298" rx="12" ry="16"/>
-    <ellipse class="sh" opacity=".26" cx="348" cy="298" rx="12" ry="16"/>
+    <ellipse class="sh" style="opacity:.26" cx="348" cy="298" rx="12" ry="16"/>
     <path class="f-wool-red ot" d="M197 82 H204 L205 318 L209 352 L203 346 L198 353 L198 318 Z"/>
   </g>
 </svg>

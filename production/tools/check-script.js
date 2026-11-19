@@ -9,7 +9,8 @@
  *
  * 1. Granth fidelity — every वचन-कार्ड / वचन-पट्टी must carry a bank ID note on the next
  *    non-blank line, and its words must match sourcematerials/granth-quote-bank.md exactly.
- * 2. Curly double quotes may appear only on card and strip lines.
+ * 2. Curly double quotes may appear only on card and strip lines, or in dialogue around
+ *    words that are part of a bank line.
  * 3. Maryada word list — flags words for things the screen never shows.
  * 4. Cue list — every character cue must be one of the agreed names.
  *
@@ -92,7 +93,16 @@ for (const file of targets()) {
       return;
     }
 
-    if (/[“”]/.test(line) && !line.startsWith('[[')) err(n, 'curly double quotes outside a granth card or strip');
+    // Outside a card, curly quotes are allowed only around words that are part of a bank line
+    // (for example two people speaking the two halves of one granth sentence).
+    if (/[“”]/.test(line) && !line.startsWith('[[')) {
+      const spoken = line.match(/“([^”]*)”/g) || ['“”'];
+      for (const q of spoken) {
+        const words = q.slice(1, -1).replace(/^…\s*/, '').replace(/\s*…$/, '').trim();
+        const known = words && Object.values(bank).some((b) => b.includes(words));
+        if (!known) err(n, `curly double quotes around words that are not in the quote bank: ${q}`);
+      }
+    }
     if (/^\[\[GRANTH-VERIFY/.test(line)) pending.push(`${rel}:${n}  ${line}`);
 
     if (prev === '' && /^[A-Z][A-Z\s\d'.-]+(\s*\([^)]+\))?$/.test(line) && !/^(INT|EXT|CUT|FADE|DISSOLVE)/.test(line)) {

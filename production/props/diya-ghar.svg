@@ -40,14 +40,14 @@
       <path class="sh" d="M207 264 L221 264 L224 278 L204 278 Z"/>
       <!-- cup -->
       <path class="f-brass o" d="M134 236 C136 254 170 268 214 268 C250 268 274 258 284 246 L320 224 C316 217 302 215 288 219 C268 212 150 214 134 236 Z"/>
-      <path class="sh" opacity=".3" d="M140 236 C158 220 262 218 284 224 L312 221 C302 228 292 232 284 236 C262 248 156 250 140 236 Z"/>
+      <path class="sh" style="opacity:.3" d="M140 236 C158 220 262 218 284 224 L312 221 C302 228 292 232 284 236 C262 248 156 250 140 236 Z"/>
       <path class="f-brass" opacity=".7" d="M154 238 C172 229 250 228 266 234 C250 246 172 247 154 238 Z"/>
       <path class="d" d="M140 236 C156 250 262 248 284 236 C294 232 304 227 314 222"/>
       <!-- polish, dent, dried oil under the spout, tarnish on the foot -->
       <path class="hl" d="M156 252 C176 260 200 263 222 262 C200 258 176 254 156 248 Z"/>
       <path class="hl" d="M172 327 C186 323 204 322 222 322 C204 325 186 327 172 331 Z"/>
       <ellipse class="sh" cx="252" cy="256" rx="9" ry="5" transform="rotate(-24 252 256)"/>
-      <path class="sh" opacity=".34" d="M296 236 C304 232 312 228 318 226 C314 238 306 248 296 256 C292 250 292 242 296 236 Z"/>
+      <path class="sh" style="opacity:.34" d="M296 236 C304 232 312 228 318 226 C314 238 306 248 296 256 C292 250 292 242 296 236 Z"/>
       <path class="sh" d="M236 336 C250 334 262 332 268 330 C268 338 250 342 228 343 Z"/>
       <!-- wick -->
       <path class="n s-outline" stroke-width="8" d="M244 236 C268 236 292 228 311 221"/>

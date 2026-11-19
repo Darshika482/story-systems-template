@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" data-prop="steel-gilas">
+  <title>स्टील का गिलास — steel-gilas</title>
+  <desc>Steel tumbler, a wedding gift from 1977. Tapered body, rolled rim, two engraved rings, and the engraving "ह. प्र. जैन · 1977" under the rim. Wear: one dent low on the screen-left side, three fine scratches on the screen-right side. States left to right: full (water), empty.</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-steel{fill:#BFC8CE}
+    .f-day-sky{fill:#CDE6F0}
+    .f-outline{fill:#4A2C20}
+    .t{font-family:"Noto Sans Devanagari",sans-serif;font-weight:700}
+  </style>
+  <defs>
+    <path id="steel-gilas-arc" d="M146 135 Q200 150 254 135"/>
+    <!-- The one drawing of the tumbler, without what is inside it. -->
+    <g id="steel-gilas-body">
+      <ellipse class="sh" cx="204" cy="326" rx="62" ry="7"/>
+      <path class="f-steel o" d="M136 96 L154 318 C154 332 246 332 246 318 L264 96 Z"/>
+      <!-- light from the left, shade on the right, one soft reflection -->
+      <path class="hl" d="M148 112 L160 114 L172 320 C166 319 162 318 160 316 Z"/>
+      <path class="hl" style="opacity:.25" d="M178 116 L196 118 L198 324 L184 323 Z"/>
+      <path class="sh" d="M242 114 L262 106 L246 318 C246 322 240 325 230 327 Z"/>
+      <!-- engraved rings -->
+      <path class="d" opacity=".55" d="M140.500 152 Q200 168 259.500 152 M141 158 Q200 174 259 158 M152.500 298 Q200 311 247.500 298"/>
+      <!-- engraving -->
+      <text class="t f-outline" font-size="12.500" text-anchor="middle" opacity=".8" letter-spacing=".4"><textPath href="#steel-gilas-arc" startOffset="50%">ह. प्र. जैन · 1977</textPath></text>
+      <!-- dent and scratches -->
+      <ellipse class="sh" cx="172" cy="280" rx="10" ry="6" transform="rotate(8 172 280)"/>
+      <path class="hl" d="M164 284 q8 5 17 1 q-9 1 -17 -1 Z"/>
+      <path class="d" opacity=".4" d="M222 214 l12 -5 M224 222 l14 -4 M228 230 l8 -3"/>
+      <!-- rolled rim -->
+      <ellipse class="f-steel o" cx="200" cy="96" rx="64" ry="13"/>
+      <path class="hl" d="M142 94 C156 86 184 84 204 84 C184 87 160 90 146 97 Z"/>
+    </g>
+  </defs>
+
+  <g id="state-full" data-state="gilas:full">
+    <use href="#steel-gilas-body"/>
+    <ellipse class="f-steel" cx="200" cy="97" rx="57" ry="10"/>
+    <ellipse class="sh" style="opacity:.3" cx="200" cy="97" rx="57" ry="10"/>
+    <ellipse class="f-day-sky" cx="200" cy="99" rx="54" ry="8"/>
+    <path class="hl" style="opacity:.8" d="M160 98 C174 93 196 92 214 93 C196 95 176 97 164 101 Z"/>
+    <ellipse class="d" cx="200" cy="97" rx="57" ry="10"/>
+  </g>
+
+  <g id="state-empty" data-state="gilas:empty" transform="translate(400 0)">
+    <use href="#steel-gilas-body"/>
+    <ellipse class="f-steel" cx="200" cy="97" rx="57" ry="10"/>
+    <ellipse class="sh" style="opacity:.42" cx="200" cy="97" rx="57" ry="10"/>
+    <path class="hl" style="opacity:.3" d="M150 93 C170 88 230 88 250 93 C232 91 168 91 150 93 Z"/>
+    <ellipse class="d" cx="200" cy="97" rx="57" ry="10"/>
+  </g>
+</svg>

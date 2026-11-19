@@ -33,9 +33,9 @@
       <path class="f-terracotta o" d="M90 226 C90 262 118 288 152 294 L224 294 C252 288 270 270 280 246 L320 224 C316 216 300 213 284 217 C262 206 110 206 90 226 Z"/>
       <!-- inside of the bowl, oil, near rim -->
       <path class="f-terracotta" d="M96 226 C116 210 258 210 280 220 L312 221 C300 228 290 232 280 234 C256 246 112 246 96 226 Z"/>
-      <path class="sh" opacity=".3" d="M96 226 C116 210 258 210 280 220 L312 221 C300 228 290 232 280 234 C256 246 112 246 96 226 Z"/>
+      <path class="sh" style="opacity:.3" d="M96 226 C116 210 258 210 280 220 L312 221 C300 228 290 232 280 234 C256 246 112 246 96 226 Z"/>
       <path class="f-brass" opacity=".9" d="M112 228 C132 218 244 218 262 226 C244 240 132 240 112 228 Z"/>
-      <path class="hl" opacity=".35" d="M132 226 C150 221 190 220 214 222 C190 224 150 226 132 226 Z"/>
+      <path class="hl" style="opacity:.35" d="M132 226 C150 221 190 220 214 222 C190 224 150 226 132 226 Z"/>
       <path class="d" d="M96 226 C112 246 256 246 280 234 C292 231 304 226 314 222"/>
       <path class="d" d="M92 234 C112 254 256 254 282 240"/>
       <!-- throwing ridges, thumb dent, nick in the back rim -->

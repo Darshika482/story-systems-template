@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" data-prop="bench">
+  <title>बेंच — the society garden bench</title>
+  <desc>Green slatted bench on three black iron frames, seen from the front. The centre frame and its brass donor plate divide it into two halves: screen-left is दादाजी's, screen-right is गुप्ता अंकल's. Three back slats and three seat slats per half. Wear: the middle back slat of the screen-right half is a paler replacement with bright screws; the paint is worn through to the wood on the front seat slat of both halves, where two men sat for forty years. States left to right: dry, wet.</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-bench-green{fill:#2F6D54}
+    .f-soot-black{fill:#2A2321}
+    .f-brass{fill:#C4932F}
+    .f-wood{fill:#9A683C}
+    .f-steel{fill:#BFC8CE}
+    .f-outline{fill:#4A2C20}
+    .f-day-sky{fill:#CDE6F0}
+    .iron{fill:none;stroke:#2A2321;stroke-linecap:round;stroke-linejoin:round}
+    .t{font-family:"Noto Sans Devanagari",sans-serif;font-weight:700}
+  </style>
+  <defs>
+    <!-- The one drawing. Cell is 600 wide; ground line y=340; centre frame x=300. -->
+    <g id="bench-body">
+      <ellipse class="sh" cx="300" cy="344" rx="268" ry="8"/>
+      <!-- back legs and back posts -->
+      <path class="iron" stroke-width="7" d="M70 270 L76 334 M530 270 L524 334 M300 270 V334"/>
+      <path class="iron" stroke-width="13" d="M64 114 V266 M300 114 V266 M536 114 V266"/>
+      <!-- back slats: screen-left half, then screen-right half -->
+      <g class="f-bench-green o">
+        <rect x="52" y="118" width="245" height="22" rx="4"/>
+        <rect x="52" y="148" width="245" height="22" rx="4"/>
+        <rect x="52" y="178" width="245" height="22" rx="4"/>
+        <rect x="303" y="118" width="245" height="22" rx="4"/>
+        <rect x="303" y="148" width="245" height="22" rx="4"/>
+        <rect x="303" y="178" width="245" height="22" rx="4"/>
+      </g>
+      <!-- the replaced slat: paler, with bright screws -->
+      <rect x="304.500" y="149.500" width="242" height="19" rx="3" class="hl" style="opacity:.3"/>
+      <g class="f-outline">
+        <circle cx="64" cy="129" r="2.2"/><circle cx="64" cy="159" r="2.2"/><circle cx="64" cy="189" r="2.2"/>
+        <circle cx="288" cy="129" r="2.2"/><circle cx="288" cy="189" r="2.2"/>
+        <circle cx="312" cy="129" r="2.2"/><circle cx="312" cy="189" r="2.2"/>
+        <circle cx="536" cy="129" r="2.2"/><circle cx="536" cy="189" r="2.2"/>
+      </g>
+      <circle class="f-steel ot" cx="330" cy="159" r="2.6"/>
+      <circle class="f-steel ot" cx="536" cy="159" r="2.6"/>
+      <path class="d" opacity=".35" d="M80 124 H250 M90 184 H270 M330 124 H500 M340 184 H520"/>
+      <!-- seat slats, seen a little from above; the front one shows its edge -->
+      <g class="f-bench-green o">
+        <rect x="56" y="224" width="241" height="11" rx="3"/>
+        <rect x="52" y="238" width="245" height="12" rx="3"/>
+        <rect x="48" y="253" width="249" height="22" rx="4"/>
+        <rect x="303" y="224" width="241" height="11" rx="3"/>
+        <rect x="303" y="238" width="245" height="12" rx="3"/>
+        <rect x="303" y="253" width="249" height="22" rx="4"/>
+      </g>
+      <path class="sh" style="opacity:.3" d="M50 266 H296 V271 Q296 274 293 274 H52 Q49 274 49 271 Z M304 266 H550 V271 Q550 274 547 274 H307 Q304 274 304 271 Z"/>
+      <!-- worn through to the wood: one patch per half -->
+      <path class="f-wood ot" d="M146 259 C158 253 204 253 216 258 C221 262 214 266 200 266 L160 266 C149 266 141 263 146 259 Z"/>
+      <path class="d" opacity=".5" d="M158 260 H204 M166 263 H196"/>
+      <path class="f-wood ot" d="M398 259 C408 254 440 254 450 258 C454 262 448 266 438 266 L408 266 C399 266 394 263 398 259 Z"/>
+      <path class="d" opacity=".5" d="M408 260 H440 M414 263 H434"/>
+      <path class="f-wood" d="M118 119.500 l10 0 l-3 4 l-6 1 Z"/>
+      <!-- arms, front legs and feet -->
+      <path class="iron" stroke-width="9" d="M62 198 C38 192 32 214 40 232 L46 262 M538 198 C562 192 568 214 560 232 L554 262"/>
+      <path class="iron" stroke-width="10" d="M48 276 C46 302 44 322 38 336 M552 276 C554 302 556 322 562 336 M300 276 V336"/>
+      <path class="iron" stroke-width="7" d="M28 340 H50 M550 340 H572 M288 340 H312"/>
+      <!-- brass donor plate on the centre frame -->
+      <rect x="277" y="148" width="46" height="22" rx="2.500" class="f-brass ot"/>
+      <path class="hl" d="M280 151 H318 L316 154 H282 Z"/>
+      <circle class="f-outline" cx="281.500" cy="159" r="1.300"/>
+      <circle class="f-outline" cx="318.500" cy="159" r="1.300"/>
+      <text class="t f-outline" x="300" y="162.500" font-size="8" text-anchor="middle">भेंट · 1987</text>
+    </g>
+  </defs>
+
+  <g id="state-dry" data-state="bench:dry">
+    <use href="#bench-body"/>
+  </g>
+
+  <g id="state-wet" data-state="bench:wet" transform="translate(600 0)">
+    <ellipse class="f-day-sky ot" cx="196" cy="348" rx="84" ry="7" opacity=".8"/>
+    <use href="#bench-body"/>
+    <!-- rain: the lower half of every slat is darker, water stands on the screen-right seat, drops hang under the front edge -->
+    <path class="sh" d="M54 130 H295 V138 H54 Z M54 160 H295 V168 H54 Z M54 190 H295 V198 H54 Z M305 130 H546 V138 H305 Z M305 160 H546 V168 H305 Z M305 190 H546 V198 H305 Z"/>
+    <path class="sh" d="M58 230 H295 V234 H58 Z M54 245 H295 V249 H54 Z M305 230 H542 V234 H305 Z M305 245 H546 V249 H305 Z"/>
+    <ellipse class="f-day-sky ot" cx="484" cy="259.500" rx="34" ry="4.500" opacity=".85"/>
+    <path class="hl" style="opacity:.8" d="M462 258.500 q14 -3 30 -1 q-16 0 -30 1 Z"/>
+    <g class="f-day-sky ot">
+      <path d="M96 276 q-4 7 0 9 q4 -2 0 -9 Z"/>
+      <path d="M182 276 q-4 9 0 11 q4 -2 0 -11 Z"/>
+      <path d="M262 276 q-4 6 0 8 q4 -2 0 -8 Z"/>
+      <path d="M352 276 q-4 8 0 10 q4 -2 0 -10 Z"/>
+      <path d="M436 276 q-4 6 0 8 q4 -2 0 -8 Z"/>
+      <path d="M520 276 q-4 9 0 11 q4 -2 0 -11 Z"/>
+    </g>
+  </g>
+</svg>
