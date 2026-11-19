@@ -1,7 +1,7 @@
 # Treatment — scene by scene
 
 **Story year:** मकर संक्रांति, Friday 15 January 2027 → मकर संक्रांति, Saturday 15 January 2028.
-**Running time:** about 108 minutes · 61 scenes · 44 reels · interval at about 60 minutes.
+**Running time:** about 108 minutes · 62 scenes · 44 reels · interval at about 60 minutes.
 
 Card IDs (Q70, Q259…) refer to `sourcematerials/granth-quote-bank.md`. "(ours)" marks an image
 that is ours, not Panditji's, and is said that way on screen.
@@ -361,13 +361,15 @@ unpins his own blame threads and brings them to the centre, and writes a new car
 ग़लत गिन रहा हूँ?" In bed, मीरा: "क्या हुआ?" — "एक रुपया मिल गया।" — "कहाँ था?" — "मेरे पास।" —
 "…अच्छा हुआ।" · R38
 
-**7.2 · EXT. SOCIETY LANE - EVENING.** अनाया learns to ride. Sam, with his stream form: "सब
+**7.2 · EXT. SOCIETY LANE - EVENING.** अनाया learns to ride. Sam, with a stream-change form (अर्जुन
+filled Science for him in June; the last date to switch is 15 October): "सब
 भवितव्य है तो मेरे हाथ में क्या?" Card Q311b, strip Q311a. दादाजी: "धक्का कोई भी दे दे। संतुलन… खुद।"
 (ours). Sam fills the form himself. अर्जुन signs without looking at the box: "सोचकर भरा है?" —
 "हाँ।" — "बस।" · R39
 
 **7.3 · INT. STAIRWELL - EVENING** (Thursday 28 Oct). The lift is out. Five floors, दादाजी with a
-new lens, the family around him. At Mrs Kapoor's door मीरा wishes her and means it. On the third
+new lens, the family around him. In the lobby Mrs Kapoor praises the jubilee; मीरा, instead of preening, praises her rangoli and
+means it. On the third
 landing, father to son: "'ग्यारह कहाँ गए' — ये मैंने ग़लत पूछा था। उस दिन कहना था — आ, खाना खा ले।"
 अर्जुन carries the bag and does not say he is carrying it. · R40
 
@@ -385,6 +387,10 @@ nobody can read — "पढ़ना न आए तो बही भी रद�
 her nose; अनाया pushes them up. · R42
 
 ## Epilogue — संक्रांति (15 January 2028 · 4:30)
+
+**E.0 · EXT. SOCIETY GARDEN BENCH - DAWN.** Fog. दादाजी on his half; अर्जुन, in a kurta, on गुप्ता
+अंकल's half. The office rings; he lets it ring twice, says "दस मिनट में करता हूँ", and stays. Film
+only.
 
 **E.1 · EXT. TERRACE - MORNING.** The same sky. A cut kite lands; अनाया holds it up and lets it
 go: "ये रुकने नहीं आई थी।" The cane in the pot is taller than her pencil mark. वर्माजी: "वाह! क्या

@@ -16,14 +16,14 @@ code, and can be voiced in ElevenLabs.
   `(V.O.)` for narration and phone voices, `(O.S.)` for someone in the next room.
   The narrator is always `DADI (V.O.)`.
 - **Parentheticals: lowercase English letters only** — letters, spaces, comma, hyphen,
-  apostrophe. `(softly)`, `(not looking up)`, `(beat)`. No Hindi, no digits, no full stop.
+  apostrophe. `(softly)`, `(not looking up)`, `(beat)`, `(to his grandson)`. No Hindi, no digits, no full stop, no capital letters — so no names.
 - **Dialogue in Hindi (Devanagari).** English words people really say stay in Latin letters:
   office, okay, deal, logic.
 - **Action lines in Hindi**, present tense, short paragraphs. An action line must not begin with
   a Latin capital letter (the validator reads a short one as a character name) and must not
   begin with the words CUT, FADE, DISSOLVE, SMASH, TIME, MATCH, INT or EXT.
-- **Transitions**, only these, alone on a line: `CUT TO:` `DISSOLVE TO:` `SMASH CUT TO:`
-  `MATCH CUT TO:` `TIME CUT:` `FADE IN:` `FADE OUT.`
+- **Transitions**, alone on a line. Plain: `CUT TO:` `DISSOLVE TO:` `FADE IN:` `FADE OUT.`
+  With a leading `>` (the validator needs it): `>MATCH CUT TO:` `>SMASH CUT TO:` `>TIME CUT:`
 - Chapter = `# अध्याय N — शीर्षक`. A one-line synopsis under a heading starts with `=`.
 - Notes for the team go in `[[ … ]]` on their own line.
 

@@ -368,3 +368,4 @@ mawath
 koi
 Sankranti
 Diwali
+rangoli
