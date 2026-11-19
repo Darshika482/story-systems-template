@@ -13,14 +13,11 @@
     .f-haldi-yellow{fill:#EDB82F}
     .f-terracotta{fill:#C66B3F}
     .f-lamp-gold{fill:#F5A623}
-    .f-cotton-white{fill:#FCFAF4}
     .f-outline{fill:#4A2C20}
-    .f-ink-sepia{fill:#6E4322}
     .s-haldi-yellow{stroke:#EDB82F}
     .s-outline{stroke:#4A2C20}
     .s-steel{stroke:#BFC8CE}
     .s-day-sky{stroke:#CDE6F0}
-    .s-ink-sepia{stroke:#6E4322}
     .pencil{fill:none;stroke:#4A2C20;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;opacity:.8}
     .t{font-family:"Noto Sans Devanagari",sans-serif;font-weight:700}
   </style>

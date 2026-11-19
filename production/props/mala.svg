@@ -8,11 +8,9 @@
     .n{fill:none}
     .sh{fill:#4A2C20;opacity:.16}
     .f-cane-straw{fill:#CFAE74}
-    .f-paper-cream{fill:#FFF8E4}
     .f-haldi-yellow{fill:#EDB82F}
     .f-wood{fill:#9A683C}
     .s-wool-red{stroke:#D2312E}
-    .s-haldi-yellow{stroke:#EDB82F}
     .thread{fill:none;stroke:#D2312E;stroke-width:1.2}
     .bead-o{fill:none;stroke:#4A2C20;stroke-width:7.6;stroke-linecap:round;stroke-dasharray:0 1}
     .bead{fill:none;stroke:#CFAE74;stroke-width:5;stroke-linecap:round;stroke-dasharray:0 1}

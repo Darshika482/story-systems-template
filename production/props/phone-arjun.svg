@@ -13,7 +13,6 @@
     .f-cotton-white{fill:#FCFAF4}
     .f-steel{fill:#BFC8CE}
     .s-cotton-white{stroke:#FCFAF4}
-    .s-outline{stroke:#4A2C20}
     .c-cotton-white{stop-color:#FCFAF4}
     .c-phone-blue{stop-color:#4DA3F0}
   </style>

@@ -11,7 +11,6 @@
     .hl{fill:#FCFAF4;opacity:.5}
     .f-rust-shawl{fill:#B5532B}
     .f-soot-black{fill:#2A2321}
-    .s-paper-cream{stroke:#FFF8E4}
     .border{fill:none;stroke:#FFF8E4;stroke-width:3.5;stroke-linejoin:round;stroke-linecap:round}
     .fringe{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round}
   </style>

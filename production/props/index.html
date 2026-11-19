@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>प्रॉप संपर्क-पत्र — Prop contact sheet</title>
+<style>
+  :root { --outline: #4A2C20; --cream: #F4E8CF; --paper: #FFF8E4; --sepia: #6E4322; }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 28px 32px 60px; background: var(--cream); color: var(--outline);
+         font: 15px/1.45 "Noto Sans Devanagari", "Noto Sans", system-ui, sans-serif; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  .lede { margin: 0 0 20px; max-width: 70em; color: var(--sepia); }
+  h2 { font-size: 20px; margin: 34px 0 2px; padding-top: 14px; border-top: 2px solid var(--outline); }
+  h2 small { font-weight: 400; font-size: 13px; color: var(--sepia); margin-left: 8px; }
+  h3 { font: 13px/1.3 ui-monospace, "JetBrains Mono", monospace; margin: 14px 0 6px; color: var(--sepia); font-weight: 400; }
+  .row { display: flex; flex-wrap: wrap; gap: 12px; }
+  figure { margin: 0; padding: 0; background: var(--cream); border: 1px dashed rgba(74,44,32,.3); border-radius: 6px; }
+  figure img { display: block; }
+  figcaption { font: 12px/1.3 ui-monospace, "JetBrains Mono", monospace; padding: 5px 8px 6px; border-top: 1px dashed rgba(74,44,32,.3); }
+  .swatches { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 0; padding: 0; list-style: none; }
+  .swatches li { width: 118px; font: 11px/1.3 ui-monospace, "JetBrains Mono", monospace; }
+  .swatches span { display: block; height: 34px; border: 1.5px solid var(--outline); border-radius: 5px; margin-bottom: 3px; }
+</style>
+</head>
+<body>
+<h1>प्रॉप संपर्क-पत्र · Prop contact sheet</h1>
+<p class="lede">Every hero prop of the film, drawn once. One SVG file per prop; each tile below is one state of that prop, cut from the file by its cell. The caption under a tile is the state key writers and animators use. Dashed lines inside a drawing are placement guides, not part of the prop. Spec: docs/v2-development/05-prop-bible.md · Colours: tokens.json.</p>
+<ul class="swatches">
+  <li><span style="background:#4A2C20"></span>outline<br>#4A2C20</li>
+  <li><span style="background:#6E4322"></span>ink-sepia<br>#6E4322</li>
+  <li><span style="background:#2A2321"></span>soot-black<br>#2A2321</li>
+  <li><span style="background:#F4E8CF"></span>wall-cream<br>#F4E8CF</li>
+  <li><span style="background:#FFF8E4"></span>paper-cream<br>#FFF8E4</li>
+  <li><span style="background:#EAD8B1"></span>parchment<br>#EAD8B1</li>
+  <li><span style="background:#FCFAF4"></span>cotton-white<br>#FCFAF4</li>
+  <li><span style="background:#F5A623"></span>lamp-gold<br>#F5A623</li>
+  <li><span style="background:#FFE9A6"></span>flame-core<br>#FFE9A6</li>
+  <li><span style="background:#4DA3F0"></span>phone-blue<br>#4DA3F0</li>
+  <li><span style="background:#CDE6F0"></span>day-sky<br>#CDE6F0</li>
+  <li><span style="background:#1F2348"></span>night-indigo<br>#1F2348</li>
+  <li><span style="background:#B5532B"></span>rust-shawl<br>#B5532B</li>
+  <li><span style="background:#7A1E2C"></span>granth-maroon<br>#7A1E2C</li>
+  <li><span style="background:#EDB82F"></span>haldi-yellow<br>#EDB82F</li>
+  <li><span style="background:#D2312E"></span>wool-red<br>#D2312E</li>
+  <li><span style="background:#EF6FA1"></span>kite-pink<br>#EF6FA1</li>
+  <li><span style="background:#BFC8CE"></span>steel<br>#BFC8CE</li>
+  <li><span style="background:#C4932F"></span>brass<br>#C4932F</li>
+  <li><span style="background:#C66B3F"></span>terracotta<br>#C66B3F</li>
+  <li><span style="background:#9A683C"></span>wood<br>#9A683C</li>
+  <li><span style="background:#CFAE74"></span>cane-straw<br>#CFAE74</li>
+  <li><span style="background:#6B9B3A"></span>leaf-green<br>#6B9B3A</li>
+  <li><span style="background:#2F6D54"></span>bench-green<br>#2F6D54</li>
+  <li><span style="background:#E3B68D"></span>skin-wheat<br>#E3B68D</li>
+  <li><span style="background:#C98F63"></span>skin-tan<br>#C98F63</li>
+</ul>
+
+<h2>1. दादाजी का चश्मा</h2>
+<h3>chashma-old.svg — दादाजी का चश्मा (पुराना) — chashma-old</h3>
+<div class="row">
+  <figure><img src="chashma-old.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="chashma:on-head"><figcaption>chashma:on-head</figcaption></figure>
+  <figure><img src="chashma-old.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="chashma:on-nose"><figcaption>chashma:on-nose</figcaption></figure>
+  <figure><img src="chashma-old.svg#svgView(viewBox(800,0,400,400))" width="240" height="240" alt="chashma:folded-on-granth"><figcaption>chashma:folded-on-granth</figcaption></figure>
+  <figure><img src="chashma-old.svg#svgView(viewBox(1200,0,400,400))" width="240" height="240" alt="chashma:on-dadi"><figcaption>chashma:on-dadi</figcaption></figure>
+</div>
+<h3>chashma-new.svg — दादाजी का नया चश्मा — chashma-new</h3>
+<div class="row">
+  <figure><img src="chashma-new.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="chashma-naya:on-nose"><figcaption>chashma-naya:on-nose</figcaption></figure>
+  <figure><img src="chashma-new.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="chashma-naya:folded"><figcaption>chashma-naya:folded</figcaption></figure>
+</div>
+
+<h2>2. ग्रन्थ</h2>
+<h3>granth.svg — ग्रन्थ — मोक्षमार्गप्रकाशक, रेहल और पीला कपड़ा</h3>
+<div class="row">
+  <figure><img src="granth.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="granth:closed"><figcaption>granth:closed</figcaption></figure>
+  <figure><img src="granth.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="granth:wrapped"><figcaption>granth:wrapped</figcaption></figure>
+  <figure><img src="granth.svg#svgView(viewBox(800,0,400,400))" width="240" height="240" alt="granth:open-on-stand"><figcaption>granth:open-on-stand</figcaption></figure>
+  <figure><img src="granth.svg#svgView(viewBox(1200,0,400,400))" width="240" height="240" alt="granth:open-in-hands"><figcaption>granth:open-in-hands</figcaption></figure>
+  <figure><img src="granth.svg#svgView(viewBox(1600,0,400,400))" width="240" height="240" alt="granth:open-last-page"><figcaption>granth:open-last-page</figcaption></figure>
+</div>
+
+<h2>3. जयपुर का दीया · घर का दीया</h2>
+<h3>diya-jaipur.svg — जयपुर का दीया — diya-jaipur</h3>
+<div class="row">
+  <figure><img src="diya-jaipur.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="diya-jaipur:lit"><figcaption>diya-jaipur:lit</figcaption></figure>
+  <figure><img src="diya-jaipur.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="diya-jaipur:unlit"><figcaption>diya-jaipur:unlit</figcaption></figure>
+</div>
+<h3>diya-ghar.svg — घर का दीया — diya-ghar</h3>
+<div class="row">
+  <figure><img src="diya-ghar.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="diya-ghar:lit"><figcaption>diya-ghar:lit</figcaption></figure>
+  <figure><img src="diya-ghar.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="diya-ghar:unlit"><figcaption>diya-ghar:unlit</figcaption></figure>
+</div>
+<h3>diya-mitti.svg — छोटा मिट्टी का दीया — the small clay lamps</h3>
+<div class="row">
+  <figure><img src="diya-mitti.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="diya-mitti:lit"><figcaption>diya-mitti:lit</figcaption></figure>
+  <figure><img src="diya-mitti.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="diya-mitti:unlit"><figcaption>diya-mitti:unlit</figcaption></figure>
+</div>
+<h3>lau.svg — लौ — the one flame</h3>
+<div class="row">
+  <figure><img src="lau.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="lau:steady"><figcaption>lau:steady</figcaption></figure>
+  <figure><img src="lau.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="lau:flicker-a"><figcaption>lau:flicker-a</figcaption></figure>
+  <figure><img src="lau.svg#svgView(viewBox(800,0,400,400))" width="240" height="240" alt="lau:flicker-b"><figcaption>lau:flicker-b</figcaption></figure>
+  <figure><img src="lau.svg#svgView(viewBox(1200,0,400,400))" width="240" height="240" alt="lau:low"><figcaption>lau:low</figcaption></figure>
+  <figure><img src="lau.svg#svgView(viewBox(1600,0,400,400))" width="240" height="240" alt="lau:blue"><figcaption>lau:blue</figcaption></figure>
+</div>
+
+<h2>4. रुकी हुई घड़ी</h2>
+<h3>ghadi-420.svg — रुकी हुई घड़ी — ghadi-420</h3>
+<div class="row">
+  <figure><img src="ghadi-420.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="ghadi:stopped"><figcaption>ghadi:stopped</figcaption></figure>
+</div>
+
+<h2>5. स्टील का गिलास</h2>
+<h3>steel-gilas.svg — स्टील का गिलास — steel-gilas</h3>
+<div class="row">
+  <figure><img src="steel-gilas.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="gilas:full"><figcaption>gilas:full</figcaption></figure>
+  <figure><img src="steel-gilas.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="gilas:empty"><figcaption>gilas:empty</figcaption></figure>
+</div>
+
+<h2>6. निदान बोर्ड</h2>
+<h3>nidan-board.svg — निदान बोर्ड — the diagnosis board</h3>
+<div class="row">
+  <figure><img src="nidan-board.svg#svgView(viewBox(0,0,520,400))" width="312" height="240" alt="board:ch1"><figcaption>board:ch1</figcaption></figure>
+  <figure><img src="nidan-board.svg#svgView(viewBox(520,0,520,400))" width="312" height="240" alt="board:ch2"><figcaption>board:ch2</figcaption></figure>
+  <figure><img src="nidan-board.svg#svgView(viewBox(1040,0,520,400))" width="312" height="240" alt="board:ch3"><figcaption>board:ch3</figcaption></figure>
+  <figure><img src="nidan-board.svg#svgView(viewBox(1560,0,520,400))" width="312" height="240" alt="board:ch5"><figcaption>board:ch5</figcaption></figure>
+  <figure><img src="nidan-board.svg#svgView(viewBox(2080,0,520,400))" width="312" height="240" alt="board:ch6"><figcaption>board:ch6</figcaption></figure>
+  <figure><img src="nidan-board.svg#svgView(viewBox(2600,0,520,400))" width="312" height="240" alt="board:ch7"><figcaption>board:ch7</figcaption></figure>
+  <figure><img src="nidan-board.svg#svgView(viewBox(3120,0,520,400))" width="312" height="240" alt="board:final"><figcaption>board:final</figcaption></figure>
+</div>
+<h3>nidan-card.svg — निदान बोर्ड का कार्ड — anatomy of one case card</h3>
+<div class="row">
+  <figure><img src="nidan-card.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="card:face-up"><figcaption>card:face-up</figcaption></figure>
+  <figure><img src="nidan-card.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="card:face-down"><figcaption>card:face-down</figcaption></figure>
+  <figure><img src="nidan-card.svg#svgView(viewBox(800,0,400,400))" width="240" height="240" alt="card:centre-covered"><figcaption>card:centre-covered</figcaption></figure>
+  <figure><img src="nidan-card.svg#svgView(viewBox(1200,0,400,400))" width="240" height="240" alt="card:centre-open"><figcaption>card:centre-open</figcaption></figure>
+</div>
+
+<h2>7. लाल ऊन का गोला</h2>
+<h3>lal-oon.svg — लाल ऊन का गोला — दादी&#x27;s red wool in its cane basket</h3>
+<div class="row">
+  <figure><img src="lal-oon.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="oon:full"><figcaption>oon:full</figcaption></figure>
+  <figure><img src="lal-oon.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="oon:half"><figcaption>oon:half</figcaption></figure>
+  <figure><img src="lal-oon.svg#svgView(viewBox(800,0,400,400))" width="240" height="240" alt="oon:small"><figcaption>oon:small</figcaption></figure>
+  <figure><img src="lal-oon.svg#svgView(viewBox(1200,0,400,400))" width="240" height="240" alt="oon:last"><figcaption>oon:last</figcaption></figure>
+</div>
+
+<h2>8. अर्जुन का फ़ोन · सम का फ़ोन</h2>
+<h3>phone-arjun.svg — अर्जुन का फ़ोन — phone-arjun</h3>
+<div class="row">
+  <figure><img src="phone-arjun.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="phone-arjun:on"><figcaption>phone-arjun:on</figcaption></figure>
+  <figure><img src="phone-arjun.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="phone-arjun:off"><figcaption>phone-arjun:off</figcaption></figure>
+  <figure><img src="phone-arjun.svg#svgView(viewBox(800,0,400,400))" width="240" height="240" alt="phone-arjun:back"><figcaption>phone-arjun:back</figcaption></figure>
+</div>
+<h3>phone-sam.svg — सम का फ़ोन — phone-sam</h3>
+<div class="row">
+  <figure><img src="phone-sam.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="phone-sam:on"><figcaption>phone-sam:on</figcaption></figure>
+  <figure><img src="phone-sam.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="phone-sam:off"><figcaption>phone-sam:off</figcaption></figure>
+  <figure><img src="phone-sam.svg#svgView(viewBox(800,0,400,400))" width="240" height="240" alt="phone-sam:back"><figcaption>phone-sam:back</figcaption></figure>
+</div>
+
+<h2>9. कटी पतंग</h2>
+<h3>kati-patang.svg — कटी पतंग — आँखदार, गुलाबी-पीली</h3>
+<div class="row">
+  <figure><img src="kati-patang.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="patang:flat"><figcaption>patang:flat</figcaption></figure>
+  <figure><img src="kati-patang.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="patang:drifting"><figcaption>patang:drifting</figcaption></figure>
+  <figure><img src="kati-patang.svg#svgView(viewBox(800,0,400,400))" width="240" height="240" alt="patang:tied"><figcaption>patang:tied</figcaption></figure>
+  <figure><img src="kati-patang.svg#svgView(viewBox(1200,0,400,400))" width="240" height="240" alt="patang:2028"><figcaption>patang:2028</figcaption></figure>
+</div>
+
+<h2>10. गन्ने का गमला</h2>
+<h3>ganne-ka-gamla.svg — गन्ने का गमला — the sunflower&#x27;s pot, then the cane&#x27;s</h3>
+<div class="row">
+  <figure><img src="ganne-ka-gamla.svg#svgView(viewBox(0,0,320,640))" width="192" height="384" alt="gamla:surajmukhi"><figcaption>gamla:surajmukhi</figcaption></figure>
+  <figure><img src="ganne-ka-gamla.svg#svgView(viewBox(320,0,320,640))" width="192" height="384" alt="gamla:kana-ganna"><figcaption>gamla:kana-ganna</figcaption></figure>
+  <figure><img src="ganne-ka-gamla.svg#svgView(viewBox(640,0,320,640))" width="192" height="384" alt="gamla:0-node"><figcaption>gamla:0-node</figcaption></figure>
+  <figure><img src="ganne-ka-gamla.svg#svgView(viewBox(960,0,320,640))" width="192" height="384" alt="gamla:1-sprout"><figcaption>gamla:1-sprout</figcaption></figure>
+  <figure><img src="ganne-ka-gamla.svg#svgView(viewBox(1280,0,320,640))" width="192" height="384" alt="gamla:2-knee"><figcaption>gamla:2-knee</figcaption></figure>
+  <figure><img src="ganne-ka-gamla.svg#svgView(viewBox(1600,0,320,640))" width="192" height="384" alt="gamla:3-waist"><figcaption>gamla:3-waist</figcaption></figure>
+  <figure><img src="ganne-ka-gamla.svg#svgView(viewBox(1920,0,320,640))" width="192" height="384" alt="gamla:4-tall"><figcaption>gamla:4-tall</figcaption></figure>
+</div>
+
+<h2>11. तुलसी का गमला</h2>
+<h3>tulsi-gamla.svg — तुलसी का गमला — दादी&#x27;s tulsi</h3>
+<div class="row">
+  <figure><img src="tulsi-gamla.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="tulsi:green"><figcaption>tulsi:green</figcaption></figure>
+  <figure><img src="tulsi-gamla.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="tulsi:dried"><figcaption>tulsi:dried</figcaption></figure>
+  <figure><img src="tulsi-gamla.svg#svgView(viewBox(800,0,400,400))" width="240" height="240" alt="tulsi:new-cutting"><figcaption>tulsi:new-cutting</figcaption></figure>
+  <figure><img src="tulsi-gamla.svg#svgView(viewBox(1200,0,400,400))" width="240" height="240" alt="tulsi:cutting-grown"><figcaption>tulsi:cutting-grown</figcaption></figure>
+</div>
+
+<h2>12. लाल बही</h2>
+<h3>lal-bahi.svg — लाल बही — दादाजी&#x27;s father&#x27;s ledger</h3>
+<div class="row">
+  <figure><img src="lal-bahi.svg#svgView(viewBox(0,0,600,400))" width="360" height="240" alt="bahi:tied"><figcaption>bahi:tied</figcaption></figure>
+  <figure><img src="lal-bahi.svg#svgView(viewBox(600,0,600,400))" width="360" height="240" alt="bahi:open"><figcaption>bahi:open</figcaption></figure>
+</div>
+
+<h2>13. जंग-रंग शॉल</h2>
+<h3>shawl.svg — जंग-रंग शॉल — दादाजी&#x27;s rust wool shawl</h3>
+<div class="row">
+  <figure><img src="shawl.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="shawl:flat"><figcaption>shawl:flat</figcaption></figure>
+  <figure><img src="shawl.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="shawl:folded"><figcaption>shawl:folded</figcaption></figure>
+  <figure><img src="shawl.svg#svgView(viewBox(800,0,400,400))" width="240" height="240" alt="shawl:draped"><figcaption>shawl:draped</figcaption></figure>
+</div>
+
+<h2>14. दादी की माला · व्रत की कॉपी</h2>
+<h3>mala.svg — दादी की माला — sandalwood mala, 108 beads</h3>
+<div class="row">
+  <figure><img src="mala.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="mala:loop"><figcaption>mala:loop</figcaption></figure>
+  <figure><img src="mala.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="mala:coiled"><figcaption>mala:coiled</figcaption></figure>
+</div>
+<h3>vrat-ki-copy.svg — व्रत की कॉपी — दादी&#x27;s notebook of fasts</h3>
+<div class="row">
+  <figure><img src="vrat-ki-copy.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="vrat-copy:closed"><figcaption>vrat-copy:closed</figcaption></figure>
+  <figure><img src="vrat-ki-copy.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="vrat-copy:open"><figcaption>vrat-copy:open</figcaption></figure>
+</div>
+
+<h2>15. मीरा की लिस्ट</h2>
+<h3>meera-ki-list.svg — मीरा की लिस्ट — the yellow list pad on the fridge</h3>
+<div class="row">
+  <figure><img src="meera-ki-list.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="list:full"><figcaption>list:full</figcaption></figure>
+  <figure><img src="meera-ki-list.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="list:all-ticked"><figcaption>list:all-ticked</figcaption></figure>
+  <figure><img src="meera-ki-list.svg#svgView(viewBox(800,0,400,400))" width="240" height="240" alt="list:three-lines"><figcaption>list:three-lines</figcaption></figure>
+</div>
+
+<h2>16. घी का घड़ा</h2>
+<h3>ghee-ka-ghada.svg — घी का घड़ा — the clay pot everyone calls the ghee pot</h3>
+<div class="row">
+  <figure><img src="ghee-ka-ghada.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="ghada:tied"><figcaption>ghada:tied</figcaption></figure>
+  <figure><img src="ghee-ka-ghada.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="ghada:open"><figcaption>ghada:open</figcaption></figure>
+</div>
+
+<h2>17. बेंच</h2>
+<h3>bench.svg — बेंच — the society garden bench</h3>
+<div class="row">
+  <figure><img src="bench.svg#svgView(viewBox(0,0,600,400))" width="360" height="240" alt="bench:dry"><figcaption>bench:dry</figcaption></figure>
+  <figure><img src="bench.svg#svgView(viewBox(600,0,600,400))" width="360" height="240" alt="bench:wet"><figcaption>bench:wet</figcaption></figure>
+</div>
+
+<h2>18. तीन डिब्बे</h2>
+<h3>teen-dibbe.svg — तीन डिब्बे — three steel tins</h3>
+<div class="row">
+  <figure><img src="teen-dibbe.svg#svgView(viewBox(0,0,600,400))" width="360" height="240" alt="dibbe:kitchen"><figcaption>dibbe:kitchen</figcaption></figure>
+  <figure><img src="teen-dibbe.svg#svgView(viewBox(600,0,600,400))" width="360" height="240" alt="dibbe:sorted"><figcaption>dibbe:sorted</figcaption></figure>
+</div>
+
+<h2>19. अनाया की सवाल-कॉपी · क्रेयॉन</h2>
+<h3>sawal-copy.svg — अनाया की सवाल-कॉपी — the question notebook</h3>
+<div class="row">
+  <figure><img src="sawal-copy.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="sawal-copy:closed"><figcaption>sawal-copy:closed</figcaption></figure>
+  <figure><img src="sawal-copy.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="sawal-copy:open"><figcaption>sawal-copy:open</figcaption></figure>
+</div>
+<h3>crayons.svg — अनाया के क्रेयॉन — twelve crayons in strict order</h3>
+<div class="row">
+  <figure><img src="crayons.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="crayons:ordered"><figcaption>crayons:ordered</figcaption></figure>
+  <figure><img src="crayons.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="crayons:one-out"><figcaption>crayons:one-out</figcaption></figure>
+</div>
+
+<h2>20. व्हाइटबोर्ड</h2>
+<h3>whiteboard.svg — व्हाइटबोर्ड — अर्जुन&#x27;s handheld whiteboard</h3>
+<div class="row">
+  <figure><img src="whiteboard.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="whiteboard:blank"><figcaption>whiteboard:blank</figcaption></figure>
+  <figure><img src="whiteboard.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="whiteboard:bona"><figcaption>whiteboard:bona</figcaption></figure>
+</div>
+
+<h2>21. कोई</h2>
+<h3>koi.svg — कोई — the ink figure on the parchment page</h3>
+<div class="row">
+  <figure><img src="koi.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="koi:stand"><figcaption>koi:stand</figcaption></figure>
+  <figure><img src="koi.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="koi:credit"><figcaption>koi:credit</figcaption></figure>
+  <figure><img src="koi.svg#svgView(viewBox(800,0,400,400))" width="240" height="240" alt="koi:clutch"><figcaption>koi:clutch</figcaption></figure>
+  <figure><img src="koi.svg#svgView(viewBox(1200,0,400,400))" width="240" height="240" alt="koi:scold"><figcaption>koi:scold</figcaption></figure>
+  <figure><img src="koi.svg#svgView(viewBox(1600,0,400,400))" width="240" height="240" alt="koi:search"><figcaption>koi:search</figcaption></figure>
+  <figure><img src="koi.svg#svgView(viewBox(2000,0,400,400))" width="240" height="240" alt="koi:sit"><figcaption>koi:sit</figcaption></figure>
+</div>
+
+<h2>22. हाथ</h2>
+<h3>haath.svg — हाथ — the writing hand, Jaipur, 1760s</h3>
+<div class="row">
+  <figure><img src="haath.svg#svgView(viewBox(0,0,400,400))" width="240" height="240" alt="haath:writing"><figcaption>haath:writing</figcaption></figure>
+  <figure><img src="haath.svg#svgView(viewBox(400,0,400,400))" width="240" height="240" alt="haath:dip"><figcaption>haath:dip</figcaption></figure>
+  <figure><img src="haath.svg#svgView(viewBox(800,0,400,400))" width="240" height="240" alt="haath:pen-down"><figcaption>haath:pen-down</figcaption></figure>
+</div>
+
+</body>
+</html>

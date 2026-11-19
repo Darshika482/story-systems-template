@@ -9,9 +9,9 @@
     .f-day-sky{fill:#CDE6F0}
     .f-cotton-white{fill:#FCFAF4}
     .s-cotton-white{stroke:#FCFAF4}
-    .wire-o{fill:none;stroke:#4A2C20;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
-    .wire{fill:none;stroke:#C4932F;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round}
-    .tip{fill:none;stroke:#2A2321;stroke-width:8;stroke-linecap:round}
+    .wire-o{fill:none;stroke:#4A2C20;stroke-width:5.6;stroke-linecap:round;stroke-linejoin:round}
+    .wire{fill:none;stroke:#C4932F;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .tip{fill:none;stroke:#2A2321;stroke-width:7;stroke-linecap:round}
   </style>
   <defs>
     <!-- The one drawing. Lens centres 146 and 254, lens 80 x 72, wire 3.5 thick. -->
@@ -20,7 +20,7 @@
       <ellipse cx="254" cy="200" rx="40" ry="36" class="f-day-sky" opacity=".4"/>
       <path d="M120 188 A30 26 0 0 1 138 174 M228 188 A30 26 0 0 1 246 174" class="n s-cotton-white" stroke-width="5" stroke-linecap="round"/>
       <!-- nose pads on their little arms -->
-      <path class="wire-o" stroke-width="4" d="M184 206 q4 2 3 8 M216 206 q-4 2 -3 8"/>
+      <path class="wire-o" stroke-width="3.5" d="M184 206 q4 2 3 8 M216 206 q-4 2 -3 8"/>
       <ellipse cx="186" cy="219" rx="4.5" ry="8" transform="rotate(14 186 219)" class="f-cotton-white ot"/>
       <ellipse cx="214" cy="219" rx="4.5" ry="8" transform="rotate(-14 214 219)" class="f-cotton-white ot"/>
       <!-- wire: rims, bridge, end pieces; drawn twice so the gold carries an outline -->

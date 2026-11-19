@@ -12,8 +12,8 @@
   </style>
   <defs>
     <filter id="koi-wobble" x="-10%" y="-10%" width="120%" height="120%">
-      <feTurbulence type="fractalNoise" baseFrequency=".03" numOctaves="2" seed="4" result="noise"/>
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="5" xChannelSelector="R" yChannelSelector="G"/>
+      <feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="2" seed="4" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="4" xChannelSelector="R" yChannelSelector="G"/>
     </filter>
     <!-- the page he lives on, and the ruled line he stands on -->
     <g id="koi-page">
@@ -27,8 +27,8 @@
     <!-- torso with the badge -->
     <g id="koi-torso">
       <path class="ink-body" d="M176 132 C168 168 168 212 178 246 C192 252 208 252 222 246 C232 212 232 168 224 132 C210 124 190 124 176 132 Z"/>
-      <rect x="183" y="150" width="34" height="24" rx="5" class="ink-thin"/>
-      <text class="t f-ink-sepia" x="200" y="168" font-size="16" text-anchor="middle">मैं</text>
+      <rect x="180" y="146" width="40" height="29" rx="6" class="ink-thin"/>
+      <text class="t f-ink-sepia" x="200" y="168" font-size="21" text-anchor="middle">मैं</text>
     </g>
   </defs>
 

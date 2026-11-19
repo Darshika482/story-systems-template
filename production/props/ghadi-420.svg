@@ -32,7 +32,7 @@
     <path class="sh" d="M318 240 A124 124 0 0 1 236 324 A128 128 0 0 0 318 240 Z"/>
     <circle class="f-paper-cream o" cx="200" cy="205" r="114"/>
     <!-- age: the face has yellowed toward the crack -->
-    <path class="sh" style="opacity:.07" d="M96 232 C104 268 132 300 170 314 C176 290 168 262 150 244 C134 230 112 226 96 232 Z"/>
+    <path class="sh" style="opacity:.09" d="M200 317 A112 112 0 0 1 88 205 A150 150 0 0 0 200 317 Z"/>
     <!-- minute track and hour marks -->
     <circle class="n s-outline" cx="200" cy="205" r="109" stroke-width="5" pathLength="60" stroke-dasharray=".14 .86" stroke-dashoffset=".07" stroke-linecap="butt"/>
     <circle class="n s-outline" cx="200" cy="205" r="107" stroke-width="9" pathLength="12" stroke-dasharray=".05 .95" stroke-dashoffset=".025" stroke-linecap="butt"/>
