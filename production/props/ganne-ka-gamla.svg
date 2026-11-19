@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2240 640" data-prop="ganne-ka-gamla">
+  <title>गन्ने का गमला — the sunflower's pot, then the cane's</title>
+  <desc>One terracotta pot, drawn once: 30 cm tall, rolled rim, a white painted band under the rim. Scale: 1 cm = 4 units; floor line y=610; every state is at the same scale so the growth can be read across the row. Wear: two chips in the white band, one dried white drip below it, a hairline crack down from the rim on the screen-right side, salt bloom near the foot. States left to right: surajmukhi (chapters 2 and 3), kana-ganna (the blemished length from the cart, scene 4.4), 0-node (planted, scene 4.5), 1-sprout (chapter 5), 2-knee (chapter 6), 3-waist (chapter 7), 4-tall (epilogue: taller than अनाया's pencil mark). The dashed line and ticks in the last cell are the door-frame guide, not part of the prop.</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .g{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-dasharray:5 5;opacity:.5}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-terracotta{fill:#C66B3F}
+    .f-cotton-white{fill:#FCFAF4}
+    .f-paper-cream{fill:#FFF8E4}
+    .f-wood{fill:#9A683C}
+    .f-leaf-green{fill:#6B9B3A}
+    .f-haldi-yellow{fill:#EDB82F}
+    .f-cane-straw{fill:#CFAE74}
+    .f-rust-shawl{fill:#B5532B}
+    .f-soot-black{fill:#2A2321}
+    .s-outline{stroke:#4A2C20}
+    .s-leaf-green{stroke:#6B9B3A}
+    .cane-o{fill:none;stroke:#4A2C20;stroke-linecap:butt}
+    .cane{fill:none;stroke:#CFAE74;stroke-linecap:butt}
+  </style>
+  <defs>
+    <!-- The one drawing of the pot, with its soil. Cell is 320 wide; pot centre x=160. -->
+    <g id="gamla-pot">
+      <ellipse class="sh" cx="162" cy="613" rx="66" ry="6"/>
+      <path class="f-wood" d="M98 492 C122 476 198 476 222 492 Z"/>
+      <path class="sh" style="opacity:.4" d="M98 492 C122 476 198 476 222 492 Z"/>
+      <path class="d" d="M98 492 C122 476 198 476 222 492"/>
+      <path class="f-terracotta o" d="M100 506 L114 604 Q114 610 122 610 L198 610 Q206 610 206 604 L220 506 Z"/>
+      <path class="sh" d="M194 508 L220 506 L206 604 Q206 610 198 610 L184 610 Z"/>
+      <path class="hl" style="opacity:.25" d="M108 510 L118 510 L128 606 L120 606 Z"/>
+      <!-- the white painted band, with two chips and one drip -->
+      <path class="f-cotton-white ot" d="M101.400 516 L218.600 516 L216 534 L104 534 Z"/>
+      <path class="f-cotton-white ot" d="M167 534 q0 12 3 15 q3 -3 3 -15 Z"/>
+      <path class="f-terracotta" d="M131 516.500 l11 0 l4 8 l-6 9 l-9 0 l-3 -9 Z M189 526 l6 -3 l4 6 l-5 4.500 l-6 -2 Z"/>
+      <path class="sh" d="M196 516.500 L218.600 516.500 L216 533.500 L193 533.500 Z"/>
+      <!-- crack, foot chip, salt bloom -->
+      <path class="d" d="M204 508 l-3 9 l4 9 l-5 12 l3 9"/>
+      <path class="sh" style="opacity:.35" d="M113 596 l8 4 l-6 6 Z"/>
+      <ellipse class="hl" style="opacity:.3" cx="150" cy="598" rx="24" ry="6"/>
+      <ellipse class="hl" style="opacity:.3" cx="178" cy="590" rx="12" ry="4"/>
+      <!-- rolled rim -->
+      <path class="f-terracotta o" d="M92 490 H228 Q232 490 232 494 V504 Q232 508 228 508 H92 Q88 508 88 504 V494 Q88 490 92 490 Z"/>
+      <path class="hl" style="opacity:.3" d="M94 493 H190 V496 H94 Z"/>
+      <path class="sh" d="M200 491.500 H228 Q230.500 491.500 230.500 494 V504 Q230.500 506.500 228 506.500 H200 Z"/>
+    </g>
+    <g id="gamla-petal">
+      <path class="f-haldi-yellow ot" d="M0 -22 C9 -32 9 -48 0 -58 C-9 -48 -9 -32 0 -22 Z"/>
+    </g>
+  </defs>
+
+  <g id="state-surajmukhi" data-state="gamla:surajmukhi">
+    <!-- the plant is its own group: turn the plant, never the pot. Here it faces screen-right, toward the lane. -->
+    <g id="gamla-surajmukhi-plant">
+      <path class="n s-outline" stroke-width="10" d="M160 488 C154 440 168 392 166 350"/>
+      <path class="n s-leaf-green" stroke-width="6" d="M160 488 C154 440 168 392 166 350"/>
+      <path class="f-leaf-green o" d="M158 440 C136 444 112 432 104 410 C128 404 150 414 160 436 Z"/>
+      <path class="d" opacity=".5" d="M158 438 C140 432 122 422 108 412"/>
+      <path class="f-leaf-green o" d="M164 408 C186 410 210 396 216 372 C192 368 172 382 164 404 Z"/>
+      <path class="d" opacity=".5" d="M165 406 C182 398 200 386 212 375"/>
+      <g transform="translate(178 322) rotate(14) scale(.72 1)">
+        <ellipse class="f-leaf-green o" cx="-20" cy="4" rx="30" ry="40"/>
+        <use href="#gamla-petal"/>
+        <use href="#gamla-petal" transform="rotate(25.700)"/>
+        <use href="#gamla-petal" transform="rotate(51.400)"/>
+        <use href="#gamla-petal" transform="rotate(77.100)"/>
+        <use href="#gamla-petal" transform="rotate(102.900)"/>
+        <use href="#gamla-petal" transform="rotate(128.600)"/>
+        <use href="#gamla-petal" transform="rotate(154.300)"/>
+        <use href="#gamla-petal" transform="rotate(180)"/>
+        <use href="#gamla-petal" transform="rotate(205.700)"/>
+        <use href="#gamla-petal" transform="rotate(231.400)"/>
+        <use href="#gamla-petal" transform="rotate(257.100)"/>
+        <use href="#gamla-petal" transform="rotate(282.900)"/>
+        <use href="#gamla-petal" transform="rotate(308.600)"/>
+        <use href="#gamla-petal" transform="rotate(334.300)"/>
+        <circle class="f-wood o" r="27"/>
+        <circle class="sh" style="opacity:.3" r="16"/>
+        <path class="d" opacity=".5" d="M-8 -6 h.1 M4 -9 h.1 M9 3 h.1 M-3 8 h.1 M-11 5 h.1 M2 -1 h.1"/>
+      </g>
+    </g>
+    <use href="#gamla-pot"/>
+  </g>
+
+  <g id="state-kana-ganna" data-state="gamla:kana-ganna" transform="translate(320 0)">
+    <use href="#gamla-pot"/>
+    <!-- the length the vendor threw aside: three internodes, about 58 cm, leaning on the pot. The blemish is on the middle internode. -->
+    <ellipse class="sh" cx="266" cy="612" rx="22" ry="4"/>
+    <path class="cane-o" stroke-width="22" d="M268 606 C262 530 252 450 246 376"/>
+    <path class="cane" stroke-width="16" d="M268 604.500 C262 530 252 450 246 377.500"/>
+    <path class="sh" d="M270 604 C264 530 254 450 248 378 L254 377 C260 450 270 530 276 604 Z"/>
+    <ellipse class="f-paper-cream ot" cx="246" cy="376" rx="9.500" ry="3.500" transform="rotate(-5 246 376)"/>
+    <path class="d" d="M252 534 q10 3 20 -1 M246 456 q10 3 20 -1"/>
+    <path class="d" opacity=".5" d="M252 538 q10 3 20 -1 M246 460 q10 3 20 -1"/>
+    <path class="f-cane-straw ot" d="M254 530 q-7 -6 -3 -12 q6 4 3 12 Z M248 452 q-7 -6 -3 -12 q6 4 3 12 Z"/>
+    <ellipse class="f-rust-shawl" cx="262" cy="496" rx="6" ry="10" transform="rotate(-6 262 496)"/>
+    <ellipse class="f-soot-black" cx="262" cy="496" rx="2.500" ry="4.500" transform="rotate(-6 262 496)"/>
+  </g>
+
+  <g id="state-0-node" data-state="gamla:0-node" transform="translate(640 0)">
+    <!-- one node, laid flat and half pressed into the soil, eye upward -->
+    <path class="f-cane-straw ot" d="M138 480 Q138 472 146 472 H176 Q184 472 184 480 V486 H138 Z"/>
+    <path class="d" d="M161 472 q-2 7 0 14"/>
+    <path class="f-leaf-green ot" d="M158 473 q4 -8 8 0 Z"/>
+    <use href="#gamla-pot"/>
+    <path class="d" opacity=".5" d="M120 486 q4 -4 8 0 M194 486 q4 -4 8 0"/>
+  </g>
+
+  <g id="state-1-sprout" data-state="gamla:1-sprout" transform="translate(960 0)">
+    <path class="f-leaf-green o" d="M154 488 C154 462 158 446 162 434 C166 448 168 464 166 488 Z"/>
+    <path class="f-leaf-green o" d="M157 474 C146 462 136 456 122 456 C134 462 146 472 155 482 Z"/>
+    <path class="f-leaf-green o" d="M164 466 C176 452 186 448 200 450 C188 456 176 466 166 476 Z"/>
+    <use href="#gamla-pot"/>
+  </g>
+
+  <g id="state-2-knee" data-state="gamla:2-knee" transform="translate(1280 0)">
+    <g class="f-leaf-green ot">
+      <path d="M156 488 C140 432 112 394 70 386 C108 402 134 442 150 490 Z"/>
+      <path d="M164 488 C182 428 212 390 254 384 C216 400 190 442 172 490 Z"/>
+      <path d="M156 488 C144 432 124 378 104 348 C126 382 146 434 160 488 Z"/>
+      <path d="M164 488 C176 434 198 378 222 352 C200 386 180 434 168 488 Z"/>
+      <path d="M154 488 C152 432 156 372 164 324 C170 374 170 432 166 488 Z"/>
+      <path d="M182 490 C182 472 185 460 188 452 C191 462 192 474 190 490 Z"/>
+    </g>
+    <path class="d" opacity=".4" d="M160 486 C160 432 162 376 164 332"/>
+    <use href="#gamla-pot"/>
+  </g>
+
+  <g id="state-3-waist" data-state="gamla:3-waist" transform="translate(1600 0)">
+    <g class="f-leaf-green ot">
+      <path d="M146 408 C126 332 96 284 50 264 C92 292 122 342 152 412 Z"/>
+      <path d="M154 406 C176 332 214 286 262 272 C220 296 186 342 160 412 Z"/>
+      <path d="M146 422 C126 394 96 374 62 372 C94 382 124 402 148 432 Z"/>
+      <path d="M184 430 C204 402 232 386 266 386 C236 394 210 410 190 436 Z"/>
+      <path d="M178 428 C184 382 200 342 222 318 C208 348 196 386 188 430 Z"/>
+      <path d="M156 402 C172 354 198 314 226 294 C204 322 182 358 162 408 Z"/>
+      <path d="M144 406 C138 332 144 252 156 184 C164 252 160 332 156 406 Z"/>
+    </g>
+    <path class="d" opacity=".4" d="M150 402 C150 332 152 256 156 194"/>
+    <path class="cane-o" stroke-width="15" d="M176 488 C178 464 180 446 182 424"/>
+    <path class="cane" stroke-width="10" d="M176 488 C178 464 180 446 182 425.500"/>
+    <path class="d" d="M172 456 q7 3 13 0"/>
+    <path class="cane-o" stroke-width="19" d="M154 488 C152 458 150 430 150 400"/>
+    <path class="cane" stroke-width="14" d="M154 488 C152 458 150 430 150 401.500"/>
+    <path class="d" d="M144 458 q8 3 17 0 M142 430 q8 3 17 0"/>
+    <use href="#gamla-pot"/>
+  </g>
+
+  <g id="state-4-tall" data-state="gamla:4-tall" transform="translate(1920 0)">
+    <!-- door-frame guide: अनाया's latest pencil mark at 122 cm, two older marks below it -->
+    <path class="g" d="M14 60 V610 M14 122 H306"/>
+    <path class="d" d="M14 122 H40 M14 146 H34 M14 168 H34"/>
+    <g class="f-leaf-green ot">
+      <path d="M146 288 C124 208 90 152 40 126 C86 162 120 216 152 292 Z"/>
+      <path d="M154 286 C178 206 218 152 276 132 C226 164 188 216 160 292 Z"/>
+      <path d="M146 302 C122 264 84 238 38 234 C82 248 118 274 150 312 Z"/>
+      <path d="M156 298 C182 260 222 238 270 238 C226 250 190 272 160 308 Z"/>
+      <path d="M186 338 C212 298 246 278 290 278 C250 290 218 310 192 344 Z"/>
+      <path d="M180 336 C188 272 208 216 236 178 C218 224 202 278 190 338 Z"/>
+      <path d="M116 396 C106 342 84 298 54 270 C76 304 96 346 124 398 Z"/>
+      <path d="M118 400 C96 374 66 362 30 366 C64 372 92 386 122 408 Z"/>
+      <path d="M144 286 C140 202 146 122 158 60 C166 124 162 202 156 286 Z"/>
+    </g>
+    <path class="d" opacity=".4" d="M150 282 C150 204 152 130 158 72"/>
+    <path class="f-cane-straw ot" d="M146 438 C126 450 108 472 100 502 C114 478 132 460 152 448 Z"/>
+    <path class="cane-o" stroke-width="15" d="M132 488 C126 452 122 422 120 392"/>
+    <path class="cane" stroke-width="10" d="M132 488 C126 452 122 422 120 393.500"/>
+    <path class="d" d="M123 454 q6 3 13 0 M118 422 q6 3 13 0"/>
+    <path class="cane-o" stroke-width="17" d="M178 488 C182 432 186 382 184 330"/>
+    <path class="cane" stroke-width="12" d="M178 488 C182 432 186 382 184 331.500"/>
+    <path class="d" d="M173 452 q8 3 15 0 M176 414 q8 3 15 0 M178 376 q8 3 15 0"/>
+    <path class="cane-o" stroke-width="21" d="M152 488 C148 422 146 352 150 280"/>
+    <path class="cane" stroke-width="16" d="M152 488 C148 422 146 352 150 281.500"/>
+    <path class="sh" d="M156 488 C152 422 150 352 154 282 L158 282 C154 352 156 422 160 488 Z"/>
+    <path class="d" d="M140 454 q10 3 20 0 M138 420 q10 3 20 0 M137 384 q10 3 20 0 M137 348 q10 3 20 0 M138 314 q10 3 20 0"/>
+    <use href="#gamla-pot"/>
+  </g>
+</svg>

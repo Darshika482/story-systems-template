@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 400" data-prop="tulsi-gamla">
+  <title>तुलसी का गमला — दादी's tulsi</title>
+  <desc>Square terracotta planter on a plinth, so that it can never be confused with the round cane pot. A lime-white toothed border under the rim, a small lamp niche in front, a red thread tied round the rim. Wear: the third and sixth teeth of the border have flaked away to ghosts; soot above the niche. The plant grew from a cutting from दादी's mother's house. States left to right: green (chapter 1), dried (chapter 2), new-cutting (from scene 2.8: the dry stem stays, a cutting stands on its screen-right), cutting-grown (chapter 6 to the epilogue). The dry stem is never pulled out.</desc>
+  <style>
+    .o{stroke:#4A2C20;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .ot{stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .d{fill:none;stroke:#4A2C20;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+    .n{fill:none}
+    .sh{fill:#4A2C20;opacity:.16}
+    .hl{fill:#FCFAF4;opacity:.5}
+    .f-terracotta{fill:#C66B3F}
+    .f-cotton-white{fill:#FCFAF4}
+    .f-wood{fill:#9A683C}
+    .f-leaf-green{fill:#6B9B3A}
+    .f-cane-straw{fill:#CFAE74}
+    .s-outline{stroke:#4A2C20}
+    .s-wood{stroke:#9A683C}
+    .s-cane-straw{stroke:#CFAE74}
+    .s-leaf-green{stroke:#6B9B3A}
+    .s-wool-red{stroke:#D2312E}
+  </style>
+  <defs>
+    <!-- The one drawing of the planter. Soil line y=246. -->
+    <g id="tulsi-pot">
+      <ellipse class="sh" cx="202" cy="347" rx="92" ry="6"/>
+      <path class="f-wood" d="M130 248 C156 234 244 234 270 248 Z"/>
+      <path class="sh" style="opacity:.4" d="M130 248 C156 234 244 234 270 248 Z"/>
+      <path class="d" d="M130 248 C156 234 244 234 270 248"/>
+      <rect x="118" y="330" width="164" height="14" rx="3" class="f-terracotta o"/>
+      <path class="f-terracotta o" d="M128 262 L272 262 L260 330 L140 330 Z"/>
+      <path class="sh" d="M244 264 L272 262 L260 330 L236 330 Z"/>
+      <!-- toothed lime border: eight teeth, the third and sixth flaked to ghosts -->
+      <path class="f-cotton-white ot" d="M136 266 l8 13 l8 -13 Z M152 266 l8 13 l8 -13 Z M184 266 l8 13 l8 -13 Z M200 266 l8 13 l8 -13 Z M232 266 l8 13 l8 -13 Z M248 266 l8 13 l8 -13 Z"/>
+      <path class="hl" style="opacity:.3" d="M168 266 l8 13 l8 -13 Z M216 266 l8 13 l8 -13 Z"/>
+      <!-- lamp niche with soot above it -->
+      <path class="f-terracotta o" d="M184 330 V306 Q200 288 216 306 V330 Z"/>
+      <path class="sh" style="opacity:.42" d="M184 330 V306 Q200 288 216 306 V330 Z"/>
+      <path class="sh" style="opacity:.3" d="M192 296 Q200 280 208 296 Q200 290 192 296 Z"/>
+      <!-- rim, and the red thread tied round it -->
+      <rect x="120" y="246" width="160" height="18" rx="3" class="f-terracotta o"/>
+      <path class="hl" style="opacity:.3" d="M124 249 H230 V252 H124 Z"/>
+      <path class="n s-wool-red" stroke-width="3" stroke-linecap="round" d="M121 256 H279 M238 256 q4 10 -2 18 M240 256 q8 6 8 16"/>
+      <circle cx="239" cy="256" r="3.500" class="n s-wool-red" stroke-width="3"/>
+    </g>
+    <!-- the branch skeleton: stroke colour is inherited, so the same lines serve green and dry -->
+    <g id="tulsi-skeleton" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M200 246 C198 226 202 208 200 190 C200 168 202 146 200 122 M200 216 C186 204 170 196 156 178 M200 210 C214 198 230 190 246 172 M200 196 C192 178 184 160 176 140 M200 192 C208 174 216 156 226 138"/>
+    </g>
+    <g id="tulsi-manjari" fill="none" stroke-linecap="round" stroke-dasharray="0 5">
+      <path d="M156 178 L146 158 M246 172 L256 152 M176 140 L170 118 M226 138 L232 116 M200 122 L200 96"/>
+    </g>
+    <g id="tulsi-leaf">
+      <path class="f-leaf-green ot" d="M0 0 C7 -8 17 -8 24 0 C17 8 7 8 0 0 Z"/>
+      <path class="d" opacity=".45" d="M2 0 H20"/>
+    </g>
+    <g id="tulsi-leaf-dry">
+      <path class="f-cane-straw ot" d="M0 0 C5 -7 11 -7 14 -2 C11 2 5 4 0 0 Z"/>
+    </g>
+    <!-- the cutting, small: one stem, two pairs of leaves -->
+    <g id="tulsi-cutting">
+      <path class="n s-outline" stroke-width="6" stroke-linecap="round" d="M242 246 C241 234 243 224 242 212"/>
+      <path class="n s-leaf-green" stroke-width="3" stroke-linecap="round" d="M242 246 C241 234 243 224 242 212"/>
+      <use href="#tulsi-leaf" transform="translate(242 232) rotate(-155) scale(.75)"/>
+      <use href="#tulsi-leaf" transform="translate(242 232) rotate(-25) scale(.75)"/>
+      <use href="#tulsi-leaf" transform="translate(242 214) rotate(-130) scale(.7)"/>
+      <use href="#tulsi-leaf" transform="translate(242 214) rotate(-50) scale(.7)"/>
+    </g>
+  </defs>
+
+  <g id="state-green" data-state="tulsi:green">
+    <use href="#tulsi-skeleton" class="s-outline" stroke-width="8"/>
+    <use href="#tulsi-skeleton" class="s-wood" stroke-width="5"/>
+    <use href="#tulsi-manjari" class="s-outline" stroke-width="7"/>
+    <use href="#tulsi-manjari" class="s-wood" stroke-width="4.500"/>
+    <use href="#tulsi-leaf" transform="translate(200 228) rotate(-160)"/>
+    <use href="#tulsi-leaf" transform="translate(200 228) rotate(-20)"/>
+    <use href="#tulsi-leaf" transform="translate(178 198) rotate(-175)"/>
+    <use href="#tulsi-leaf" transform="translate(178 198) rotate(-80)"/>
+    <use href="#tulsi-leaf" transform="translate(156 178) rotate(-185)"/>
+    <use href="#tulsi-leaf" transform="translate(156 178) rotate(-55)"/>
+    <use href="#tulsi-leaf" transform="translate(222 192) rotate(-5)"/>
+    <use href="#tulsi-leaf" transform="translate(222 192) rotate(-100)"/>
+    <use href="#tulsi-leaf" transform="translate(246 172) rotate(5)"/>
+    <use href="#tulsi-leaf" transform="translate(246 172) rotate(-125)"/>
+    <use href="#tulsi-leaf" transform="translate(187 166) rotate(-165)"/>
+    <use href="#tulsi-leaf" transform="translate(187 166) rotate(-60)"/>
+    <use href="#tulsi-leaf" transform="translate(176 140) rotate(-175)"/>
+    <use href="#tulsi-leaf" transform="translate(176 140) rotate(-45)"/>
+    <use href="#tulsi-leaf" transform="translate(212 164) rotate(-15)"/>
+    <use href="#tulsi-leaf" transform="translate(212 164) rotate(-120)"/>
+    <use href="#tulsi-leaf" transform="translate(226 138) rotate(-5)"/>
+    <use href="#tulsi-leaf" transform="translate(226 138) rotate(-135)"/>
+    <use href="#tulsi-leaf" transform="translate(201 156) rotate(-150)"/>
+    <use href="#tulsi-leaf" transform="translate(201 156) rotate(-30)"/>
+    <use href="#tulsi-leaf" transform="translate(200 122) rotate(-150)"/>
+    <use href="#tulsi-leaf" transform="translate(200 122) rotate(-30)"/>
+    <use href="#tulsi-pot"/>
+  </g>
+
+  <g id="state-dried" data-state="tulsi:dried" transform="translate(400 0)">
+    <g id="tulsi-dry-plant">
+      <use href="#tulsi-skeleton" class="s-outline" stroke-width="7"/>
+      <use href="#tulsi-skeleton" class="s-cane-straw" stroke-width="4"/>
+      <use href="#tulsi-manjari" class="s-outline" stroke-width="6"/>
+      <use href="#tulsi-manjari" class="s-cane-straw" stroke-width="3.500"/>
+      <use href="#tulsi-leaf-dry" transform="translate(178 198) rotate(150)"/>
+      <use href="#tulsi-leaf-dry" transform="translate(246 172) rotate(60)"/>
+      <use href="#tulsi-leaf-dry" transform="translate(187 166) rotate(170)"/>
+      <use href="#tulsi-leaf-dry" transform="translate(226 138) rotate(40)"/>
+      <use href="#tulsi-leaf-dry" transform="translate(201 156) rotate(20)"/>
+      <use href="#tulsi-leaf-dry" transform="translate(156 178) rotate(120)"/>
+    </g>
+    <use href="#tulsi-pot"/>
+    <!-- fallen leaves: on the soil, on the rim, on the plinth -->
+    <use href="#tulsi-leaf-dry" transform="translate(168 244) rotate(-12)"/>
+    <use href="#tulsi-leaf-dry" transform="translate(222 243) rotate(200)"/>
+    <use href="#tulsi-leaf-dry" transform="translate(146 344) rotate(8)"/>
+    <use href="#tulsi-leaf-dry" transform="translate(262 345) rotate(185)"/>
+  </g>
+
+  <g id="state-new-cutting" data-state="tulsi:new-cutting" transform="translate(800 0)">
+    <use href="#tulsi-skeleton" class="s-outline" stroke-width="7"/>
+    <use href="#tulsi-skeleton" class="s-cane-straw" stroke-width="4"/>
+    <use href="#tulsi-manjari" class="s-outline" stroke-width="6"/>
+    <use href="#tulsi-manjari" class="s-cane-straw" stroke-width="3.500"/>
+    <use href="#tulsi-leaf-dry" transform="translate(187 166) rotate(170)"/>
+    <use href="#tulsi-leaf-dry" transform="translate(226 138) rotate(40)"/>
+    <use href="#tulsi-leaf-dry" transform="translate(156 178) rotate(120)"/>
+    <use href="#tulsi-cutting"/>
+    <use href="#tulsi-pot"/>
+    <path class="sh" style="opacity:.3" d="M226 246 C232 240 252 240 258 246 Z"/>
+  </g>
+
+  <g id="state-cutting-grown" data-state="tulsi:cutting-grown" transform="translate(1200 0)">
+    <use href="#tulsi-skeleton" class="s-outline" stroke-width="7"/>
+    <use href="#tulsi-skeleton" class="s-cane-straw" stroke-width="4"/>
+    <use href="#tulsi-leaf-dry" transform="translate(187 166) rotate(170)"/>
+    <!-- the cutting a year on: about 20 cm, six pairs of leaves, its first flower spike -->
+    <path class="n s-outline" stroke-width="7" stroke-linecap="round" d="M242 246 C240 220 244 196 242 170 M242 222 C252 214 262 208 270 196 M242 206 C234 198 228 190 224 180"/>
+    <path class="n s-leaf-green" stroke-width="4" stroke-linecap="round" d="M242 246 C240 220 244 196 242 170 M242 222 C252 214 262 208 270 196 M242 206 C234 198 228 190 224 180"/>
+    <path class="n s-outline" stroke-width="6" stroke-linecap="round" stroke-dasharray="0 5" d="M242 170 L243 152"/>
+    <path class="n s-wood" stroke-width="3.500" stroke-linecap="round" stroke-dasharray="0 5" d="M242 170 L243 152"/>
+    <use href="#tulsi-leaf" transform="translate(242 236) rotate(-160) scale(.85)"/>
+    <use href="#tulsi-leaf" transform="translate(242 236) rotate(-20) scale(.85)"/>
+    <use href="#tulsi-leaf" transform="translate(270 196) rotate(-10) scale(.85)"/>
+    <use href="#tulsi-leaf" transform="translate(270 196) rotate(-95) scale(.85)"/>
+    <use href="#tulsi-leaf" transform="translate(224 180) rotate(-175) scale(.85)"/>
+    <use href="#tulsi-leaf" transform="translate(224 180) rotate(-90) scale(.85)"/>
+    <use href="#tulsi-leaf" transform="translate(242 192) rotate(-150) scale(.85)"/>
+    <use href="#tulsi-leaf" transform="translate(242 192) rotate(-30) scale(.85)"/>
+    <use href="#tulsi-leaf" transform="translate(242 172) rotate(-140) scale(.8)"/>
+    <use href="#tulsi-leaf" transform="translate(242 172) rotate(-40) scale(.8)"/>
+    <use href="#tulsi-leaf" transform="translate(256 211) rotate(-60) scale(.8)"/>
+    <use href="#tulsi-leaf" transform="translate(232 196) rotate(-130) scale(.8)"/>
+    <use href="#tulsi-pot"/>
+  </g>
+</svg>

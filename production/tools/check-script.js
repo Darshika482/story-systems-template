@@ -4,8 +4,7 @@
  *
  *   node production/tools/check-script.js [file.fountain ...]
  *
- * With no arguments it checks moksha-marg-prakashak.fountain, or the parts in
- * screenplay/parts if the assembled file does not exist yet.
+ * With no arguments it checks moksha-marg-prakashak.fountain.
  *
  * 1. Granth fidelity — every वचन-कार्ड / वचन-पट्टी must carry a bank ID note on the next
  *    non-blank line, and its words must match sourcematerials/granth-quote-bank.md exactly.
@@ -48,9 +47,7 @@ function targets() {
   const args = process.argv.slice(2).filter((a) => a.endsWith('.fountain'));
   if (args.length) return args.map((a) => path.resolve(a));
   const whole = path.join(ROOT, 'moksha-marg-prakashak.fountain');
-  if (fs.existsSync(whole)) return [whole];
-  const parts = path.join(ROOT, 'screenplay', 'parts');
-  return fs.readdirSync(parts).filter((f) => f.endsWith('.fountain')).sort().map((f) => path.join(parts, f));
+  return [whole];
 }
 
 const bank = loadBank();

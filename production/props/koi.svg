@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 400" data-prop="koi">
+  <title>कोई — the ink figure on the parchment page</title>
+  <desc>A round-headed figure drawn with one reed-pen line in sepia ink on parchment. Two dots for a face, no mouth, no hair, no clothes. A small badge on the chest reads मैं. He stands on a ruled line of the page. Head radius 30, torso 116 tall, legs 100, arms 95: these lengths are the same in every pose. The hand-drawn wobble is the filter koi-wobble; step its seed to make the line boil. Six standard poses, left to right: stand, credit, clutch, scold, search, sit. Never a real person, never a monk.</desc>
+  <style>
+    .f-parchment{fill:#EAD8B1}
+    .f-ink-sepia{fill:#6E4322}
+    .ink{fill:none;stroke:#6E4322;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+    .ink-body{fill:#EAD8B1;stroke:#6E4322;stroke-width:5.5;stroke-linecap:round;stroke-linejoin:round}
+    .ink-thin{fill:none;stroke:#6E4322;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    .rule{fill:none;stroke:#6E4322;stroke-width:2;stroke-linecap:round;opacity:.45}
+    .t{font-family:"Noto Sans Devanagari",sans-serif;font-weight:700}
+  </style>
+  <defs>
+    <filter id="koi-wobble" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency=".03" numOctaves="2" seed="4" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <!-- the page he lives on, and the ruled line he stands on -->
+    <g id="koi-page">
+      <rect x="16" y="16" width="368" height="368" rx="10" class="f-parchment"/>
+      <path class="rule" d="M40 353 C120 351 280 355 360 352"/>
+    </g>
+    <!-- head: one pen circle that overshoots where it closes -->
+    <g id="koi-head">
+      <path class="ink-body" d="M200 66 C218 66 231 80 230 97 C229 114 216 127 199 126 C182 125 169 112 170 95 C171 80 183 67 198 66.500 C204 66 209 68 213 72"/>
+    </g>
+    <!-- torso with the badge -->
+    <g id="koi-torso">
+      <path class="ink-body" d="M176 132 C168 168 168 212 178 246 C192 252 208 252 222 246 C232 212 232 168 224 132 C210 124 190 124 176 132 Z"/>
+      <rect x="183" y="150" width="34" height="24" rx="5" class="ink-thin"/>
+      <text class="t f-ink-sepia" x="200" y="168" font-size="16" text-anchor="middle">मैं</text>
+    </g>
+  </defs>
+
+  <g id="state-stand" data-state="koi:stand">
+    <use href="#koi-page"/>
+    <g filter="url(#koi-wobble)">
+      <path class="ink" d="M190 248 C188 284 186 316 184 346 L168 349 M210 248 C212 284 214 316 216 346 L232 349"/>
+      <path class="ink" d="M177 140 C160 166 154 198 158 232 M223 140 C240 166 246 198 242 232"/>
+      <circle class="f-ink-sepia" cx="158" cy="234" r="4.500"/>
+      <circle class="f-ink-sepia" cx="242" cy="234" r="4.500"/>
+      <use href="#koi-torso"/>
+      <use href="#koi-head"/>
+      <circle class="f-ink-sepia" cx="189" cy="95" r="3.500"/>
+      <circle class="f-ink-sepia" cx="209" cy="95" r="3.500"/>
+    </g>
+  </g>
+
+  <g id="state-credit" data-state="koi:credit" transform="translate(400 0)">
+    <use href="#koi-page"/>
+    <g filter="url(#koi-wobble)">
+      <path class="ink" d="M190 248 C184 284 176 316 168 346 L152 349 M210 248 C216 284 224 316 232 346 L248 349"/>
+      <path class="ink" d="M177 140 C154 126 136 98 126 66 M223 140 C246 126 264 98 274 66"/>
+      <circle class="f-ink-sepia" cx="125" cy="63" r="4.500"/>
+      <circle class="f-ink-sepia" cx="275" cy="63" r="4.500"/>
+      <use href="#koi-torso"/>
+      <use href="#koi-head" transform="rotate(-6 200 126)"/>
+      <circle class="f-ink-sepia" cx="187" cy="86" r="3.500"/>
+      <circle class="f-ink-sepia" cx="207" cy="84" r="3.500"/>
+    </g>
+  </g>
+
+  <g id="state-clutch" data-state="koi:clutch" transform="translate(800 0)">
+    <use href="#koi-page"/>
+    <g filter="url(#koi-wobble)">
+      <path class="ink" d="M190 248 C194 268 198 284 198 298 C196 316 188 332 184 346 L168 349 M210 248 C206 268 202 284 202 298 C204 316 212 332 216 346 L232 349"/>
+      <g transform="rotate(7 200 248)">
+        <use href="#koi-torso"/>
+        <path class="ink" d="M177 142 C162 172 176 206 228 198 M223 142 C240 176 224 216 174 212"/>
+        <circle class="f-ink-sepia" cx="230" cy="197" r="4.500"/>
+        <circle class="f-ink-sepia" cx="172" cy="212" r="4.500"/>
+        <use href="#koi-head" transform="translate(-4 8)"/>
+        <circle class="f-ink-sepia" cx="179" cy="108" r="3.500"/>
+        <circle class="f-ink-sepia" cx="197" cy="108" r="3.500"/>
+      </g>
+    </g>
+  </g>
+
+  <g id="state-scold" data-state="koi:scold" transform="translate(1200 0)">
+    <use href="#koi-page"/>
+    <g filter="url(#koi-wobble)">
+      <path class="ink" d="M190 248 C182 284 172 318 162 346 L146 349 M210 248 C216 284 222 316 226 346 L242 349"/>
+      <g transform="rotate(14 200 248)">
+        <path class="ink" d="M177 142 C150 158 142 186 150 200 C158 212 170 218 180 220"/>
+        <use href="#koi-torso"/>
+        <path class="ink" d="M223 142 C250 158 274 176 298 190"/>
+        <path class="ink-thin" d="M298 190 L312 196"/>
+        <circle class="f-ink-sepia" cx="182" cy="221" r="4.500"/>
+        <use href="#koi-head" transform="translate(4 2)"/>
+        <circle class="f-ink-sepia" cx="200" cy="100" r="3.500"/>
+        <circle class="f-ink-sepia" cx="220" cy="102" r="3.500"/>
+      </g>
+    </g>
+  </g>
+
+  <g id="state-search" data-state="koi:search" transform="translate(1600 0)">
+    <use href="#koi-page"/>
+    <g filter="url(#koi-wobble)">
+      <path class="ink" d="M190 248 C184 284 178 316 172 346 L156 349 M210 248 C218 282 226 314 234 346 L250 349"/>
+      <g transform="rotate(6 200 248)">
+        <path class="ink" d="M177 142 C162 166 152 196 150 230"/>
+        <circle class="f-ink-sepia" cx="150" cy="232" r="4.500"/>
+        <use href="#koi-torso"/>
+        <use href="#koi-head"/>
+        <circle class="f-ink-sepia" cx="201" cy="97" r="3.500"/>
+        <circle class="f-ink-sepia" cx="219" cy="97" r="3.500"/>
+        <path class="ink" d="M223 142 C250 140 262 118 246 98 C240 90 232 85 224 82"/>
+        <path class="ink" d="M200 82 L238 78"/>
+      </g>
+    </g>
+  </g>
+
+  <g id="state-sit" data-state="koi:sit" transform="translate(2000 0)">
+    <use href="#koi-page"/>
+    <g filter="url(#koi-wobble)">
+      <path class="ink" d="M176 338 C204 312 226 286 244 264 C254 292 260 320 264 346 L282 349"/>
+      <g transform="translate(-24 92) rotate(10 200 248)">
+        <use href="#koi-torso"/>
+        <use href="#koi-head" transform="translate(6 6)"/>
+        <circle class="f-ink-sepia" cx="204" cy="112" r="3.500"/>
+        <circle class="f-ink-sepia" cx="222" cy="112" r="3.500"/>
+      </g>
+      <path class="ink" d="M188 340 C216 316 238 292 256 272 C264 298 270 322 274 346 L292 349"/>
+      <path class="ink" d="M212 240 C234 250 250 264 262 284"/>
+      <circle class="f-ink-sepia" cx="263" cy="286" r="4.500"/>
+    </g>
+  </g>
+</svg>

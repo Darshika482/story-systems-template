@@ -9,9 +9,6 @@
  *         production/audio/granth-cards.csv  every granth card and strip, with page and bank ID
  *         production/reels/reel-index.md     every reel, its scenes, hook and closing question
  *         production/scene-index.md          every scene with an estimated running time
- *
- * With --assemble it first joins screenplay/parts/*.fountain (in file-name order)
- * under the title page into the root screenplay.
  */
 
 const fs = require('fs');
@@ -19,32 +16,10 @@ const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..', '..');
 const SCRIPT = path.join(ROOT, 'moksha-marg-prakashak.fountain');
-const PARTS = path.join(ROOT, 'screenplay', 'parts');
-
-const TITLE_PAGE = `Title: मोक्षमार्गप्रकाशक
-Credit: एक घर की कहानी
-Author: MMP production team
-Source: पं. टोडरमलजी कृत मोक्षमार्गप्रकाशक पर आधारित (सम्पादन: डॉ. हुकमचन्द भारिल्ल)
-Draft date: Draft 2 — November 2026
-Notes: कहानी का साल — मकर संक्रांति 15 जनवरी 2027 से मकर संक्रांति 15 जनवरी 2028। For team review. Not for distribution.
-
-===
-`;
 
 // One line of the layout used in this script is close to four seconds of screen time
 // (calibrated on Chapter 1: 1,215 lines for about 18.5 minutes, blank lines included).
 const SECONDS_PER_LINE = 0.92;
-
-function assemble() {
-  const files = fs.readdirSync(PARTS).filter((f) => f.endsWith('.fountain')).sort();
-  if (files.length === 0) throw new Error('No parts found in screenplay/parts');
-  const bodies = files.map((f) => {
-    const text = fs.readFileSync(path.join(PARTS, f), 'utf8');
-    return text.replace(/^\s*===\s*\n/, '').trim();
-  });
-  fs.writeFileSync(SCRIPT, TITLE_PAGE + '\n' + bodies.join('\n\n') + '\n');
-  console.log(`Assembled ${files.length} parts into ${path.basename(SCRIPT)}`);
-}
 
 function csvCell(value) {
   return '"' + String(value).replace(/"/g, '""') + '"';
@@ -219,5 +194,4 @@ function build() {
   console.log(`\n${scenes.length} scenes, ${audio.length} spoken lines, ${cards.length} granth cards/strips, ${reels.length} reels, about ${mmss(total)}.`);
 }
 
-if (process.argv.includes('--assemble')) assemble();
 build();
