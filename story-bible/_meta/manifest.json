@@ -1,6 +1,322 @@
 {
   "okf_version": "0.1",
-  "baseline_sha": "f7f0edde322122b193aa51fea57395c58e6db15c",
-  "concept_count": 0,
-  "concepts": []
+  "baseline_sha": "a8ab8537a81b04264014f432cf4dfe5e33ba9469",
+  "concept_count": 35,
+  "concepts": [
+    {
+      "id": "characters/anaya",
+      "type": "character",
+      "title": "अनाया (Anaya)",
+      "path": "story-bible/characters/anaya.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "characters/arjun",
+      "type": "character",
+      "title": "अर्जुन (Arjun)",
+      "path": "story-bible/characters/arjun.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "characters/dadaji-hariprasad",
+      "type": "character",
+      "title": "दादाजी — हरिप्रसाद (Dadaji Hariprasad)",
+      "path": "story-bible/characters/dadaji-hariprasad.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "characters/dadi-shanti-devi",
+      "type": "character",
+      "title": "दादी — शांति देवी (Dadi Shanti Devi)",
+      "path": "story-bible/characters/dadi-shanti-devi.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "characters/gupta-uncle",
+      "type": "character",
+      "title": "गुप्ता अंकल (Gupta Uncle)",
+      "path": "story-bible/characters/gupta-uncle.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "characters/meera",
+      "type": "character",
+      "title": "मीरा (Meera)",
+      "path": "story-bible/characters/meera.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "characters/samyak-sam",
+      "type": "character",
+      "title": "सम्यक् — \"Sam\" (Samyak)",
+      "path": "story-bible/characters/samyak-sam.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "locations/flat-502",
+      "type": "location",
+      "title": "फ़्लैट B-502 (Flat 502)",
+      "path": "story-bible/locations/flat-502.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "locations/jaipur-writers-room-1760s",
+      "type": "location",
+      "title": "जयपुर का लेखन-कक्ष, 1760 (Jaipur Writer's Room)",
+      "path": "story-bible/locations/jaipur-writers-room-1760s.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "locations/society-garden-bench",
+      "type": "location",
+      "title": "सोसाइटी गार्डन बेंच (Society Garden Bench)",
+      "path": "story-bible/locations/society-garden-bench.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "locations/terrace",
+      "type": "location",
+      "title": "छत — टेरेस (The Terrace)",
+      "path": "story-bible/locations/terrace.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "timeline/diwali-unfinished-page",
+      "type": "timeline-event",
+      "title": "दिवाली — अधूरा पन्ना (Diwali, the Unfinished Page)",
+      "path": "story-bible/timeline/diwali-unfinished-page.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "timeline/first-rain-cane-planted",
+      "type": "timeline-event",
+      "title": "पहली बारिश — गन्ना बोया (First Rain, Cane Planted)",
+      "path": "story-bible/timeline/first-rain-cane-planted.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "timeline/golden-jubilee",
+      "type": "timeline-event",
+      "title": "स्वर्ण जयंती (Golden Jubilee)",
+      "path": "story-bible/timeline/golden-jubilee.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "timeline/gupta-uncle-dies",
+      "type": "timeline-event",
+      "title": "गुप्ता अंकल की मृत्यु (Gupta Uncle Dies)",
+      "path": "story-bible/timeline/gupta-uncle-dies.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "timeline/result-day",
+      "type": "timeline-event",
+      "title": "रिज़ल्ट का दिन (Result Day)",
+      "path": "story-bible/timeline/result-day.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "timeline/sankranti-2027",
+      "type": "timeline-event",
+      "title": "मकर संक्रांति 2027 (Sankranti 2027)",
+      "path": "story-bible/timeline/sankranti-2027.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "timeline/sankranti-2028",
+      "type": "timeline-event",
+      "title": "मकर संक्रांति 2028 (Sankranti 2028)",
+      "path": "story-bible/timeline/sankranti-2028.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "timeline/surgery",
+      "type": "timeline-event",
+      "title": "आँख का ऑपरेशन (The Surgery)",
+      "path": "story-bible/timeline/surgery.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "props/bench",
+      "type": "prop",
+      "title": "बेंच — गुप्ता का आधा (The Bench)",
+      "path": "story-bible/props/bench.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "props/dadaji-ka-chashma",
+      "type": "prop",
+      "title": "दादाजी का चश्मा (Dadaji's Glasses)",
+      "path": "story-bible/props/dadaji-ka-chashma.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "props/ganne-ka-gamla",
+      "type": "prop",
+      "title": "गन्ने का गमला (The Cane in the Pot)",
+      "path": "story-bible/props/ganne-ka-gamla.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "props/granth",
+      "type": "prop",
+      "title": "ग्रन्थ — मोक्षमार्गप्रकाशक (The Granth)",
+      "path": "story-bible/props/granth.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "props/jaipur-ka-diya",
+      "type": "prop",
+      "title": "जयपुर का दीया (The Jaipur Lamp)",
+      "path": "story-bible/props/jaipur-ka-diya.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "props/kati-patang",
+      "type": "prop",
+      "title": "कटी पतंग (The Cut Kite)",
+      "path": "story-bible/props/kati-patang.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "props/lal-oon",
+      "type": "prop",
+      "title": "लाल ऊन (The Red Wool)",
+      "path": "story-bible/props/lal-oon.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "props/nidan-board",
+      "type": "prop",
+      "title": "निदान बोर्ड (The Diagnosis Board)",
+      "path": "story-bible/props/nidan-board.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "props/steel-ka-gilas",
+      "type": "prop",
+      "title": "स्टील का गिलास (The Steel Glass)",
+      "path": "story-bible/props/steel-ka-gilas.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "themes/aur-phir",
+      "type": "theme",
+      "title": "और फिर — अधूरा शब्द (Aur Phir)",
+      "path": "story-bible/themes/aur-phir.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "themes/disha-badalna",
+      "type": "theme",
+      "title": "दिशा बदलना — संक्रांति (Disha Badalna)",
+      "path": "story-bible/themes/disha-badalna.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "themes/ulti-samajh",
+      "type": "theme",
+      "title": "उलटी समझ — एक रोग (Ulti Samajh)",
+      "path": "story-bible/themes/ulti-samajh.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "arcs/arjun-fixer-to-searcher",
+      "type": "arc",
+      "title": "अर्जुन — फ़िक्सर से खोजी (Arjun: Fixer to Searcher)",
+      "path": "story-bible/arcs/arjun-fixer-to-searcher.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "arcs/dadi-narrator-becomes-reader",
+      "type": "arc",
+      "title": "दादी — कहनेवाली से पढ़नेवाली (Dadi: Narrator to Reader)",
+      "path": "story-bible/arcs/dadi-narrator-becomes-reader.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "arcs/fifty-year-promise",
+      "type": "arc",
+      "title": "पचास साल पुराना वादा (The Fifty-Year Promise)",
+      "path": "story-bible/arcs/fifty-year-promise.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    },
+    {
+      "id": "arcs/gyarah-kahan-gaye",
+      "type": "arc",
+      "title": "ग्यारह कहाँ गए (The Inherited Sentence)",
+      "path": "story-bible/arcs/gyarah-kahan-gaye.md",
+      "sources": [
+        "moksha-marg-prakashak.fountain"
+      ]
+    }
+  ]
 }

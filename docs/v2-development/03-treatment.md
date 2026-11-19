@@ -1,7 +1,8 @@
 # Treatment — scene by scene
 
 **Story year:** मकर संक्रांति, Friday 15 January 2027 → मकर संक्रांति, Saturday 15 January 2028.
-**Running time:** about 108 minutes · 62 scenes · 44 reels · interval at about 60 minutes.
+**Running time:** about 104 minutes as drafted · 62 story scenes (68 scene headings counting
+short inserts) · 44 reels · interval at about 58 minutes.
 
 Card IDs (Q70, Q259…) refer to `sourcematerials/granth-quote-bank.md`. "(ours)" marks an image
 that is ours, not Panditji's, and is said that way on screen.

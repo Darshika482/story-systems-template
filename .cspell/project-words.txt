@@ -393,3 +393,11 @@ patang
 rehal
 sawal
 surajmukhi
+
+# Draft 2 story-bible transliterations
+ulti
+samajh
+disha
+badalna
+phir
+mithyadarshan
