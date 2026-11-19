@@ -2,7 +2,7 @@
 /**
  * Makes a reading copy of the screenplay for people who will not open a .fountain file.
  *
- *   node production/tools/export-reading-copy.js
+ *   node production/tools/export-reading-copy.js [file.fountain]
  *
  * Writes  exports/html/moksha-marg-prakashak.html
  *         exports/pdf/moksha-marg-prakashak.pdf   (needs Playwright + Chromium)
@@ -15,9 +15,11 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..', '..');
-const SRC = path.join(ROOT, 'moksha-marg-prakashak.fountain');
-const HTML_OUT = path.join(ROOT, 'exports', 'html', 'moksha-marg-prakashak.html');
-const PDF_OUT = path.join(ROOT, 'exports', 'pdf', 'moksha-marg-prakashak.pdf');
+const ARG = process.argv.slice(2).find((a) => a.endsWith('.fountain'));
+const SRC = ARG ? path.resolve(ARG) : path.join(ROOT, 'moksha-marg-prakashak.fountain');
+const NAME = path.basename(SRC, '.fountain');
+const HTML_OUT = path.join(ROOT, 'exports', 'html', `${NAME}.html`);
+const PDF_OUT = path.join(ROOT, 'exports', 'pdf', `${NAME}.pdf`);
 
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
@@ -85,7 +87,7 @@ function render() {
       continue;
     }
 
-    const device = line.match(/^(पर्दे पर|चिप|डॉलहाउस|कैरी|कोई — पन्ने पर|सम का फ़ोन \(9:16\)):/);
+    const device = line.match(/^(पर्दे पर|चिप|डॉलहाउस|कैरी|सेट|कोई — पन्ने पर|सम का फ़ोन \(9:16\)):/) || line.match(/^शॉट \d+ ·/);
     out.push(`<p class="action${device ? ' device' : ''}">${esc(line)}</p>`);
   }
   closeDialogue();
